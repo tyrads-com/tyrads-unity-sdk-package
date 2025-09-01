@@ -1,0 +1,6 @@
+framework module iOSTyrSdkPlugin {
+  umbrella header "iOSTyrSdkPlugin.h"
+  export *
+
+  module * { export * }
+}

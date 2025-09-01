@@ -1,0 +1,68 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name iOSTyrSdkPlugin
+import AVFoundation
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import ObjectiveC
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import iOSTyrSdkPlugin
+@_inheritsConvenienceInitializers @objc public class AdvertisingIdUtility : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func fetchAdvertisingIdAsync()
+  @objc public func isFetchComplete() -> Swift.Bool
+  @objc public func getAdvertisingIdString() -> Swift.String
+  @objc public func requestAppTrackingPermission(completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func hasAppTrackingPermission() -> Swift.Bool
+  @objc public func getTrackingAuthorizationStatusString() -> Swift.String
+  @objc public func checkInfoPlistConfiguration() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DeviceDataUtility : ObjectiveC.NSObject {
+  @objc public func getDeviceData() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WebViewUtility : ObjectiveC.NSObject {
+  @objc public static let shared: iOSTyrSdkPlugin.WebViewUtility
+  @objc public func showWebView(url: Swift.String)
+  @objc public func closeWebView()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class TyrSdkPlugin : ObjectiveC.NSObject {
+  @objc public func initialize() -> Swift.Bool
+  @objc public func fetchAdvertisingIdAsync()
+  @objc public func getAdvertisingIdFetchCompleted() -> Swift.Bool
+  @objc public func hasAppTrackingPermission() -> Swift.Bool
+  @objc public func requestAppTrackingPermission() -> Swift.Bool
+  @objc public func getAdvertisingId() -> Swift.String
+  @objc public func getDeviceData() -> Swift.String
+  @objc public func openNativeWebView(url: Swift.String)
+  @objc public func closeWebView()
+  @objc public func checkInfoPlistConfiguration() -> Swift.Bool
+  @objc public func getCurrentPermissionStatus() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_cdecl("tyrads_initialize")
+public func initialize() -> Swift.Bool
+@_cdecl("tyrads_fetchAdvertisingIdAsync")
+public func fetchAdvertisingIdAsync()
+@_cdecl("tyrads_getAdvertisingIdFetchCompleted")
+public func getAdvertisingIdFetchCompleted() -> Swift.Bool
+@_cdecl("tyrads_getAdvertisingId")
+public func getAdvertisingId() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("tyrads_getDeviceData")
+public func getDeviceData() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("tyrads_openNativeWebView")
+public func openNativeWebView(_ url: Swift.UnsafePointer<Swift.CChar>)
+@_cdecl("tyrads_closeWebView")
+public func closeWebView()
+@_cdecl("tyrads_hasAppTrackingPermission")
+public func hasAppTrackingPermission() -> Swift.Bool

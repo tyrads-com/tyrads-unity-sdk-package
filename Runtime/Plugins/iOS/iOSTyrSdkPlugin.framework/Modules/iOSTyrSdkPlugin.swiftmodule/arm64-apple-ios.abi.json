@@ -1,0 +1,2817 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "iOSTyrSdkPlugin",
+    "printedName": "iOSTyrSdkPlugin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdvertisingIdUtility",
+        "printedName": "AdvertisingIdUtility",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdvertisingIdUtility",
+                "printedName": "iOSTyrSdkPlugin.AdvertisingIdUtility",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)init",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityCACycfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAdvertisingIdAsync",
+            "printedName": "fetchAdvertisingIdAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)fetchAdvertisingIdAsync",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC05fetchdE5AsyncyyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isFetchComplete",
+            "printedName": "isFetchComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)isFetchComplete",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC15isFetchCompleteSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdvertisingIdString",
+            "printedName": "getAdvertisingIdString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)getAdvertisingIdString",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC03getdE6StringSSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAppTrackingPermission",
+            "printedName": "requestAppTrackingPermission(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)requestAppTrackingPermissionWithCompletion:",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC28requestAppTrackingPermission10completionyySbc_tF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "requestAppTrackingPermissionWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAppTrackingPermission",
+            "printedName": "hasAppTrackingPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)hasAppTrackingPermission",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC24hasAppTrackingPermissionSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTrackingAuthorizationStatusString",
+            "printedName": "getTrackingAuthorizationStatusString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)getTrackingAuthorizationStatusString",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC36getTrackingAuthorizationStatusStringSSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkInfoPlistConfiguration",
+            "printedName": "checkInfoPlistConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility(im)checkInfoPlistConfiguration",
+            "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC27checkInfoPlistConfigurationSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)AdvertisingIdUtility",
+        "mangledName": "$s15iOSTyrSdkPlugin20AdvertisingIdUtilityC",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceDataUtility",
+        "printedName": "DeviceDataUtility",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDeviceData",
+            "printedName": "getDeviceData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)DeviceDataUtility(im)getDeviceData",
+            "mangledName": "$s15iOSTyrSdkPlugin17DeviceDataUtilityC03getdE0SSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataUtility",
+                "printedName": "iOSTyrSdkPlugin.DeviceDataUtility",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)DeviceDataUtility"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)DeviceDataUtility(im)init",
+            "mangledName": "$s15iOSTyrSdkPlugin17DeviceDataUtilityCACycfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)DeviceDataUtility",
+        "mangledName": "$s15iOSTyrSdkPlugin17DeviceDataUtilityC",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewUtility",
+        "printedName": "WebViewUtility",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewUtility",
+                "printedName": "iOSTyrSdkPlugin.WebViewUtility",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility(cpy)shared",
+            "mangledName": "$s15iOSTyrSdkPlugin14WebViewUtilityC6sharedACvpZ",
+            "moduleName": "iOSTyrSdkPlugin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebViewUtility",
+                    "printedName": "iOSTyrSdkPlugin.WebViewUtility",
+                    "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility(cm)shared",
+                "mangledName": "$s15iOSTyrSdkPlugin14WebViewUtilityC6sharedACvgZ",
+                "moduleName": "iOSTyrSdkPlugin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showWebView",
+            "printedName": "showWebView(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility(im)showWebViewWithUrl:",
+            "mangledName": "$s15iOSTyrSdkPlugin14WebViewUtilityC04showdE03urlySS_tF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "showWebViewWithUrl:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeWebView",
+            "printedName": "closeWebView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility(im)closeWebView",
+            "mangledName": "$s15iOSTyrSdkPlugin14WebViewUtilityC05closedE0yyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewUtility",
+        "mangledName": "$s15iOSTyrSdkPlugin14WebViewUtilityC",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewController",
+        "printedName": "WebViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlString",
+            "printedName": "urlString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC9urlString33_873F46E9FE5E74CB6B313D37FEA80F3FLLSSvp",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC9urlString33_873F46E9FE5E74CB6B313D37FEA80F3FLLSSvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "webView",
+            "printedName": "webView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC03webE033_873F46E9FE5E74CB6B313D37FEA80F3FLLSo05WKWebE0CSgvp",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE033_873F46E9FE5E74CB6B313D37FEA80F3FLLSo05WKWebE0CSgvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImagePickerController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImagePickerController",
+                    "printedName": "UIKit.UIImagePickerController",
+                    "usr": "c:objc(cs)UIImagePickerController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC011imagePickerF033_873F46E9FE5E74CB6B313D37FEA80F3FLLSo07UIImagehF0CSgvp",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC011imagePickerF033_873F46E9FE5E74CB6B313D37FEA80F3FLLSo07UIImagehF0CSgvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewController",
+                "printedName": "iOSTyrSdkPlugin.WebViewController",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC9urlStringACSS_tcfc",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC9urlStringACSS_tcfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iOSTyrSdkPlugin.WebViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebViewController",
+                    "printedName": "iOSTyrSdkPlugin.WebViewController",
+                    "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)initWithCoder:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)viewDidLoad",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC11viewDidLoadyyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC011userContentF0_10didReceiveySo06WKUserhF0C_So15WKScriptMessageCtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_29didStartProvisionalNavigationySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0K0_ptF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0M0_ptF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didReceiveServerRedirectForProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didReceiveServerRedirectForProvisionalNavigation:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_48didReceiveServerRedirectForProvisionalNavigationySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didReceiveServerRedirectForProvisionalNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didCommit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:didCommitNavigation:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_9didCommitySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:didCommitNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_06createdE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0mE13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_34runJavaScriptAlertPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebE0C_SSSo11WKFrameInfoCyyctF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_36runJavaScriptConfirmPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebE0C_SSSo11WKFrameInfoCySbctF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_37runJavaScriptTextInputPanelWithPrompt07defaultK016initiatedByFrame17completionHandlerySo05WKWebE0C_S2SSgSo11WKFrameInfoCyAKctF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runOpenPanelWith:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Foundation.URL]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URL]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URL]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC03webE0_16runOpenPanelWith16initiatedByFrame17completionHandlerySo05WKWebE0C_ypSo11WKFrameInfoCySay10Foundation3URLVGSgctF",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC03webE0_16runOpenPanelWith16initiatedByFrame17completionHandlerySo05WKWebE0C_ypSo11WKFrameInfoCySay10Foundation3URLVGSgctF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoKey",
+                    "printedName": "UIKit.UIImagePickerController.InfoKey",
+                    "usr": "c:@T@UIImagePickerControllerInfoKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)imagePickerController:didFinishPickingMediaWithInfo:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC011imagePickerF0_29didFinishPickingMediaWithInfoySo07UIImagehF0C_SDySo0ohfN3KeyaypGtF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerControllerDidCancel",
+            "printedName": "imagePickerControllerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)imagePickerControllerDidCancel:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC011imagePickerF9DidCancelyySo07UIImagehF0CF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "imagePickerControllerDidCancel:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewController",
+                "printedName": "iOSTyrSdkPlugin.WebViewController",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController",
+        "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TyrSdkPlugin",
+        "printedName": "TyrSdkPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)initialize",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C10initializeSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAdvertisingIdAsync",
+            "printedName": "fetchAdvertisingIdAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)fetchAdvertisingIdAsync",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C23fetchAdvertisingIdAsyncyyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdvertisingIdFetchCompleted",
+            "printedName": "getAdvertisingIdFetchCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)getAdvertisingIdFetchCompleted",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C30getAdvertisingIdFetchCompletedSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAppTrackingPermission",
+            "printedName": "hasAppTrackingPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)hasAppTrackingPermission",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C24hasAppTrackingPermissionSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAppTrackingPermission",
+            "printedName": "requestAppTrackingPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)requestAppTrackingPermission",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C28requestAppTrackingPermissionSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdvertisingId",
+            "printedName": "getAdvertisingId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)getAdvertisingId",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C16getAdvertisingIdSSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceData",
+            "printedName": "getDeviceData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)getDeviceData",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C13getDeviceDataSSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openNativeWebView",
+            "printedName": "openNativeWebView(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)openNativeWebViewWithUrl:",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C17openNativeWebView3urlySS_tF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "objc_name": "openNativeWebViewWithUrl:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeWebView",
+            "printedName": "closeWebView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)closeWebView",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C12closeWebViewyyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkInfoPlistConfiguration",
+            "printedName": "checkInfoPlistConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)checkInfoPlistConfiguration",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C27checkInfoPlistConfigurationSbyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentPermissionStatus",
+            "printedName": "getCurrentPermissionStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)getCurrentPermissionStatus",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C26getCurrentPermissionStatusSSyF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TyrSdkPlugin",
+                "printedName": "iOSTyrSdkPlugin.TyrSdkPlugin",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin(im)init",
+            "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0CACycfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)TyrSdkPlugin",
+        "mangledName": "$s15iOSTyrSdkPlugin03TyrbC0C",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSTyrSdkPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LanguageCallbackManager",
+        "printedName": "LanguageCallbackManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LanguageCallbackManager",
+                "printedName": "iOSTyrSdkPlugin.LanguageCallbackManager",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)LanguageCallbackManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15iOSTyrSdkPlugin23LanguageCallbackManagerC6sharedACvpZ",
+            "mangledName": "$s15iOSTyrSdkPlugin23LanguageCallbackManagerC6sharedACvpZ",
+            "moduleName": "iOSTyrSdkPlugin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LanguageCallbackManager",
+                    "printedName": "iOSTyrSdkPlugin.LanguageCallbackManager",
+                    "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)LanguageCallbackManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15iOSTyrSdkPlugin23LanguageCallbackManagerC6sharedACvgZ",
+                "mangledName": "$s15iOSTyrSdkPlugin23LanguageCallbackManagerC6sharedACvgZ",
+                "moduleName": "iOSTyrSdkPlugin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LanguageCallbackManager",
+                "printedName": "iOSTyrSdkPlugin.LanguageCallbackManager",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)LanguageCallbackManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)LanguageCallbackManager(im)init",
+            "mangledName": "$s15iOSTyrSdkPlugin23LanguageCallbackManagerCACycfc",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleLanguageChange",
+            "printedName": "handleLanguageChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15iOSTyrSdkPlugin23LanguageCallbackManagerC06handleD6ChangeyySSF",
+            "mangledName": "$s15iOSTyrSdkPlugin23LanguageCallbackManagerC06handleD6ChangeyySSF",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)LanguageCallbackManager",
+        "mangledName": "$s15iOSTyrSdkPlugin23LanguageCallbackManagerC",
+        "moduleName": "iOSTyrSdkPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "registerLanguageChangeCallback",
+        "printedName": "registerLanguageChangeCallback(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafePointer<Swift.Int8>) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafePointer<Swift.Int8>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)registerLanguageChangeCallback:",
+        "mangledName": "$s15iOSTyrSdkPlugin30registerLanguageChangeCallbackyyySPys4Int8VGXCSgF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "notifyLanguageChange",
+        "printedName": "notifyLanguageChange(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)notifyLanguageChange:",
+        "mangledName": "$s15iOSTyrSdkPlugin20notifyLanguageChangeyySPys4Int8VGF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "initialize",
+        "printedName": "initialize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)initialize",
+        "mangledName": "$s15iOSTyrSdkPlugin10initializeSbyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "fetchAdvertisingIdAsync",
+        "printedName": "fetchAdvertisingIdAsync()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)fetchAdvertisingIdAsync",
+        "mangledName": "$s15iOSTyrSdkPlugin23fetchAdvertisingIdAsyncyyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getAdvertisingIdFetchCompleted",
+        "printedName": "getAdvertisingIdFetchCompleted()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getAdvertisingIdFetchCompleted",
+        "mangledName": "$s15iOSTyrSdkPlugin30getAdvertisingIdFetchCompletedSbyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getAdvertisingId",
+        "printedName": "getAdvertisingId()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getAdvertisingId",
+        "mangledName": "$s15iOSTyrSdkPlugin16getAdvertisingIdSPys4Int8VGSgyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getDeviceData",
+        "printedName": "getDeviceData()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getDeviceData",
+        "mangledName": "$s15iOSTyrSdkPlugin13getDeviceDataSPys4Int8VGSgyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "openNativeWebView",
+        "printedName": "openNativeWebView(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)openNativeWebView:",
+        "mangledName": "$s15iOSTyrSdkPlugin17openNativeWebViewyySPys4Int8VGF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "closeWebView",
+        "printedName": "closeWebView()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)closeWebView",
+        "mangledName": "$s15iOSTyrSdkPlugin12closeWebViewyyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "hasAppTrackingPermission",
+        "printedName": "hasAppTrackingPermission()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)hasAppTrackingPermission",
+        "mangledName": "$s15iOSTyrSdkPlugin24hasAppTrackingPermissionSbyF",
+        "moduleName": "iOSTyrSdkPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 22,
+      "value": "\"AdvertisingIdUtility\""
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 8,
+      "value": "\"TyrSDK\""
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 7,
+      "value": "\"1.0.0\""
+    }
+  ]
+}

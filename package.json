@@ -1,0 +1,23 @@
+{
+    "name": "com.tyrads.unity-sdk",
+    "version": "3.0.0",
+    "displayName": "TyrAds Unity SDK",
+    "description": "The package provides the TyrAds SDK for Unity.",
+    "unity": "2021.3",
+    "hideInEditor": false,
+    "documentationUrl": "https://sdk-doc.tyrads.com",
+    "dependencies": {
+    },
+    "keywords": [
+        "ads",
+        "advertising",
+        "monetization",
+        "sdk",
+        "tyrads",
+        "unity"
+    ],
+    "author": {
+        "name": "Tyrads PTE. LTD.",
+        "email": "tech@tyrads.com"
+    }
+}

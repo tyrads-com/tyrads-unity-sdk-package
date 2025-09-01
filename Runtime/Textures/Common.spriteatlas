@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Common
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 10577248888cd45b2b1fc278b23759b0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 06039060f21f14f2990d6060a5aab022, type: 3}
+  - {fileID: 21300000, guid: aecc92c144e78437b84e179a5d55a2c0, type: 3}
+  - {fileID: 21300000, guid: c52d2224115c44ddb8cc45d1b9ec4f2e, type: 3}
+  - {fileID: 21300000, guid: d92a84f4157d849d6a19cf1259cb8b0e, type: 3}
+  - {fileID: 21300000, guid: 454869b577057452da1b9c528f249019, type: 3}
+  - {fileID: 21300000, guid: 84a8d7d7be4314ee59aadbf6e7240237, type: 3}
+  - {fileID: 21300000, guid: 8ad4941a5b9774145bba666039184d05, type: 3}
+  - {fileID: 21300000, guid: 2694b4ba4ce934e66bc515bcd3369e9b, type: 3}
+  - {fileID: 21300000, guid: 8aa1cafb105e14558836585fabc44026, type: 3}
+  - {fileID: 21300000, guid: 8edb52fd881d94b7a80917e8866d615b, type: 3}
+  - {fileID: 21300000, guid: a42f661f6f54146578f7c672c65c3a40, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Circle-outline
+  - Circle
+  - Spinner
+  - T-Points
+  - Squere-corner-radius-5px
+  - Squere-corner-radius-8px
+  - bkg
+  - Squere-corner-radius-16px-with-shadow
+  - Squere-corner-radius-4px
+  - Squere-corner-radius-4px-with-shadow
+  - Arrow
+  m_RenderDataMap: {}
+  m_Tag: Common
+  m_IsVariant: 0
