@@ -53,6 +53,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 06039060f21f14f2990d6060a5aab022, type: 3}
   - {fileID: 21300000, guid: aecc92c144e78437b84e179a5d55a2c0, type: 3}
   - {fileID: 21300000, guid: c52d2224115c44ddb8cc45d1b9ec4f2e, type: 3}
+  - {fileID: 21300000, guid: 5c10a1f4982bf403488f3bbfeaff01fa, type: 3}
   - {fileID: 21300000, guid: d92a84f4157d849d6a19cf1259cb8b0e, type: 3}
   - {fileID: 21300000, guid: 454869b577057452da1b9c528f249019, type: 3}
   - {fileID: 21300000, guid: 84a8d7d7be4314ee59aadbf6e7240237, type: 3}
@@ -65,6 +66,7 @@ SpriteAtlas:
   - Circle-outline
   - Circle
   - Spinner
+  - Squere-corner-radius-16px
   - T-Points
   - Squere-corner-radius-5px
   - Squere-corner-radius-8px

@@ -6,9 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
 
-## [Unreleased] - 2025-08-20
+## [3.1.0] - 2025-10-27
 
 ### Added
 - Initial release;
 - Introducing unity version of TyrAds SDK based on webView solution;
+- Sliding-cards visual style for Premium widget;
+- Support of deeplinking routes in TyrSDKPlugin.ShowOffers;
+- Possibility to send UserInfo and MediaSourceData in the TyrSDKPlugin.LoginUser;
+
+[Unreleased]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/releases/tag/v3.1.0

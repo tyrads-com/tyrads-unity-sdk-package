@@ -52,19 +52,23 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: ffc1763053f6e4e81b2bbf6e4ba3cb3c, type: 3}
   - {fileID: 21300000, guid: 2ec9d7148902a4ef89735a8cb39aeb41, type: 3}
+  - {fileID: 21300000, guid: c43f4685c93c34da49611bf5d90efb98, type: 3}
   - {fileID: 21300000, guid: 49d489d74a0a8441895d46472d33dc3d, type: 3}
   - {fileID: 21300000, guid: c73a7328595514c7fb7bc7d559337c53, type: 3}
   - {fileID: 21300000, guid: 9682f67be59ce4e428f8f8ba710e24f3, type: 3}
   - {fileID: 21300000, guid: b1b06fcdd8ced47c08cef68d78ef2383, type: 3}
   - {fileID: 21300000, guid: 060df46f562d54d9fb39b69245b9b1e1, type: 3}
+  - {fileID: 21300000, guid: d6139c6f5513548bca5f24424b638115, type: 3}
   m_PackedSpriteNamesToIndex:
   - continue-play-bkg
   - Medal1
+  - info-icon
   - Medal4
   - Diamond
   - Medal5
   - Medal3
   - Medal2
+  - Bonus-bkg
   m_RenderDataMap: {}
   m_Tag: PremiumWidget
   m_IsVariant: 0

@@ -1,7 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using TyrAds.SDK.Data;
-using TyrAds.Internal.Infrastructure.Services.Localization.Data;
+using TyrAds.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +18,18 @@ namespace TyrAds.Demo
             { nameof(LanguageCode.Korean), LanguageCode.Korean },
             { nameof(LanguageCode.ChineseSimplified), LanguageCode.ChineseSimplified }
         };
+        private readonly List<string> _availablePremiumWidgetStyles = Enum.GetValues(typeof(PremiumWidgetVisualizationType))
+            .Cast<PremiumWidgetVisualizationType>()
+            .Where(value => value != PremiumWidgetVisualizationType.Undefined)
+            .Select(value => value.ToString())
+            .ToList();
+        private readonly List<string> _availableDeepLinkRoutes = new()
+        {
+            TyradsDeepRoutes.Offers,
+            TyradsDeepRoutes.ActiveOffers,
+            TyradsDeepRoutes.Offer,
+            TyradsDeepRoutes.Support
+        };
 
         [SerializeField] private InputField apiKeyInput;
         [SerializeField] private InputField apiSecretInput;
@@ -27,14 +39,19 @@ namespace TyrAds.Demo
         [SerializeField] private Button clearUserButton;
         [SerializeField] private Button showButton;
         [SerializeField] private Dropdown languageSelectionDropdown;
+        [SerializeField] private Dropdown premiumWidgetVisualTypeDropdown;
         [SerializeField] private Toggle useUserInfoToggle;
         [SerializeField] private Toggle useMediaSourceInfoToggle;
+        [SerializeField] private Dropdown deepLinkRouteDropdown;
+        [SerializeField] private InputField campaignIdInput;
+        [SerializeField] private Button deepLinkButton;
 
         private void Start()
         {
             clearUserButton.onClick.AddListener(ClearUser);
             initializeButton.onClick.AddListener(Initialize);
             showButton.onClick.AddListener(ShowOffers);
+            deepLinkButton.onClick.AddListener(ShowOffersWithDeepLink);
             SetupDropdown();
 
             TyrSDKPlugin.Instance.InitializationCompleted += OnSdkInitializationCompleted;
@@ -43,8 +60,8 @@ namespace TyrAds.Demo
             userIdInput.text = userId;
             initializeButton.interactable = false;
 
-            var userInfo = GetTyradsUserInfo();
-            var mediaInfo = GetTyradsMediaSourceInfo();
+            TyradsUserInfo userInfo = GetTyradsUserInfo();
+            TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
             TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo);
         }
 
@@ -107,8 +124,8 @@ namespace TyrAds.Demo
             string userId = userIdInput.text.Trim();
             initializeButton.interactable = false;
             
-            var userInfo = GetTyradsUserInfo();
-            var mediaInfo = GetTyradsMediaSourceInfo();
+            TyradsUserInfo userInfo = GetTyradsUserInfo();
+            TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
             TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo);
         }
 
@@ -124,17 +141,71 @@ namespace TyrAds.Demo
 
         private void SetupDropdown()
         {
+            SetupLanguagesDropdown();
+            SetupVisualStyleDropdown();
+            SetupDeepLinkRouteDropdown();
+        }
+        
+        private void SetupLanguagesDropdown()
+        {
             languageSelectionDropdown.ClearOptions();
             List<string> languages = _availableLanguages.Keys.ToList();
             languageSelectionDropdown.AddOptions(languages);
-
             languageSelectionDropdown.onValueChanged.AddListener(OnSelectLanguage);
+        }
+        
+        private void SetupVisualStyleDropdown()
+        {
+            premiumWidgetVisualTypeDropdown.ClearOptions();
+            premiumWidgetVisualTypeDropdown.AddOptions(_availablePremiumWidgetStyles);
+            premiumWidgetVisualTypeDropdown.onValueChanged.AddListener(OnSelectVisualStyle);
+        }
+
+        private void SetupDeepLinkRouteDropdown()
+        {
+            if (deepLinkRouteDropdown == null)
+            {
+                Debug.LogWarning("Deep Link Route Dropdown is not assigned in the inspector");
+                return;
+            }
+
+            deepLinkRouteDropdown.ClearOptions();
+            deepLinkRouteDropdown.AddOptions(_availableDeepLinkRoutes);
+            deepLinkRouteDropdown.onValueChanged.AddListener(OnSelectDeepLinkRoute);
+            
+            if (campaignIdInput != null)
+            {
+                campaignIdInput.gameObject.SetActive(false);
+            }
         }
 
         private void OnSdkInitializationCompleted(bool tyrAdsInitialized)
         {
             showButton.interactable = tyrAdsInitialized;
+            deepLinkButton.interactable = tyrAdsInitialized;
             initializeButton.interactable = true;
+        }
+
+        private void ShowOffersWithDeepLink()
+        {
+            if (deepLinkRouteDropdown == null)
+            {
+                return;
+            }
+
+            int selectedIndex = deepLinkRouteDropdown.value;
+            string selectedRoute = _availableDeepLinkRoutes[selectedIndex];
+            string campaignId = campaignIdInput != null ? campaignIdInput.text.Trim() : string.Empty;
+
+            if ((selectedRoute == TyradsDeepRoutes.Offer || selectedRoute == TyradsDeepRoutes.Support)
+                && !string.IsNullOrEmpty(campaignId))
+            {
+                TyrSDKPlugin.Instance.ShowOffers(selectedRoute, campaignId);
+            }
+            else
+            {
+                TyrSDKPlugin.Instance.ShowOffers(selectedRoute);
+            }
         }
 
         private void OnSelectLanguage(int index)
@@ -144,6 +215,35 @@ namespace TyrAds.Demo
             if (_availableLanguages.TryGetValue(selectedLanguage.text, out string languageCode))
             {
                 TyrSDKPlugin.Instance.SetLanguage(languageCode);
+            }
+        }
+
+        private void OnSelectVisualStyle(int index)
+        {
+            Dropdown.OptionData selectedStyle = premiumWidgetVisualTypeDropdown.options[index];
+
+            if (Enum.TryParse(selectedStyle.text, out PremiumWidgetVisualizationType visualStyle))
+            {
+                TyrSDKPlugin.Instance.SetPremiumWidgetStyle(visualStyle);
+            }
+        }
+
+        private void OnSelectDeepLinkRoute(int index)
+        {
+            if (campaignIdInput == null)
+            {
+                return;
+            }
+
+            string selectedRoute = _availableDeepLinkRoutes[index];
+            
+            if (selectedRoute == TyradsDeepRoutes.Offer || selectedRoute == TyradsDeepRoutes.Support)
+            {
+                campaignIdInput.gameObject.SetActive(true);
+            }
+            else
+            {
+                campaignIdInput.gameObject.SetActive(false);
             }
         }
     }

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name iOSTyrSdkPlugin
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iOSTyrSdkPlugin
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -19,9 +20,13 @@ import _SwiftConcurrencyShims
   @objc public func isFetchComplete() -> Swift.Bool
   @objc public func getAdvertisingIdString() -> Swift.String
   @objc public func requestAppTrackingPermission(completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func requestAppTrackingPermissionSilent(completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func requestAppTrackingPermissionOnStartup(completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc public func hasAppTrackingPermission() -> Swift.Bool
   @objc public func getTrackingAuthorizationStatusString() -> Swift.String
   @objc public func checkInfoPlistConfiguration() -> Swift.Bool
+  @objc public func isLimitAdTrackingEnabled() -> Swift.Bool
+  @objc public func forceRequestTrackingPermission(completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class DeviceDataUtility : ObjectiveC.NSObject {
@@ -37,6 +42,7 @@ import _SwiftConcurrencyShims
 }
 @_inheritsConvenienceInitializers @objc public class TyrSdkPlugin : ObjectiveC.NSObject {
   @objc public func initialize() -> Swift.Bool
+  @objc public func getTrackingPermissionStatusSelected() -> Swift.String
   @objc public func fetchAdvertisingIdAsync()
   @objc public func getAdvertisingIdFetchCompleted() -> Swift.Bool
   @objc public func hasAppTrackingPermission() -> Swift.Bool
@@ -47,22 +53,49 @@ import _SwiftConcurrencyShims
   @objc public func closeWebView()
   @objc public func checkInfoPlistConfiguration() -> Swift.Bool
   @objc public func getCurrentPermissionStatus() -> Swift.String
+  @objc public func forceRequestTrackingPermission() -> Swift.Bool
+  @objc public func isLimitAdTrackingEnabled() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
+public typealias LanguageChangeCallback = @convention(c) (Swift.UnsafePointer<Swift.CChar>) -> Swift.Void
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("tyrads_registerLanguageChangeCallback")
+public func registerLanguageChangeCallback(_ callback: iOSTyrSdkPlugin.LanguageChangeCallback?)
+#endif
+@_cdecl("tyrads_notifyLanguageChange")
+public func notifyLanguageChange(_ languageCode: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("tyrads_initialize")
 public func initialize() -> Swift.Bool
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("tyrads_getTrackingPermissionStatusSelected")
+public func getTrackingPermissionStatusSelected() -> Swift.UnsafePointer<Swift.CChar>?
+#endif
 @_cdecl("tyrads_fetchAdvertisingIdAsync")
 public func fetchAdvertisingIdAsync()
 @_cdecl("tyrads_getAdvertisingIdFetchCompleted")
 public func getAdvertisingIdFetchCompleted() -> Swift.Bool
+#if compiler(>=5.3) && $NonescapableTypes
 @_cdecl("tyrads_getAdvertisingId")
 public func getAdvertisingId() -> Swift.UnsafePointer<Swift.CChar>?
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
 @_cdecl("tyrads_getDeviceData")
 public func getDeviceData() -> Swift.UnsafePointer<Swift.CChar>?
+#endif
 @_cdecl("tyrads_openNativeWebView")
 public func openNativeWebView(_ url: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("tyrads_closeWebView")
 public func closeWebView()
 @_cdecl("tyrads_hasAppTrackingPermission")
 public func hasAppTrackingPermission() -> Swift.Bool
+@_cdecl("tyrads_requestAppTrackingPermission")
+public func requestAppTrackingPermission() -> Swift.Bool
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("tyrads_getCurrentPermissionStatus")
+public func getCurrentPermissionStatus() -> Swift.UnsafePointer<Swift.CChar>?
+#endif
+@_cdecl("tyrads_forceRequestTrackingPermission")
+public func forceRequestTrackingPermission() -> Swift.Bool
+@_cdecl("tyrads_isLimitAdTrackingEnabled")
+public func isLimitAdTrackingEnabled() -> Swift.Bool

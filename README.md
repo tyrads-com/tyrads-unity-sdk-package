@@ -7,16 +7,18 @@ versioning: SemVer 2.0
 
 - [TyrAds Unity SDK](#tyrads-unity-sdk)
     - [Benefits](#benefits)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
   - [Scene setup](#scene-setup)
   - [Initialization](#initialization)
   - [User Login](#user-login)
+    - [Advanced Practices for personalized rewards](#advanced-practices-for-personalized-rewards)
   - [Show Offerwall](#show-offerwall)
 - [Premium Offers](#premium-offers)
+  - [Available Widget Style options](#available-widget-style-options)
   - [Setting Up the Premium Widget](#setting-up-the-premium-widget)
 - [Change Language](#change-language)
-- [Requirements](#requirements)
 - [Required Android Permissions](#required-android-permissions)
 - [Documentation](#documentation)
 - [Support](#support)
@@ -37,6 +39,11 @@ Supports **Android** and **iOS** platforms.
 * Achievements;
 * Daily Rewards;
 
+# Requirements
+    •   Unity 2021.3 LTS or newer
+    •   Android API Level 24+
+    •   iOS 11.0+
+
 # Installation
 
 The **TyrAds Unity SDK** available from a Git URL. To install:
@@ -54,7 +61,7 @@ click **_Update_** in the **_Package Manager_** window.
 
 If you want to install a certain version of the **TyrAds Unity SDK** you can specified a version in the Git URL:
 ```
-https://github.com/tyrads-com/tyrads-unity-sdk-package.git#3.0.0
+https://github.com/tyrads-com/tyrads-unity-sdk-package.git#3.1.0
 ```
 
 # Getting Started
@@ -115,13 +122,66 @@ If you don’t set a user ID in `LoginUser`, you can retrieve the generated user
 ```
 var userId = TyrSDKPlugin.Instance.GetUserId();
 ```
+### Advanced Practices for personalized rewards
+>To maximize the value to the user sending us more data about the user and where they came from allow us to customize the reward experience.
+>This can be used to provide feedback of quality of users aswell as customize the earnings journey of different segments of users.
+
+To maximize the value of our Tyr SDK please follow the advanced options for user login. 
+This will allow us to personalize the rewards for the user event further and maximize the earnings for you as publisher.
+```
+var userInfo = new TyradsUserInfo(
+    userPhoneNumber: "+1234567890",
+    userEmail: "demo@example.com",
+    userGroup: "premium_users"
+);
+
+var mediaSourceInfo = new TyradsMediaSourceInfo(
+    sub1: "campaign_source",
+    sub2: "ad_group",
+    sub3: "creative_type",
+    sub4: "placement",
+    sub5: "custom_param",
+    mediaSourceName: "Facebook",
+    mediaSourceId: "fb_123",
+    mediaSubSourceId: "fb_sub_456",
+    incentivized: true,
+    mediaAdsetName: "Summer Sale Adset",
+    mediaAdsetId: "adset_789",
+    mediaCreativeName: "Summer Sale Creative",
+    mediaCreativeId: "creative_101",
+    mediaCampaignName: "Summer Sale Campaign"
+);
+
+TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaSourceInfo);
+```
+[Sending Media Source Data](https://sdk-doc.tyrads.com/getting-started/advanced-options/sending-media-source-data)
+
+[Sending User Segments / User Info](https://sdk-doc.tyrads.com/getting-started/advanced-options/sending-user-segments-user-info)
+
 ## Show Offerwall
 
 Once the SDK is initialized and the user is logged in (if applicable), you can display the offerwall to the user. 
 This typically involves calling a function provided by the **TyrAds Unity SDK**, such as `ShowOffers`, passing in the context of your application. 
 The offerwall is where users can engage with various offers, advertisements, or promotions provided by TyrAds, potentially earning rewards or incentives in the process.
 ```
+// Note: Campaigns Page is the default route when no specific route is provided
 TyrSDKPlugin.Instance.ShowOffers();
+```
+### Deeplinking Routes
+The Tyrads SDK supports deeplinking to specific sections of the offerwall. 
+When initializing or interacting with the SDK, you can specify a route to open a particular page. 
+For campaign-specific routes, you'll need to provide the campaignID as well.
+Available routes and their usage:
+* `TyradsDeepRoutes.Offers` - opens the Campaigns Page
+* `TyradsDeepRoutes.ActiveOffers` - opens the Activated Campaigns Page
+* `TyradsDeepRoutes.Offer` - opens the Campaign Details Page (requires campaignID)
+* `TyradsDeepRoutes.Support` - opens the Campaign Tickets Page (requires campaignID)
+```
+//Use TyradsDeepRoutes class to avoid typos
+TyrSDKPlugin.Instance.ShowOffers(TyradsDeepRoutes.Offers);
+
+//Specify a route and campaignID
+TyrSDKPlugin.Instance.ShowOffers(TyradsDeepRoutes.Offer, campaignId: 111);
 ```
 # Premium Offers
 
@@ -132,13 +192,30 @@ The **Premium Widget** provides seamless access to various offerwall features:
 * More Offers – Opens the full offerwall.
 * Active Offers – Displays active offers.
 * Campaign record - Open the page with campaign details.  
-* Play – Redirects users to the store.
+* Play – Activate campaign and redirects users to the store.
 
 This widget enhances user engagement by integrating smoothly within your game's UI.
 
-![Screenshot of the PremiumWidget](https://sdk-doc.tyrads.com/~gitbook/image?url=https%3A%2F%2F347922413-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252FcL2uTFxnyJ6JLVrB0gZm%252FFrame%25201171276648.png%3Falt%3Dmedia%26token%3D47522ee9-cb4e-488f-97bb-3c647b9ccdf6&width=300&dpr=2&quality=100&sign=72bb3045&sv=2)
+### Available Widget Style options
 
-## Setting Up the Premium Widget
+The widget style can be changed by setting the `visualizationType` property of the `PremiumWidget` component on prefab.
+The default style is `PremiumWidgetVisualizationType.ListView`, which displays the offers in a list.
+Other available style is `PremiumWidgetVisualizationType.SlideCards`, which displays the offers in a cards slider.
+
+Alternatively, you can switch the widget visibility from the code:
+```
+TyrSDKPlugin.Instance.SetPremiumWidgetStyle(visualStyle); //where visualStyle is PremiumWidgetVisualizationType.ListView or PremiumWidgetVisualizationType.SlideCards
+```
+
+*List View*
+
+![Premium Widget, List View](https://sdk-doc.tyrads.com/~gitbook/image?url=https%3A%2F%2F347922413-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252FcL2uTFxnyJ6JLVrB0gZm%252FFrame%25201171276648.png%3Falt%3Dmedia%26token%3D47522ee9-cb4e-488f-97bb-3c647b9ccdf6&width=300&dpr=2&quality=100&sign=72bb3045&sv=2)
+
+*Card View*
+
+![Premium Widget, Card View](https://www.gitbook.com/cdn-cgi/image/dpr=2,width=760,onerror=redirect,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252Fgi6lJ2V1tOozjsIv6d6y%252FPremium%2520option%252015.png%3Falt%3Dmedia%26token%3D38919515-2a7b-442e-8fa9-ad3cc55dfd5d)
+
+### Setting Up the Premium Widget
 
 To integrate the **Premium Widget** into your application, navigate to `PremiumWidget` prefab:
 ```
@@ -146,9 +223,9 @@ Packages/com.tyrads.unity-sdk/Runtime/Prefabs/PremiumWidget/PremiumWidget.prefab
 ```
 Drag the `PremiumWidget` prefab into Canvas on your scene.
 
-Example with PremiumWidget:
 
-![Screenshot of the PremiumWidget](https://sdk-doc.tyrads.com/~gitbook/image?url=https%3A%2F%2F347922413-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252Fgx4NUoBPMPBFep7XoTm3%252FScreenshot%25202025-08-19%2520at%252021.35.12.png%3Falt%3Dmedia%26token%3Dc977076a-6255-4822-80f9-695b3d2a9c17&width=768&dpr=4&quality=100&sign=fe975c33&sv=2)
+*Game UI with integrated Premium Widget*
+![Game UI with integrated Premium Widget](https://sdk-doc.tyrads.com/~gitbook/image?url=https%3A%2F%2F347922413-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252Fgx4NUoBPMPBFep7XoTm3%252FScreenshot%25202025-08-19%2520at%252021.35.12.png%3Falt%3Dmedia%26token%3Dc977076a-6255-4822-80f9-695b3d2a9c17&width=768&dpr=4&quality=100&sign=fe975c33&sv=2)
 
 # Change Language
 
@@ -167,10 +244,27 @@ TyrSDKPlugin.Instance.SetLanguage("en");
 * This method saves the selected language in shared preferences so it persists across sessions.
 * Ensure your app and the **TyrAds Unity SDK** support the provided language code; otherwise, **English** will be used.
 
-# Requirements
-    •   Unity 2021.3 LTS or newer
-    •   Android API Level 24+
-    •   iOS 11.0+
+# Obtaining Advertising ID's
+## Andrid 12+
+Apps updating their target API level to 31 (Android 12) or higher will need to declare a Google Play services normal permission in the `AndroidManifest.xml` file.
+
+Navigate to the `Assets/Plugins/Android/AndroidManifest.xml` inside your project, locate the `AndroidManifest.xml` file and add the following line just before the `<application>`.
+```
+<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+```
+You can read more about Google Advertising ID changes [here](https://support.google.com/googleplay/android-developer/answer/6048248).
+## iOS 14+
+`NSUserTrackingUsageDescription` should be added to `Info.plist` file like
+```
+<key>NSUserTrackingUsageDescription</key><string>
+```
+The SDK includes a Unity build post-process that adds this to the build’s `Info.plist`.
+### Request IDFA Permission
+Tyrads SDK can work with or without the IDFA permission on iOS 14+. 
+If no permission is granted in the ATT popup, the SDK will serve non personalized offers to the user. 
+In that scenario the conversion is expected to be lower. 
+Offerwall integrations perform better compared to when no IDFA permission is given. 
+Our recommendation is that you should ask for IDFA usage permission prior to TyrAds SDK initialization.
 
 # Required Android Permissions
 To ensure proper SDK functionality, configure your main AndroidManifest.xml at:
@@ -180,7 +274,7 @@ Assets/Plugins/Android/AndroidManifest.xml
 You can either:
 * Copy the reference manifest as your main file from 
 ```
-Assets/Plugins/TyrAdsSDK/AndroidManifestReference/AndroidManifest.xml
+Packages/com.tyrads.unity-sdk/Runtime/AndroidManifestReference/AndroidManifest.xml
 ```
 or
 * Add the following permissions manually to your existing manifest:
@@ -221,3 +315,4 @@ If you encounter any issues or have feature requests, please contact us:
 # License
 
 © 2025 Tyrads PTE. LTD. All rights reserved.
+

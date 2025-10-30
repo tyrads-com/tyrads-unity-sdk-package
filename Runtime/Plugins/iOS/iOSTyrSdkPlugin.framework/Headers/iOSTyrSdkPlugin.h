@@ -2,7 +2,7 @@
 //  iOSTyrSdkPlugin.h
 //  iOSTyrSdkPlugin
 //
-
+#pragma once
 #import <Foundation/Foundation.h>
 
 //! Project version number for iOSTyrSdkPlugin.
@@ -21,6 +21,11 @@ extern "C" {
 /// Initialize the iOS TyrSDK plugin
 /// @return true if initialization was successful, false otherwise
 bool tyrads_initialize(void);
+
+// MARK: - User selection status of the tracking permission
+/// Get selection status of the tracking permission as string
+/// @return unknown or selected state
+const char* tyrads_getTrackingPermissionStatusSelected(void);
 
 // MARK: - Advertising ID Management
 /// Start the asynchronous advertising ID fetch process
