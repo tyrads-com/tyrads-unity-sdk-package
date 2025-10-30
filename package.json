@@ -1,6 +1,6 @@
 {
     "name": "com.tyrads.unity-sdk",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "displayName": "TyrAds Unity SDK",
     "description": "The package provides the TyrAds SDK for Unity.",
     "unity": "2021.3",
