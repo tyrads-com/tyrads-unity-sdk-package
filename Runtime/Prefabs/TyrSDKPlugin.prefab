@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agreementsScreen: {fileID: 7773720908353058416}
   permitConsentUsageStatsScreen: {fileID: 2783752435812748379}
-  ageGenderSelectionScreen: {fileID: 1284964939816769161}
+  ageGenderSelectionScreen: {fileID: 5917806829156825164}
   colorApplier: {fileID: 8457619382345087910}
 --- !u!114 &8457619382345087910
 MonoBehaviour:
@@ -713,18 +713,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590d0b54a2c8e452fb23a41d6f751175, type: 3}
---- !u!114 &1284964939816769161 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3427060438367240475, guid: 590d0b54a2c8e452fb23a41d6f751175,
-    type: 3}
-  m_PrefabInstance: {fileID: 4492975603618715538}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 482551272, guid: c584d55827b224073b277c886ebb17ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3859819916064203690 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 849654494253593656, guid: 590d0b54a2c8e452fb23a41d6f751175,
@@ -765,6 +753,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5917806829156825164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7816565002662670302, guid: 590d0b54a2c8e452fb23a41d6f751175,
+    type: 3}
+  m_PrefabInstance: {fileID: 4492975603618715538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 482551272, guid: c584d55827b224073b277c886ebb17ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &8498287988289538864 stripped

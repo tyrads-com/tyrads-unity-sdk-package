@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/iOSTyrSdkPlugin.h</key>
 		<data>
-		F9smnyd8OHOZKQMVgbm7+PRTEyg=
+		paePotzk8yRA/w5/wgvciKCN+XA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2Aet/eOtyPJZulF2xaNoFawaWR4=
+		UX3N4eAu9cBxKiVMDS1tHZGWUMc=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		vnodsLGI1vjLnpHKBedRCMAXtv0=
+		Fx+fhu3LnDffox8VRXBtZ60NdhA=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nRAj2nCGCuPj+BFTtiKpJ38eaiU=
+		hGEs2/Z/XaCn8DgpJw2e+3NBLpk=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Fye0RMRgEu1cuwBuuVsiKPjm+P4=
+		j1vK6pvOTfKUssMUYf7Jk/b5fx8=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tkD/TXemfWnckZsGbMUUzQk2TM8=
+		efH+Mw/ULLVEEMeYtY9MZO+jRNc=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Fye0RMRgEu1cuwBuuVsiKPjm+P4=
+		j1vK6pvOTfKUssMUYf7Jk/b5fx8=
 		</data>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EvgpWlMkYbunYrqbtD6MK3XcRnQ=
+		OO7mehl7I+f8fVBANvcTJM1kVcA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,49 +47,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgKGUgmgwP4MR+tP9Su/jTJAXMiAaPYlbuUutzyn+Uw=
+			CF5ptLFEAqdsklegYBNz7oZDJGlGtaUiGQkLdRp9vzE=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSwYgCVZaaePtW2KbhZXFq1lZmerhKlo4XD15Vvbsno=
+			5UMFVE0lm0XOxRaFVqZVzSdX6Mqpxb1mzknODW8qu2c=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fqjBif/UIL/EwQ0rGl+FFZ2fMNek8ustesdm6nmDfs=
+			qeh1597WcL8oHhME+CI6XHhZTWxtZ+na7rPwMEbcqt4=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nqis3TMHi02HZ43Gujl4u9T8qvwMYpJKSrrrl6WV1Nk=
+			ISIDqlHj5s1CFhmXIJ8CoCWcES2A1B88HG3jNafD640=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y2YDlLlbVxKEgLMDSLCCP8jt/HJGPt5/bb9HI+97vYk=
+			bvjCACC/mN4GXWiKblP/e5z0J4dzZCa6BWWbck9GVvg=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nqis3TMHi02HZ43Gujl4u9T8qvwMYpJKSrrrl6WV1Nk=
+			ISIDqlHj5s1CFhmXIJ8CoCWcES2A1B88HG3jNafD640=
 			</data>
 		</dict>
 		<key>Modules/iOSTyrSdkPlugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnCqz4SDI3Jo4Tx4Ezv9FeIUKxqdRM3/NrasZghhJ2w=
+			87hlMwZX5QfKjHuKPHi/zPNxv3ytVmhxX0k6tNB4IHY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
