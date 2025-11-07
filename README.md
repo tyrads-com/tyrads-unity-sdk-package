@@ -42,7 +42,7 @@ Supports **Android** and **iOS** platforms.
 # Requirements
     •   Unity 2021.3 LTS or newer
     •   Android API Level 24+
-    •   iOS 11.0+
+    •   iOS 12.0+
 
 # Installation
 
