@@ -8,14 +8,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1] - 2025-10-31
+
+### Added
+- Support for sending `engagementId` via `TyradsEngagementInfo` in `LoginUser` method;
+
+### Fixed
+- Fixed iOS compatibility with iOS 12.0;
+- Fixed iOS advertising ID not persisting correctly after app restart;
+- Fixed nullable fields not appearing in JSON serialization when they have values;
+- Fixed `gender` field being sent with value `0` causing API validation errors;
+
+### Changed
+- Made `mediaSourceName` attribute mandatory in the `TyradsMediaSourceInfo.cs`;
+
 ## [3.1.0] - 2025-10-27
 
 ### Added
 - Initial release;
 - Introducing unity version of TyrAds SDK based on webView solution;
 - Sliding-cards visual style for Premium widget;
-- Support of deeplinking routes in TyrSDKPlugin.ShowOffers;
-- Possibility to send UserInfo and MediaSourceData in the TyrSDKPlugin.LoginUser;
+- Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`;
+- Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`;
 
 [Unreleased]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.0...HEAD
+[3.1.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v3.1.0
 [3.1.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/releases/tag/v3.1.0

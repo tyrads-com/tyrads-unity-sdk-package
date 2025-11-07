@@ -35,6 +35,7 @@ namespace TyrAds.Demo
         [SerializeField] private InputField apiSecretInput;
         [SerializeField] private InputField encryptionKeyInput;
         [SerializeField] private InputField userIdInput;
+        [SerializeField] private InputField engagementIdInput;
         [SerializeField] private Button initializeButton;
         [SerializeField] private Button clearUserButton;
         [SerializeField] private Button showButton;
@@ -42,6 +43,7 @@ namespace TyrAds.Demo
         [SerializeField] private Dropdown premiumWidgetVisualTypeDropdown;
         [SerializeField] private Toggle useUserInfoToggle;
         [SerializeField] private Toggle useMediaSourceInfoToggle;
+        [SerializeField] private Toggle engagementInfoToggle;
         [SerializeField] private Dropdown deepLinkRouteDropdown;
         [SerializeField] private InputField campaignIdInput;
         [SerializeField] private Button deepLinkButton;
@@ -62,7 +64,29 @@ namespace TyrAds.Demo
 
             TyradsUserInfo userInfo = GetTyradsUserInfo();
             TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
-            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo);
+            TyradsEngagementInfo engagementInfo = GetTyradsEngagementInfo();
+            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo, engagementInfo);
+        }
+
+        private TyradsEngagementInfo GetTyradsEngagementInfo()
+        {
+            if (!engagementInfoToggle.isOn)
+            {
+                return null;
+            }
+
+            if (string.IsNullOrEmpty(engagementIdInput.text))
+            {
+                return null;
+            }
+            
+            if (int.TryParse(engagementIdInput.text, out int engagementId))
+            {
+                return new TyradsEngagementInfo(engagementId: engagementId);
+            }
+            
+            Debug.LogWarning($"Invalid engagement ID: '{engagementIdInput.text}'. Must be a valid integer.");
+            return null;
         }
 
         private TyradsMediaSourceInfo GetTyradsMediaSourceInfo()
@@ -73,13 +97,8 @@ namespace TyrAds.Demo
             }
 
             return new TyradsMediaSourceInfo(
-                sub1: "campaign_source",
-                sub2: "ad_group",
-                sub3: "creative_type",
-                sub4: "placement",
-                sub5: "custom_param",
-                userGroup: "target_audience",
                 mediaSourceName: "Facebook",
+                mediaCampaignName: "Summer Sale Campaign",
                 mediaSourceId: "fb_123",
                 mediaSubSourceId: "fb_sub_456",
                 incentivized: true,
@@ -87,7 +106,11 @@ namespace TyrAds.Demo
                 mediaAdsetId: "adset_789",
                 mediaCreativeName: "Summer Sale Creative",
                 mediaCreativeId: "creative_101",
-                mediaCampaignName: "Summer Sale Campaign"
+                sub1: "campaign_source",
+                sub2: "ad_group",
+                sub3: "creative_type",
+                sub4: "placement",
+                sub5: "custom_param"
             );
         }
 
@@ -126,7 +149,8 @@ namespace TyrAds.Demo
             
             TyradsUserInfo userInfo = GetTyradsUserInfo();
             TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
-            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo);
+            TyradsEngagementInfo engagementInfo = GetTyradsEngagementInfo();
+            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo, engagementInfo);
         }
 
         private void ShowOffers()

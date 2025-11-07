@@ -152,7 +152,11 @@ var mediaSourceInfo = new TyradsMediaSourceInfo(
     mediaCampaignName: "Summer Sale Campaign"
 );
 
-TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaSourceInfo);
+var engagementInfo = new TyradsEngagementInfo(
+    engagementId: 12345  // Optional: Unique identifier for tracking user engagement
+);
+
+TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaSourceInfo, engagementInfo);
 ```
 [Sending Media Source Data](https://sdk-doc.tyrads.com/getting-started/advanced-options/sending-media-source-data)
 
