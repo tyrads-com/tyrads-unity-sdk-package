@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using TyrAds.Data;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,8 @@ namespace TyrAds.Demo
 {
     public class TyrAdsDemo : MonoBehaviour
     {
+        private const string DebugTag = "[" + nameof(TyrAdsDemo) + "]";
+
         private readonly Dictionary<string, string> _availableLanguages = new()
         {
             { nameof(LanguageCode.English), LanguageCode.English },
@@ -23,153 +26,54 @@ namespace TyrAds.Demo
             .Where(value => value != PremiumWidgetVisualizationType.Undefined)
             .Select(value => value.ToString())
             .ToList();
-        private readonly List<string> _availableDeepLinkRoutes = new()
-        {
-            TyradsDeepRoutes.Offers,
-            TyradsDeepRoutes.ActiveOffers,
-            TyradsDeepRoutes.Offer,
-            TyradsDeepRoutes.Support
-        };
-
-        [SerializeField] private InputField apiKeyInput;
-        [SerializeField] private InputField apiSecretInput;
-        [SerializeField] private InputField encryptionKeyInput;
+        
         [SerializeField] private InputField userIdInput;
-        [SerializeField] private InputField engagementIdInput;
+        [SerializeField] private SessionPanel[] sessionPanels;
         [SerializeField] private Button initializeButton;
-        [SerializeField] private Button clearUserButton;
-        [SerializeField] private Button showButton;
+        [SerializeField] private Button switchToNextSessionButton;
+        [SerializeField] private RoutingPanel routingPanel;
         [SerializeField] private Dropdown languageSelectionDropdown;
         [SerializeField] private Dropdown premiumWidgetVisualTypeDropdown;
-        [SerializeField] private Toggle useUserInfoToggle;
-        [SerializeField] private Toggle useMediaSourceInfoToggle;
-        [SerializeField] private Toggle engagementInfoToggle;
-        [SerializeField] private Dropdown deepLinkRouteDropdown;
-        [SerializeField] private InputField campaignIdInput;
-        [SerializeField] private Button deepLinkButton;
+        [SerializeField] private AdvancedOptionsPanel advancedOptionsPanel;
+
+        private int _sessionId;
+        private IReadOnlyList<string> _registeredSessions;
 
         private void Start()
         {
-            clearUserButton.onClick.AddListener(ClearUser);
-            initializeButton.onClick.AddListener(Initialize);
-            showButton.onClick.AddListener(ShowOffers);
-            deepLinkButton.onClick.AddListener(ShowOffersWithDeepLink);
-            SetupDropdown();
-
-            TyrSDKPlugin.Instance.InitializationCompleted += OnSdkInitializationCompleted;
-
-            string userId = TyrSDKPlugin.Instance.GetUserId();
-            userIdInput.text = userId;
-            initializeButton.interactable = false;
-
-            TyradsUserInfo userInfo = GetTyradsUserInfo();
-            TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
-            TyradsEngagementInfo engagementInfo = GetTyradsEngagementInfo();
-            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo, engagementInfo);
-        }
-
-        private TyradsEngagementInfo GetTyradsEngagementInfo()
-        {
-            if (!engagementInfoToggle.isOn)
+            initializeButton.onClick.AddListener(OnInitialize);
+            switchToNextSessionButton.onClick.AddListener(OnSwitchToNextSession);
+            routingPanel.RouteClicked += OnShowOffersWithDeepLink;
+                
+            foreach (SessionPanel panel in sessionPanels)
             {
-                return null;
-            }
-
-            if (string.IsNullOrEmpty(engagementIdInput.text))
-            {
-                return null;
+                panel.OffersClicked += OnShowOffers;
             }
             
-            if (int.TryParse(engagementIdInput.text, out int engagementId))
-            {
-                return new TyradsEngagementInfo(engagementId: engagementId);
-            }
+            DisableButtons();
+            SetupDropdowns();
+            userIdInput.text = TyrSDKPlugin.Instance.GetUserId();
+            _ = LoginUserAsync();
+        }
+
+        private void OnDestroy()
+        {
+            initializeButton.onClick.RemoveListener(OnInitialize);
+            switchToNextSessionButton.onClick.RemoveListener(OnSwitchToNextSession);
+            routingPanel.RouteClicked -= OnShowOffersWithDeepLink;
             
-            Debug.LogWarning($"Invalid engagement ID: '{engagementIdInput.text}'. Must be a valid integer.");
-            return null;
-        }
-
-        private TyradsMediaSourceInfo GetTyradsMediaSourceInfo()
-        {
-            if (!useMediaSourceInfoToggle.isOn)
+            foreach (SessionPanel panel in sessionPanels)
             {
-                return null;
+                panel.OffersClicked -= OnShowOffers;
             }
-
-            return new TyradsMediaSourceInfo(
-                mediaSourceName: "Facebook",
-                mediaCampaignName: "Summer Sale Campaign",
-                mediaSourceId: "fb_123",
-                mediaSubSourceId: "fb_sub_456",
-                incentivized: true,
-                mediaAdsetName: "Summer Sale Adset",
-                mediaAdsetId: "adset_789",
-                mediaCreativeName: "Summer Sale Creative",
-                mediaCreativeId: "creative_101",
-                sub1: "campaign_source",
-                sub2: "ad_group",
-                sub3: "creative_type",
-                sub4: "placement",
-                sub5: "custom_param"
-            );
         }
 
-        private TyradsUserInfo GetTyradsUserInfo()
-        {
-            if (!useUserInfoToggle.isOn)
-            {
-                return null;
-            }
-
-            return new TyradsUserInfo(
-                userPhoneNumber: "+1234567890",
-                userEmail: "demo@example.com",
-                userGroup: "premium_users"
-            );
-        }
-
-        private void Initialize()
-        {
-            if (TyrSDKPlugin.Instance.IsInitialized)
-            {
-                TyrSDKPlugin.Instance.ClearUserData();
-            }
-
-            string apiKey = apiKeyInput.text.Trim();
-            string apiSecret = apiSecretInput.text.Trim();
-            string encryptionKey = encryptionKeyInput.text.Trim();
-
-            if (!string.IsNullOrEmpty(apiKey) && !string.IsNullOrEmpty(apiSecret))
-            {
-                TyrSDKPlugin.Instance.Init(apiKey, apiSecret, encryptionKey);
-            }
-
-            string userId = userIdInput.text.Trim();
-            initializeButton.interactable = false;
-            
-            TyradsUserInfo userInfo = GetTyradsUserInfo();
-            TyradsMediaSourceInfo mediaInfo = GetTyradsMediaSourceInfo();
-            TyradsEngagementInfo engagementInfo = GetTyradsEngagementInfo();
-            TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaInfo, engagementInfo);
-        }
-
-        private void ShowOffers()
-        {
-            TyrSDKPlugin.Instance.ShowOffers();
-        }
-
-        private void ClearUser()
-        {
-            TyrSDKPlugin.Instance.ClearUserData();
-        }
-
-        private void SetupDropdown()
+        private void SetupDropdowns()
         {
             SetupLanguagesDropdown();
             SetupVisualStyleDropdown();
-            SetupDeepLinkRouteDropdown();
         }
-        
+
         private void SetupLanguagesDropdown()
         {
             languageSelectionDropdown.ClearOptions();
@@ -177,7 +81,7 @@ namespace TyrAds.Demo
             languageSelectionDropdown.AddOptions(languages);
             languageSelectionDropdown.onValueChanged.AddListener(OnSelectLanguage);
         }
-        
+
         private void SetupVisualStyleDropdown()
         {
             premiumWidgetVisualTypeDropdown.ClearOptions();
@@ -185,51 +89,87 @@ namespace TyrAds.Demo
             premiumWidgetVisualTypeDropdown.onValueChanged.AddListener(OnSelectVisualStyle);
         }
 
-        private void SetupDeepLinkRouteDropdown()
+        private void DisableButtons()
         {
-            if (deepLinkRouteDropdown == null)
+            foreach (SessionPanel panel in sessionPanels)
             {
-                Debug.LogWarning("Deep Link Route Dropdown is not assigned in the inspector");
-                return;
+                panel.SwitchButtonInteractability(null);
             }
 
-            deepLinkRouteDropdown.ClearOptions();
-            deepLinkRouteDropdown.AddOptions(_availableDeepLinkRoutes);
-            deepLinkRouteDropdown.onValueChanged.AddListener(OnSelectDeepLinkRoute);
-            
-            if (campaignIdInput != null)
-            {
-                campaignIdInput.gameObject.SetActive(false);
-            }
+            switchToNextSessionButton.interactable = false;
+            routingPanel.SwitchButtonInteractability(false);
+            initializeButton.interactable = false;
         }
 
-        private void OnSdkInitializationCompleted(bool tyrAdsInitialized)
+        private async Task LoginUserAsync()
         {
-            showButton.interactable = tyrAdsInitialized;
-            deepLinkButton.interactable = tyrAdsInitialized;
+            LoginData loginData = GetLoginData();
+            LoginResult result = await TyrSDKPlugin.Instance.LoginUserAsync(loginData);
+            _registeredSessions = result.InitializedSessions;
+            _sessionId = 0;
+
+            if (result.IsSuccessful)
+            {
+                userIdInput.text = TyrSDKPlugin.Instance.GetUserId();
+            }
+            
+            foreach (SessionPanel panel in sessionPanels)
+            {
+                panel.SwitchButtonInteractability(_registeredSessions);
+            }
+            
+            switchToNextSessionButton.interactable = _registeredSessions is { Count: > 1 };
+            routingPanel.SwitchButtonInteractability( result.IsSuccessful);
             initializeButton.interactable = true;
         }
 
-        private void ShowOffersWithDeepLink()
+        private LoginData GetLoginData()
         {
-            if (deepLinkRouteDropdown == null)
+            string userId = userIdInput.text.Trim();
+            TyradsUserInfo userInfo = advancedOptionsPanel.GetTyradsUserInfo();
+            TyradsMediaSourceInfo mediaInfo = advancedOptionsPanel.GetTyradsMediaSourceInfo();
+            TyradsEngagementInfo engagementInfo = advancedOptionsPanel.GetTyradsEngagementInfo();
+
+            return new LoginData(userId, userInfo, mediaInfo, engagementInfo);
+        }
+
+        private void OnInitialize()
+        {
+            if (TyrSDKPlugin.Instance.IsInitialized)
             {
+                TyrSDKPlugin.Instance.ClearUserData();
+            }
+
+            SessionConfig[] sessions = sessionPanels
+                .Select(panel => panel.GetSessionConfig())
+                .Where(config => config.IsValid())
+                .ToArray();
+
+            if (sessions.Length > 0)
+            {
+                Debug.Log($"{DebugTag} Initializing TyrAds with sessions: {string.Join(", ", sessions.Select(session => session.Id))}");
+                TyrSDKPlugin.Instance.Init(sessions);
+            }
+
+            DisableButtons();
+            _ = LoginUserAsync();
+        }
+
+        private void OnShowOffers(string sessionId)
+        {
+            TyrSDKPlugin.Instance.ShowOffers(new OffersRoutingData(sessionId));
+        }
+
+        private void OnShowOffersWithDeepLink((string Route, string CampaignId) routingData)
+        {
+            if (_registeredSessions == null)
+            {
+                Debug.LogWarning($"{DebugTag} No registered sessions found");
                 return;
             }
-
-            int selectedIndex = deepLinkRouteDropdown.value;
-            string selectedRoute = _availableDeepLinkRoutes[selectedIndex];
-            string campaignId = campaignIdInput != null ? campaignIdInput.text.Trim() : string.Empty;
-
-            if ((selectedRoute == TyradsDeepRoutes.Offer || selectedRoute == TyradsDeepRoutes.Support)
-                && !string.IsNullOrEmpty(campaignId))
-            {
-                TyrSDKPlugin.Instance.ShowOffers(selectedRoute, campaignId);
-            }
-            else
-            {
-                TyrSDKPlugin.Instance.ShowOffers(selectedRoute);
-            }
+            
+            string sessionId = _registeredSessions[_sessionId];
+            TyrSDKPlugin.Instance.ShowOffers(new OffersRoutingData(sessionId, routingData.Route, routingData.CampaignId));
         }
 
         private void OnSelectLanguage(int index)
@@ -251,24 +191,19 @@ namespace TyrAds.Demo
                 TyrSDKPlugin.Instance.SetPremiumWidgetStyle(visualStyle);
             }
         }
-
-        private void OnSelectDeepLinkRoute(int index)
+        
+        private void OnSwitchToNextSession()
         {
-            if (campaignIdInput == null)
+            if (_registeredSessions == null)
             {
+                Debug.LogWarning($"{DebugTag} No registered sessions found");
                 return;
             }
-
-            string selectedRoute = _availableDeepLinkRoutes[index];
             
-            if (selectedRoute == TyradsDeepRoutes.Offer || selectedRoute == TyradsDeepRoutes.Support)
-            {
-                campaignIdInput.gameObject.SetActive(true);
-            }
-            else
-            {
-                campaignIdInput.gameObject.SetActive(false);
-            }
+            _sessionId = (_sessionId + 1) % _registeredSessions.Count;
+            string sessionId = _registeredSessions[_sessionId];
+            Debug.Log($"{DebugTag} Switching to session: {sessionId}");
+            TyrSDKPlugin.Instance.SwitchToSession(sessionId);
         }
     }
 }

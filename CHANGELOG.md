@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.0.0-pre.1] - 2025-11-17
+
+### Added
+- Support for multiple sessions (multi-instance configuration).
+- Option to hide the Privacy Policy page in the initialization wizard.
+- Option to hide the Usage Stats permission page in the initialization wizard.
+
+### Changed
+- `LoginUser` method migrated to async/await instead of a coroutine.
+- `LoginUser` method accepts a single `LoginData` object instead of multiple individual parameters.
+- `LoginUser` method returns `LoginResult` object instead of `bool`;
+
+### Fixed
+- Fixed iframe overlap with camera punch holes and notches in landscape mode.
+
 ## [3.1.1] - 2025-10-31
 
 ### Added
@@ -31,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`;
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`;
 
-[Unreleased]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.1...HEAD
+[4.0.0-pre.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.1...v3.1.1
 [3.1.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v3.1.0
 [3.1.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/releases/tag/v3.1.0

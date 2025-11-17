@@ -12,6 +12,7 @@ versioning: SemVer 2.0
 - [Getting Started](#getting-started)
   - [Scene setup](#scene-setup)
   - [Initialization](#initialization)
+    - [Configure SDK Initialization Wizard](#configure-sdk-initialization-wizard)
   - [User Login](#user-login)
     - [Advanced Practices for personalized rewards](#advanced-practices-for-personalized-rewards)
   - [Show Offerwall](#show-offerwall)
@@ -61,7 +62,8 @@ click **_Update_** in the **_Package Manager_** window.
 
 If you want to install a certain version of the **TyrAds Unity SDK** you can specified a version in the Git URL:
 ```
-https://github.com/tyrads-com/tyrads-unity-sdk-package.git#3.1.0
+https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v3.1.0
+https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v4.0.0-pre.1
 ```
 
 # Getting Started
@@ -70,55 +72,111 @@ https://github.com/tyrads-com/tyrads-unity-sdk-package.git#3.1.0
 
 Add the `TyrSDKPlugin` prefab to your initial scene:
 ```
-Packages/com.tyrads.unity-sdk/Runtime/Prefabs/TyrSDKPlugin.prefab
+Packages/com.tyrads.unity-sdk/Runtime/Resources/TyrAds/Prefabs/TyrSDKPlugin.prefab
 ```
 This enables API access via SDKPlugin.Instance in code.
 
 ## Initialization
 
-To initializes the **TyrAds Unity SDK** within your application you need to provide the API key and API secret obtained from the TyrAds platform. 
-This allows your app to communicate securely with TyrAds' servers.
+To initializes the **TyrAds Unity SDK** you must provide the necessary credentials obtained from the TyrAds platform.
+These credentials allow your application to establish secure communication with the TyrAds' backend services.
+
 > SDK Initialization best practices:
 > * **Initiate early**: It's advisable to initialize the SDK promptly after your app launches to ensure that all Tyr SDK functionalities are accessible when needed.
 > * **Initiate authentication**: Login to the SDK with current user details immediately after your user signs up or signs in to the app to set the `userId`.
 
+The SDK now supports multiple session configurations, each defined by a unique identifier.
+This enables advanced setups such as presenting different offers for different currencies.
+You can configure these sessions through the Unity Editor or programmatically.
+
 1. **Adding Credentials via the Editor**
-   
-   Once TyrSDK is imported, follow these steps to configure it for your project:
-   * To open the Configuration Window, navigate to _**TyrSDK > TyrSDK**_ Settings to access the _**TyrSDK Settings**_ panel.
-   * Enter Your Credentials
-      * API Key: A 32-character hexadecimal string.
-      * API Secret: A 92-character hexadecimal string.
-      * Encryption Key: A 32-character hexadecimal string.
-![Screenshot of the Configuration window](https://sdk-doc.tyrads.com/~gitbook/image?url=https%3A%2F%2F347922413-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252Fy9vm2HSd0uh5dAyfLcek%252FScreenshot%25202025-08-19%2520at%252018.16.13.png%3Falt%3Dmedia%26token%3D6b0d470f-ef16-4c60-bf2c-b4e56bee43ff&width=768&dpr=2&quality=100&sign=802efbe0&sv=2)
+
+   After importing the SDK, follow these steps to configure it in your project:
+   * **Open the Configuration Window**
+     
+     Navigate to _**TyrSDK > TyrSDK Settings**_ to access the _**TyrSDK Settings**_ panel.
+   * **Manage Session Credentials**
+     
+     The settings panel allows you to create and configure multiple session entries.
+     Each entry includes:
+      * Unique Identifier: A string used to reference this session configuration.
+      * API Key: A 32-character hexadecimal string (provided by TyrAds).
+      * API Secret: A 92-character hexadecimal string (provided by TyrAds).
+      * Encryption Key: A 32-character hexadecimal string (provided by TyrAds).
+![Screenshot of the Configuration window](https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=520916382/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252FSI4W1Cqd8NzlV9vjBm3N%252FScreenshot%25202025-11-17%2520at%252013.38.12.png%3Falt%3Dmedia%26token%3Dfc2ab438-8891-4b41-9c42-a91dde1369f3)
+
+You can add or remove session entries using the **+/–** buttons.
+All configured sessions will be available to the SDK at runtime.
 
 2. **Adding Credentials via the Code**
 
-    Make a call:
-    ```
-    TyrSDKPlugin.Instance.Init("API_KEY", "API_SECRET", "ENCRYPTION_KEY");
-    ```
-    before making a LoginUser call. This ensures that your credentials are properly set before the initialization process begins.
+   You can also initialize credentials programmatically. Two methods are available depending on your needs:
+
+   **Initialize a Single Session**
+
+   If your application uses only one session configuration, you can initialize it directly:
+   ```
+   TyrSDKPlugin.Instance.Init("API_KEY", "API_SECRET", "ENCRYPTION_KEY");
+   ```
+   **Initialize Multiple Sessions**
+
+   For applications that require multiple session configurations, use:
+   ```
+   var sessions = new[]
+   {
+       new SessionConfig("session_1","API_KEY_1","API_SECRET_1","ENCRYPTION_KEY_1"),
+       new SessionConfig("session_2","API_KEY_2","API_SECRET_2","ENCRYPTION_KEY_2")
+   };
+
+   TyrSDKPlugin.Instance.Init(sessions);
+   ```
+   Each SessionConfig entry corresponds to one set of credentials, matching the format used in the editor.
+   
+   **Notes**
+   * When using multiple sessions, ensure that any operation requiring authentication references the correct unique identifier.
+   * If both Editor-configured sessions and code-based initialization are used, programmatic initialization will override editor settings at runtime unless documented otherwise.
+   * Make a _**Init**_ call before making a _**LoginUser**_ call to ensure that your credentials are properly set before the initialization process begins.
+
+### Configure SDK Initialization Wizard
+By default, the SDK displays an Initialization Wizard before showing any offers. 
+
+This wizard allows users to:
+* Review and accept the Privacy Policy
+* Grant permission to collect usage statistics (Android only)
+* Provide optional demographic information such as age and gender
+
+You can disable the Privacy Policy page and/or the Usage Stats permission page. 
+
+To modify the wizard behavior:
+1. Navigate to _**TyrSDK > TyrSDK Settings**_ to open the _**TyrSDK Settings**_ panel.
+2. Select the **Settings** tab.
+3. Use the toggles to enable or disable:
+   * Show Privacy Policy Page
+   * Show Usage Stats Permit Page
+
+![Screenshot of the Settings tab](https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=-1214244692/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FbqqMYRbr0w4Hv3JxQUF7%252Fuploads%252FkKlyFhheDLyuKYVzRYuH%252FScreenshot%25202025-11-17%2520at%252013.38.21.png%3Falt%3Dmedia%26token%3D9a90eccc-5588-43d1-821e-f0ea4a10e1fb)
 
 ## User Login
 
-Upon initializing the SDK, the mandatory step is to log in the user. However, passing a user ID is optional and is only necessary when the publisher operates its own user system. This login process ensures that user interactions with the offerwall are accurately tracked and attributed within the application.
-```
-TyrSDKPlugin.Instance.LoginUser(userId); //userID is optional
-```
+Upon initializing the SDK, the mandatory step is to log in the user. 
+However, passing a user ID is optional and is only necessary when the publisher operates its own user system. 
+This login process ensures that user interactions with the offerwall are accurately tracked and attributed within the application.
+
 > * If you do not provide a user ID, it will be generated automatically and stored in app storage. In that case, uninstalling the app will erase the ID and the user’s progress.
 > * **Preferred: supply a backend-controlled, stable user ID (or equivalent) so progress persists across reinstalls and device changes.**
 
-To receive the initialization completion result, subscribe to the event before calling LoginUser:
+To determine when initialization has completed and to identify which session ID was used, you can await the login operation and read the relevant data from the returned LoginResult:
 ```
-TyrSDKPlugin.Instance.InitializationCompleted += OnSdkInitializationCompleted;
-...
-private void OnSdkInitializationCompleted(bool isSuccess)
+LoginData loginData = new LoginData(userId);
+LoginResult result = await TyrSDKPlugin.Instance.LoginUserAsync(loginData);
+
+if (result.IsSuccessful)
 {
-    // your code here
+   //your code for successful init...
+   //a list of id for successfully initialized session could be get from result.InitializedSessions 
 }
 ```
-If you don’t set a user ID in `LoginUser`, you can retrieve the generated user ID after successful initialization by calling the following method:
+You can retrieve the generated user ID after successful initialization by calling the following method:
 ```
 var userId = TyrSDKPlugin.Instance.GetUserId();
 ```
@@ -156,7 +214,8 @@ var engagementInfo = new TyradsEngagementInfo(
     engagementId: 12345  // Optional: Unique identifier for tracking user engagement
 );
 
-TyrSDKPlugin.Instance.LoginUser(userId, userInfo, mediaSourceInfo, engagementInfo);
+LoginData loginData = new LoginData(userId, userInfo, mediaSourceInfo, engagementInfo);
+LoginResult result = await TyrSDKPlugin.Instance.LoginUserAsync(loginData);
 ```
 [Sending Media Source Data](https://sdk-doc.tyrads.com/getting-started/advanced-options/sending-media-source-data)
 
@@ -171,22 +230,30 @@ The offerwall is where users can engage with various offers, advertisements, or 
 // Note: Campaigns Page is the default route when no specific route is provided
 TyrSDKPlugin.Instance.ShowOffers();
 ```
-### Deeplinking Routes
-The Tyrads SDK supports deeplinking to specific sections of the offerwall. 
-When initializing or interacting with the SDK, you can specify a route to open a particular page. 
-For campaign-specific routes, you'll need to provide the campaignID as well.
-Available routes and their usage:
+If you want to display offers for a specific session, you must provide its identifier in the `OffersRoutingData` parameter.
+```
+OffersRoutingData offersRoutingData = new OffersRoutingData("session_2");
+TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
+```
+Also, you can specify a route to open a particular page. For campaign-specific routes, you'll need to provide the campaignID as well. Available routes and their usage:
 * `TyradsDeepRoutes.Offers` - opens the Campaigns Page
 * `TyradsDeepRoutes.ActiveOffers` - opens the Activated Campaigns Page
 * `TyradsDeepRoutes.Offer` - opens the Campaign Details Page (requires campaignID)
 * `TyradsDeepRoutes.Support` - opens the Campaign Tickets Page (requires campaignID)
 ```
 //Use TyradsDeepRoutes class to avoid typos
-TyrSDKPlugin.Instance.ShowOffers(TyradsDeepRoutes.Offers);
+OffersRoutingData offersRoutingData = new OffersRoutingData("session_2", TyradsDeepRoutes.Offers); 
+TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
 
 //Specify a route and campaignID
-TyrSDKPlugin.Instance.ShowOffers(TyradsDeepRoutes.Offer, campaignId: 111);
+OffersRoutingData offersRoutingData = new OffersRoutingData("session_2", TyradsDeepRoutes.Offer, 111); 
+TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
+
+//If you use only one session, you can set empty string for sessionID
+OffersRoutingData offersRoutingData = new OffersRoutingData(string.Empty, TyradsDeepRoutes.ActiveOffers); 
+TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
 ```
+
 # Premium Offers
 
 The **Premium Widget** is a UI element that becomes available after SDK initialization. 
@@ -199,6 +266,12 @@ The **Premium Widget** provides seamless access to various offerwall features:
 * Play – Activate campaign and redirects users to the store.
 
 This widget enhances user engagement by integrating smoothly within your game's UI.
+
+The Premium Widget displays offers based on the active session.
+To change the active session, call:
+```
+TyrSDKPlugin.Instance.SwitchToSession("session_2");
+```
 
 ### Available Widget Style options
 
