@@ -6247,6 +6247,41 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "loadingSpinner",
+            "printedName": "loadingSpinner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIActivityIndicatorView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIActivityIndicatorView",
+                    "printedName": "UIKit.UIActivityIndicatorView",
+                    "usr": "c:objc(cs)UIActivityIndicatorView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15iOSTyrSdkPlugin17WebViewControllerC14loadingSpinner33_873F46E9FE5E74CB6B313D37FEA80F3FLLSo019UIActivityIndicatorE0CSgvp",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC14loadingSpinner33_873F46E9FE5E74CB6B313D37FEA80F3FLLSo019UIActivityIndicatorE0CSgvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(urlString:)",
@@ -6314,6 +6349,114 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "iOSTyrSdkPlugin",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(py)shouldAutorotate",
+            "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "iOSTyrSdkPlugin",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iOSTyrSdkPlugin@objc(cs)WebViewController(im)shouldAutorotate",
+                "mangledName": "$s15iOSTyrSdkPlugin17WebViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "iOSTyrSdkPlugin",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -9679,6 +9822,13 @@
       "offset": 232,
       "length": 22,
       "value": "\"AdvertisingIdUtility\""
+    },
+    {
+      "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2890,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/khaledelshimy\/Desktop\/Tyrads\/tyrads-unity-sdk-iframe\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
