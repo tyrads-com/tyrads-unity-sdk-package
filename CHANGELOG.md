@@ -6,7 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased]
+## [4.0.0-pre.3] - 2025-12-29
+
+### Fixed
+- Fixed the compatibility with WebGL and UWP builds.
 
 ## [4.0.0-pre.2] - 2025-12-04
 
@@ -60,7 +63,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
-[Unreleased]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.2...HEAD
+[4.0.0-pre.3]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.2...v4.0.0-pre.3
 [4.0.0-pre.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.1...v4.0.0-pre.2
 [4.0.0-pre.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v4.0.0-pre.1
 [3.1.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.0...v3.1.1
