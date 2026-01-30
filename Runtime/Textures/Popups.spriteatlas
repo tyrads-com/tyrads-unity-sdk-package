@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Popups
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a5c314998bf3b430fbe64a79c5bcaeae, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8c028f70a411d470d94a350b3bb9f970, type: 3}
+  - {fileID: 21300000, guid: 3971dd80a962f4a99be2edf67096cce4, type: 3}
+  - {fileID: 21300000, guid: 4b388252253a14f77b9fbc84e8f9c564, type: 3}
+  - {fileID: 21300000, guid: 2bda7c724bff242cfaf4d3f0b64ed7e3, type: 3}
+  - {fileID: 21300000, guid: 2a9dc48533a094480b02adbfe42ade10, type: 3}
+  - {fileID: 21300000, guid: ed019dc5d0e9e475cb4e06440c2414c3, type: 3}
+  - {fileID: 21300000, guid: 30e0beb6319ce42f59f95a05862d7ed2, type: 3}
+  - {fileID: 21300000, guid: ad3f45f67eb3c4db786fdadc38db0518, type: 3}
+  - {fileID: 21300000, guid: 6376fda705ae143b68de70342842af00, type: 3}
+  - {fileID: 21300000, guid: f8029b2ae5b384078b8b8e76ac62a1e2, type: 3}
+  - {fileID: 21300000, guid: 345aa58b58ccc4e30accf27bc3c01d59, type: 3}
+  - {fileID: 21300000, guid: e32ffacb177104d3392559f6ee06a749, type: 3}
+  - {fileID: 21300000, guid: 67b6b29daeb1f4c3ba84ee3ccec8f470, type: 3}
+  - {fileID: 21300000, guid: d02009dd9fa074ce28a8902e0bcc4bc3, type: 3}
+  - {fileID: 21300000, guid: d2a0252e9afba4b53a430170e08fe485, type: 3}
+  - {fileID: 21300000, guid: c53f2a3f282cf40e8b2a666cc60dc3e8, type: 3}
+  - {fileID: 21300000, guid: 4289784f8f44e4b9e8c878938ca1a753, type: 3}
+  - {fileID: 21300000, guid: 03ba558f019214eb1a17188a86297727, type: 3}
+  - {fileID: 21300000, guid: e51d11af0a30a4bfbb2b490d89a1c920, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - frame-black-dot
+  - WheelArrow
+  - WheelSector
+  - CoinIcon_LimitedTimeOffer
+  - Light
+  - mystrybox-label
+  - alarm-clock
+  - close
+  - CoinFlare
+  - CoinIcon_BonusReward
+  - CoinIcon_ActivationBonus
+  - chest-opened
+  - mysterybox-coin
+  - CoinIcon_PurchaseBonus
+  - Wheel
+  - chest-closed
+  - CoinIcon_Dollar
+  - coinShadow
+  - coin
+  m_RenderDataMap: {}
+  m_Tag: Popups
+  m_IsVariant: 0

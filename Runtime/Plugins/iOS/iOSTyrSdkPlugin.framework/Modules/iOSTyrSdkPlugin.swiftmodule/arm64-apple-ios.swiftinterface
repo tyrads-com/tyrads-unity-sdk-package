@@ -5,6 +5,7 @@ import AVFoundation
 import AdSupport
 import AppTrackingTransparency
 import Foundation
+import Network
 import ObjectiveC
 import Swift
 import UIKit
@@ -42,9 +43,42 @@ public struct Device {
   @objc override dynamic public init()
   @objc deinit
 }
+public struct SdkUrlDescriptor : Swift.Hashable {
+  public let scheme: Swift.String
+  public let host: Swift.String
+  public let endpoint: Swift.String
+  public let token: Swift.String
+  public let language: Swift.String
+  public let parameters: [Swift.String : Swift.String]
+  public let isValid: Swift.Bool
+  public static let empty: iOSTyrSdkPlugin.SdkUrlDescriptor
+  public init(scheme: Swift.String, host: Swift.String, endpoint: Swift.String, token: Swift.String, language: Swift.String, parameters: [Swift.String : Swift.String], isValid: Swift.Bool)
+  public static func fromUrl(_ url: Swift.String?) -> iOSTyrSdkPlugin.SdkUrlDescriptor
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension iOSTyrSdkPlugin.SdkUrlDescriptor : Swift.Equatable {
+  public static func == (lhs: iOSTyrSdkPlugin.SdkUrlDescriptor, rhs: iOSTyrSdkPlugin.SdkUrlDescriptor) -> Swift.Bool
+}
+extension iOSTyrSdkPlugin.SdkUrlDescriptor : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class SdkUrlProvider : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func setPreloadedUrlDescriptor(_ url: Swift.String?)
+  @objc public func updateUrlDescriptorLanguage(_ languageCode: Swift.String)
+  @objc public func updateUrlDescriptorEndpoint(_ url: Swift.String)
+  @objc public func isCurrentUrlSameTo(_ url: Swift.String?) -> Swift.Bool
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WebViewUtility : ObjectiveC.NSObject {
   @objc public static let shared: iOSTyrSdkPlugin.WebViewUtility
-  @objc public func showWebView(url: Swift.String)
+  @objc public func preloadWebView(url: Swift.String)
+  @objc public func showWebView(url: Swift.String, orientationPreference: Swift.String)
   @objc public func closeWebView()
   @objc deinit
 }
@@ -57,8 +91,8 @@ public struct Device {
   @objc public func requestAppTrackingPermission() -> Swift.Bool
   @objc public func getAdvertisingId() -> Swift.String
   @objc public func getDeviceData() -> Swift.String
-  @objc public func openNativeWebView(url: Swift.String)
-  @objc public func closeWebView()
+  @objc public func preloadNativeWebView(url: Swift.String)
+  @objc public func openNativeWebView(url: Swift.String, orientationPreference: Swift.String)
   @objc public func checkInfoPlistConfiguration() -> Swift.Bool
   @objc public func getCurrentPermissionStatus() -> Swift.String
   @objc public func forceRequestTrackingPermission() -> Swift.Bool
@@ -83,10 +117,10 @@ public func getAdvertisingIdFetchCompleted() -> Swift.Bool
 public func getAdvertisingId() -> Swift.UnsafePointer<Swift.CChar>?
 @_cdecl("tyrads_getDeviceData")
 public func getDeviceData() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("tyrads_preloadNativeWebView")
+public func preloadNativeWebView(_ url: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("tyrads_openNativeWebView")
-public func openNativeWebView(_ url: Swift.UnsafePointer<Swift.CChar>)
-@_cdecl("tyrads_closeWebView")
-public func closeWebView()
+public func openNativeWebView(_ url: Swift.UnsafePointer<Swift.CChar>, _ orientationPreference: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("tyrads_hasAppTrackingPermission")
 public func hasAppTrackingPermission() -> Swift.Bool
 @_cdecl("tyrads_requestAppTrackingPermission")

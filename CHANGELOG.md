@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.0-pre.4] - 2026-01-29
+
+### Added
+- Background preloading and caching of the WebView’s last visited page after SDK initialization.
+
+### Fixed
+- Fixed incorrect store redirection behavior on iOS.
+
+### Changed
+- Reverted to a single session (ads unit instance).
+- Replaced the local sessionId (string) with backend provided placementId (uint) for redirecting between different offer walls.
+- Added extra device data collection on iOS for machine learning analysis:
+  - `hardware`: Device hardware identifier (e.g., iPhone15,3)
+  - `virtual`: Indicates if running on a virtual device (simulator/emulator)
+  - `totalMemory`: Total device storage in GB
+  - `connectionType`: Network connection type (WiFi/Cellular/Ethernet/None)
+
+### Removed
+- Removed the requirement to declare the QUERY_ALL_PACKAGES permission in AndroidManifest.xml, improving compliance with Google Play policies.
+- Temporarily removed the Premium Widget.
+
 ## [4.0.0-pre.3] - 2025-12-29
 
 ### Fixed
@@ -31,6 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for multiple sessions (multi-instance configuration).
 - Option to hide the Privacy Policy page in the initialization wizard.
 - Option to hide the Usage Stats permission page in the initialization wizard.
+- Option to set iframe orientation.
 
 ### Changed
 - `LoginUser` method migrated to async/await instead of a coroutine.
@@ -63,6 +85,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.0-pre.4]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.3...v4.0.0-pre.4
 [4.0.0-pre.3]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.2...v4.0.0-pre.3
 [4.0.0-pre.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.1...v4.0.0-pre.2
 [4.0.0-pre.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v4.0.0-pre.1
