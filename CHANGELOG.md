@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.0-pre.5] - 2026-02-26
+
+### Changed
+- Android Dependency Management: Migrated from manual Gradle dependency injection to automatic dependency resolution using EDM4U.
+
 ## [4.0.0-pre.4] - 2026-01-29
 
 ### Added
@@ -85,6 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.0-pre.5]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.4...v4.0.0-pre.5
 [4.0.0-pre.4]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.3...v4.0.0-pre.4
 [4.0.0-pre.3]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.2...v4.0.0-pre.3
 [4.0.0-pre.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.1...v4.0.0-pre.2

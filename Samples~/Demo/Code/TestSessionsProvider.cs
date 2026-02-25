@@ -10,6 +10,8 @@ namespace TyrAds.Demo
         private static readonly Dictionary<string, TestSessionConfig> _testSessions = new();
         private static bool _isLoaded; 
 
+        public bool IsTestSessionAvailable => TestSessions is { Count: > 0 };
+        
         public IReadOnlyDictionary<string, TestSessionConfig> TestSessions
         {
             get

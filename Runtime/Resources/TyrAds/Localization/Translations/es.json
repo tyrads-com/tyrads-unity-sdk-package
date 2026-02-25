@@ -1,0 +1,1517 @@
+﻿{
+    "data": [
+        {
+            "id": "_a6875933646692502547",
+            "key": [
+                "initialization.intro.subtitle"
+            ],
+            "value": "Juega tus juegos favoritos y gana tus recompensas",
+            "vid": -6871378291839630000
+        },
+        {
+            "id": "_a6875933646692502545",
+            "key": [
+                "initialization.intro.label.iHaveRead"
+            ],
+            "value": "He leído y acepto los términos y condiciones<tos> Condiciones de servicio</tos> y<pp> política de privacidad</pp>",
+            "vid": -6843346581049713000
+        },
+        {
+            "id": "_a6875933646692502541",
+            "key": [
+                "initialization.intro.cta.accept"
+            ],
+            "value": "Aceptar",
+            "vid": -6871377959312610000
+        },
+        {
+            "id": "_a6875933646692502539",
+            "key": [
+                "initialization.intro.cta.reject"
+            ],
+            "value": "Rechazar",
+            "vid": -6871378195068647000
+        },
+        {
+            "id": "_a6875933646692502537",
+            "key": [
+                "initialization.usagePermission.title"
+            ],
+            "value": "Permitir que la aplicación rastree los datos de uso para habilitar su potencial de ingresos",
+            "vid": -6871377601957910000
+        },
+        {
+            "id": "_a6875933646692502535",
+            "key": [
+                "initialization.usagePermission.label"
+            ],
+            "value": "Permiso de acceso de uso",
+            "vid": -6871377134814380000
+        },
+        {
+            "id": "_a6875933646692502533",
+            "key": [
+                "initialization.usagePermission.description"
+            ],
+            "value": "El acceso de uso permite que una aplicación rastree qué otras aplicaciones estás usando y con qué frecuencia, así como tu operador, configuración de idioma y otros detalles.",
+            "vid": -6871377073141334000
+        },
+        {
+            "id": "_a6875933646692502531",
+            "key": [
+                "initialization.userInfo.title"
+            ],
+            "value": "¡Por favor, indica tu sexo y edad para disfrutar del juego!",
+            "vid": -6715752200501377000
+        },
+        {
+            "id": "_a6875933646692502529",
+            "key": [
+                "initialization.userInfo.chooseGender.label"
+            ],
+            "value": "Elige tu género",
+            "vid": -6871366674822911000
+        },
+        {
+            "id": "_a6875933646692502527",
+            "key": [
+                "initialization.userInfo.gender.male"
+            ],
+            "value": "Masculino",
+            "vid": -6871366650865047000
+        },
+        {
+            "id": "_a6875933646692502525",
+            "key": [
+                "initialization.userInfo.gender.female"
+            ],
+            "value": "Femenino",
+            "vid": -6871366626438692000
+        },
+        {
+            "id": "_a6875933646692502523",
+            "key": [
+                "initialization.userInfo.chooseAge.label"
+            ],
+            "value": "Elige tu edad",
+            "vid": -6871366603823005000
+        },
+        {
+            "id": "_a6875933646692502521",
+            "key": [
+                "initialization.userInfo.cta.continue"
+            ],
+            "value": "Continuar",
+            "vid": -6871366581742917000
+        },
+        {
+            "id": "_a6875933646692502519",
+            "key": [
+                "widget.page.title"
+            ],
+            "value": "Juegos Premium",
+            "vid": -6871366523896348000
+        },
+        {
+            "id": "_a6875933646692502517",
+            "key": [
+                "widget.button.moreOffers"
+            ],
+            "value": "Más ofertas",
+            "vid": -6871366496984421000
+        },
+        {
+            "id": "_a6875933646692502515",
+            "key": [
+                "widget.button.play"
+            ],
+            "value": "Jugar",
+            "vid": -6871366471350107000
+        },
+        {
+            "id": "_a6875933646692502513",
+            "key": [
+                "offers.page.title"
+            ],
+            "value": "Ofertas",
+            "vid": -6871366448600202000
+        },
+        {
+            "id": "_a6875933646692502511",
+            "key": [
+                "offers.subtitle.yourEarnings"
+            ],
+            "value": "SUS GANANCIAS\n{multiplier} x BONIFICACIÓN ACTIVA",
+            "vid": -6852701472269785000
+        },
+        {
+            "id": "_a6875933646692502509",
+            "key": [
+                "offers.button.activeOffers"
+            ],
+            "value": "Ofertas Activas",
+            "vid": -6846831316253008000
+        },
+        {
+            "id": "_a6875933646692502507",
+            "key": [
+                "offers.section.premiumGames"
+            ],
+            "value": "Juegos Premium",
+            "vid": -6871366249823747000
+        },
+        {
+            "id": "_a6875933646692502505",
+            "key": [
+                "offers.section.otherGames"
+            ],
+            "value": "Otros juegos",
+            "vid": -6871366225864611000
+        },
+        {
+            "id": "_a6875933646692502503",
+            "key": [
+                "offers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6788835957989387000
+        },
+        {
+            "id": "_a6875933646692502501",
+            "key": [
+                "offers.modal.welcomeBack.title"
+            ],
+            "value": "Bienvenido de nuevo",
+            "vid": -6871361173440839000
+        },
+        {
+            "id": "_a6875933646692502499",
+            "key": [
+                "offers.modal.welcomeBack.subtitle"
+            ],
+            "value": "Es hora de volver al juego, tu<b>{multiplier} incógnita</b> ¡Te esperan recompensas adicionales!",
+            "vid": -6871361147201273000
+        },
+        {
+            "id": "_a6875933646692502497",
+            "key": [
+                "offers.modal.welcomeBack.button.goToActiveOffers"
+            ],
+            "value": "ir a ofertas activas",
+            "vid": -6871361112908643000
+        },
+        {
+            "id": "_a6875933646692502495",
+            "key": [
+                "offers.modal.dontMiss.title"
+            ],
+            "value": "¡No te la pierdas! Oferta por tiempo limitado: ¡Reclama antes de que se agote!",
+            "vid": -6871361089487650000
+        },
+        {
+            "id": "_a6875933646692502493",
+            "key": [
+                "offers.modal.limitedTimeOffer.title"
+            ],
+            "value": "Oferta por tiempo limitado: ¡Reclama antes de que se acabe el tiempo!",
+            "vid": -6871361065865330000
+        },
+        {
+            "id": "_a6875933646692502491",
+            "key": [
+                "offerDetails.page.title"
+            ],
+            "value": "Detalles de las ofertas",
+            "vid": -6871361025801338000
+        },
+        {
+            "id": "_a6875933646692502489",
+            "key": [
+                "offerDetails.label.earn"
+            ],
+            "value": "Ganar",
+            "vid": -6871360975671016000
+        },
+        {
+            "id": "_a6875933646692502487",
+            "key": [
+                "offerDetails.section.description"
+            ],
+            "value": "Descripción",
+            "vid": -6871360951109172000
+        },
+        {
+            "id": "_a6875933646625393621",
+            "key": [
+                "offerDetails.section.playTime"
+            ],
+            "value": "Tiempo de juego",
+            "vid": -6871360921379945000
+        },
+        {
+            "id": "_a6875933646625393619",
+            "key": [
+                "shared.section.quickRewards"
+            ],
+            "value": "Recompensas rápidas",
+            "vid": -6871360899368238000
+        },
+        {
+            "id": "_a6875933646625393617",
+            "key": [
+                "offerDetails.cta.seeProgress"
+            ],
+            "value": "Ver progreso",
+            "vid": -6871360875947245000
+        },
+        {
+            "id": "_a6875933646625393615",
+            "key": [
+                "offerDetails.cta.seeStatus"
+            ],
+            "value": "Ver estado",
+            "vid": -6871360837024103000
+        },
+        {
+            "id": "_a6875933646625393613",
+            "key": [
+                "offerDetails.button.needHelp"
+            ],
+            "value": "¿Necesitar ayuda?",
+            "vid": -6871360785551605000
+        },
+        {
+            "id": "_a6875933646625393607",
+            "key": [
+                "offerDetails.status.completePreviousTask"
+            ],
+            "value": "Completar la tarea anterior",
+            "vid": -6871359901189723000
+        },
+        {
+            "id": "_a6875933646625393605",
+            "key": [
+                "offerDetails.status.yourTicketHasBeenSubmitted"
+            ],
+            "value": "Su ticket ha sido enviado",
+            "vid": -6871359781534619000
+        },
+        {
+            "id": "_a6875933646625393603",
+            "key": [
+                "offerDetails.status.weAreProcessingYourProgress"
+            ],
+            "value": "Estamos procesando tu progreso",
+            "vid": -6871359598193202000
+        },
+        {
+            "id": "_a6875933646625393601",
+            "key": [
+                "offerDetails.status.progressRejected"
+            ],
+            "value": "Progreso rechazado",
+            "vid": -6761111773167440000
+        },
+        {
+            "id": "_a6875933646625393599",
+            "key": [
+                "offerDetails.description.completeQuick&DailyRewards"
+            ],
+            "value": "Completa las recompensas rápidas y diarias a continuación para subir de nivel.",
+            "vid": -6852700789770015000
+        },
+        {
+            "id": "_a6875933646625393597",
+            "key": [
+                "offerDetails.description.downloadInstruction.followStep"
+            ],
+            "value": "Sigue estos pasos para evitar fallos en la descarga y asegurarte de obtener tus recompensas.",
+            "vid": -6871348743873919000
+        },
+        {
+            "id": "_a6875933646625393595",
+            "key": [
+                "offerDetails.description.downloadInstruction.stepByStep"
+            ],
+            "value": "<li>Asegúrese de seleccionar <b>{appstore}</b> para descargar el juego</li>\n<li> Descargue inmediatamente después de hacer clic <b>Confirmar</b> botón</li>\n<li> Una vez completada la descarga,<b> abre el juego desde {appstore}</b></li>",
+            "vid": -6852689463742552000
+        },
+        {
+            "id": "_a6875933646625393593",
+            "key": [
+                "offerDetails.description.downloadInstruction.note"
+            ],
+            "value": "Nota: Si la activación falla, ¡no continúes jugando!",
+            "vid": -6801660012337511000
+        },
+        {
+            "id": "_a6875933646625393591",
+            "key": [
+                "offerDetails.modal.myPlayTime.title"
+            ],
+            "value": "Mi tiempo de juego",
+            "vid": -6871348647170046000
+        },
+        {
+            "id": "_a6875933646625393589",
+            "key": [
+                "offerDetails.modal.myPlayTime.status.onProgress"
+            ],
+            "value": "En Progreso",
+            "vid": -6852689810826971000
+        },
+        {
+            "id": "_a6875933646625393587",
+            "key": [
+                "offerDetails.modal.myPlayTime.subtitle"
+            ],
+            "value": "¡Desbloquea las ofertas para ver tu historial de tiempo de juego!",
+            "vid": -6871348323031634000
+        },
+        {
+            "id": "_a6875933646625393585",
+            "key": [
+                "offerDetails.modal.myPlayTime.label.play"
+            ],
+            "value": "Jugar{time}",
+            "vid": -6871348289141658000
+        },
+        {
+            "id": "_a6875933646625393565",
+            "key": [
+                "activeOffers.page.title"
+            ],
+            "value": "Ofertas Activas",
+            "vid": -6852688750308219000
+        },
+        {
+            "id": "_a6875933646625393563",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6785365423021869000
+        },
+        {
+            "id": "_a6875933646625393561",
+            "key": [
+                "activeOffers.cta.startPlaying"
+            ],
+            "value": "Empezar a jugar",
+            "vid": -6871347699257342000
+        },
+        {
+            "id": "_a6875933646625393559",
+            "key": [
+                "activeOffers.cta.seeAllTasks"
+            ],
+            "value": "Ver todas las tareas",
+            "vid": -6871347658186717000
+        },
+        {
+            "id": "_a6875933646625393557",
+            "key": [
+                "activeOffers.section.hotDeals"
+            ],
+            "value": "Ofertas imperdibles",
+            "vid": -6871347631544498000
+        },
+        {
+            "id": "_a6875933646625393555",
+            "key": [
+                "activeOffers.section.urgentTasks"
+            ],
+            "value": "Tareas urgentes",
+            "vid": -6871347314184081000
+        },
+        {
+            "id": "_a6875933646625393553",
+            "key": [
+                "activeOffers.section.all"
+            ],
+            "value": "Todos",
+            "vid": -6871347251437294000
+        },
+        {
+            "id": "_a6875933646625393551",
+            "key": [
+                "activeOffers.section.limitedTimeOffer"
+            ],
+            "value": "Oferta por tiempo limitado: finaliza pronto",
+            "vid": -6871347466792237000
+        },
+        {
+            "id": "_a6875933646625393549",
+            "key": [
+                "activeOffers.subtitle.overallEarnings"
+            ],
+            "value": "Ganancias generales",
+            "vid": -6871347166947234000
+        },
+        {
+            "id": "_a6875933646625393547",
+            "key": [
+                "activeOffers.modal.moreInformation.title"
+            ],
+            "value": "Más información",
+            "vid": -6871347372370065000
+        },
+        {
+            "id": "_a6875933646625393545",
+            "key": [
+                "activeOffers.modal.moreInformation.retry.subtitle"
+            ],
+            "value": "Las recompensas estarán disponibles una vez que el juego esté completamente instalado. Si eres nuevo aquí, asegúrate de...<b> la descarga finaliza por completo</b> .\n\nSi se interrumpió, simplemente toque<b> Rever</b> ¡Para continuar y desbloquear tus recompensas!",
+            "vid": -6852700106671512000
+        },
+        {
+            "id": "_a6875933646625393543",
+            "key": [
+                "activeOffers.modal.moreInformation.previouslyDownloaded.subtitle"
+            ],
+            "value": "Este juego era <b>, jugado anteriormente</b>, por lo que no se registrará el progreso y no se podrá obtener {currencyName}.\n\nElige otro juego para seguir obteniendo recompensas.",
+            "vid": -6801660201450290000
+        },
+        {
+            "id": "_a6875933646625393541",
+            "key": [
+                "activeOffers.modal.moreInformation.unavailable.subtitle"
+            ],
+            "value": "Lo siento, este juego es<b> indisponible</b> en este momento.",
+            "vid": -6871346926364555000
+        },
+        {
+            "id": "_a6875933646625393539",
+            "key": [
+                "modals.shared.temporarilyUnavailable.title"
+            ],
+            "value": "Temporalmente no disponible",
+            "vid": -6871346899789445000
+        },
+        {
+            "id": "_a6875933646625393537",
+            "key": [
+                "modals.shared.temporarilyUnavailable.subtitle"
+            ],
+            "value": "Este juego es<b> temporalmente no disponible</b> ¡Por favor revise nuevamente más tarde!",
+            "vid": -6871346501898392000
+        },
+        {
+            "id": "_a6875933646625393535",
+            "key": [
+                "activeOffers.button.moreInformation"
+            ],
+            "value": "Más información",
+            "vid": -6871346719535036000
+        },
+        {
+            "id": "_a6875933646625393533",
+            "key": [
+                "support.page.subtitle"
+            ],
+            "value": "No recibí mis recompensas",
+            "vid": -6871346685443734000
+        },
+        {
+            "id": "_a6875933646625393531",
+            "key": [
+                "support.subtitle.happyToHelp"
+            ],
+            "value": "¡Estaremos encantados de ayudarle!",
+            "vid": -6871346655915833000
+        },
+        {
+            "id": "_a6875933646625393529",
+            "key": [
+                "support.subtitle.selectTask"
+            ],
+            "value": "Seleccione la(s) tarea(s) que cree haber completado pero que no recibió{currencyName}",
+            "vid": -6871346628132764000
+        },
+        {
+            "id": "_a6875933646625393527",
+            "key": [
+                "support.section.tasks"
+            ],
+            "value": "Tareas",
+            "vid": -6871346561493662000
+        },
+        {
+            "id": "_a6875933646625393525",
+            "key": [
+                "support.label.gamePlayerID"
+            ],
+            "value": "ID del jugador del juego",
+            "vid": -6871346166958051000
+        },
+        {
+            "id": "_a6875933646625393523",
+            "key": [
+                "support.label.orderID"
+            ],
+            "value": "Número de pedido",
+            "vid": -6871346367683262000
+        },
+        {
+            "id": "_a6875933646625393521",
+            "key": [
+                "support.label.screenshot"
+            ],
+            "value": "Captura de pantalla",
+            "vid": -6871346305339128000
+        },
+        {
+            "id": "_a6875933646625393519",
+            "key": [
+                "support.button.browseFile"
+            ],
+            "value": "Explorar archivo",
+            "vid": -6871346259705100000
+        },
+        {
+            "id": "_a6875933646625393517",
+            "key": [
+                "support.subtitle.ticketSubmittedSuccessfully"
+            ],
+            "value": "¡Ticket enviado exitosamente!",
+            "vid": -6871346229304785000
+        },
+        {
+            "id": "_a6875933646625393515",
+            "key": [
+                "support.subtitle.thankYouForReachingOut"
+            ],
+            "value": "¡Gracias por contactarnos!\nNuestro equipo de soporte está revisando su solicitud y se comunicará con usted pronto.",
+            "vid": -6852699241571146000
+        },
+        {
+            "id": "_a6875933646625393513",
+            "key": [
+                "support.status.haventReachedThisLevel"
+            ],
+            "value": "No has llegado a este nivel",
+            "vid": -6871346161457723000
+        },
+        {
+            "id": "_a6875933646625393511",
+            "key": [
+                "support.status.ticketBeingProcessed"
+            ],
+            "value": "Su ticket será procesado dentro de 24 horas.",
+            "vid": -6852699099904334000
+        },
+        {
+            "id": "_a6875933646625393509",
+            "key": [
+                "support.status.ticketBeingRejected"
+            ],
+            "value": "Su billete ha sido rechazado",
+            "vid": -6871345819334136000
+        },
+        {
+            "id": "_a6875933646625393507",
+            "key": [
+                "support.status.ticketBeingApproved"
+            ],
+            "value": "Su ticket ha sido aprobado",
+            "vid": -6871346056365242000
+        },
+        {
+            "id": "_a6875933646625393505",
+            "key": [
+                "support.status.haveCompletedThisLevel"
+            ],
+            "value": "Has completado este nivel",
+            "vid": -6871345762560037000
+        },
+        {
+            "id": "_a6875933646625393503",
+            "key": [
+                "support.description.clickHereToSeeExample"
+            ],
+            "value": "Haga clic aquí para ver un ejemplo",
+            "vid": -6871346000329341000
+        },
+        {
+            "id": "_a6875933646625393501",
+            "key": [
+                "support.description.pleaseAttach"
+            ],
+            "value": "Adjunte el ID del pedido y la captura de pantalla como se muestra arriba.",
+            "vid": -6871345972948924000
+        },
+        {
+            "id": "_a6875933646625393499",
+            "key": [
+                "support.button.preview"
+            ],
+            "value": "Avance",
+            "vid": -6871345946373814000
+        },
+        {
+            "id": "_a6875933646625393497",
+            "key": [
+                "support.button.iUnderstand"
+            ],
+            "value": "Entiendo",
+            "vid": -6871345594251006000
+        },
+        {
+            "id": "_a6875933646625393495",
+            "key": [
+                "support.modal.gamePlayerID.title"
+            ],
+            "value": "ID del jugador del juego",
+            "vid": -6871345542912725000
+        },
+        {
+            "id": "_a6875933646625393493",
+            "key": [
+                "support.modal.gamePlayerID.subtitle"
+            ],
+            "value": "Esta es la identificación única que se muestra en tu perfil de juego.",
+            "vid": -6871345514257240000
+        },
+        {
+            "id": "_a6875933646625393491",
+            "key": [
+                "errorPage.title"
+            ],
+            "value": "¡Uy!",
+            "vid": -6871345696863058000
+        },
+        {
+            "id": "_a6875933646625393489",
+            "key": [
+                "errorPage.description.failedToLoad"
+            ],
+            "value": "Error al cargar, intenta recargar la página",
+            "vid": -6871345656933284000
+        },
+        {
+            "id": "_a6875933646625393487",
+            "key": [
+                "errorPage.button.reload"
+            ],
+            "value": "Recargar",
+            "vid": -6871345603447519000
+        },
+        {
+            "id": "_a6875933646625393485",
+            "key": [
+                "errorPage.button.refresh"
+            ],
+            "value": "Refrescar",
+            "vid": -6871345311454253000
+        },
+        {
+            "id": "_a6875933646625393483",
+            "key": [
+                "errorPage.description.weCouldntConnect"
+            ],
+            "value": "No pudimos conectarnos, intenta actualizar la página",
+            "vid": -6871345535130696000
+        },
+        {
+            "id": "_a6875933646625393481",
+            "key": [
+                "settings.page.title"
+            ],
+            "value": "Ajustes",
+            "vid": -6871345494194289000
+        },
+        {
+            "id": "_a6875933646625393479",
+            "key": [
+                "language.page.title"
+            ],
+            "value": "Idioma",
+            "vid": -6871345465740130000
+        },
+        {
+            "id": "_a6875933646625393477",
+            "key": [
+                "shared.error.emptyField"
+            ],
+            "value": "Este campo no puede estar vacío",
+            "vid": -6871345341186079000
+        },
+        {
+            "id": "_a6875933646625393475",
+            "key": [
+                "shared.status.rejected"
+            ],
+            "value": "Rechazado",
+            "vid": -6871345307430320000
+        },
+        {
+            "id": "_a6875933646625393473",
+            "key": [
+                "shared.status.expired"
+            ],
+            "value": "Venció",
+            "vid": -6871345006444466000
+        },
+        {
+            "id": "_a6875933646625393471",
+            "key": [
+                "shared.status.completed"
+            ],
+            "value": "Terminado",
+            "vid": -6871345239985912000
+        },
+        {
+            "id": "_a6875933646625393469",
+            "key": [
+                "shared.status.expiredDueToMaxtime"
+            ],
+            "value": "Caducado por tiempo máximo",
+            "vid": -6871344955240403000
+        },
+        {
+            "id": "_a6875933646625393467",
+            "key": [
+                "shared.subtitle.couldntValidate"
+            ],
+            "value": "No pudimos validar tu descarga",
+            "vid": -6871345191130659000
+        },
+        {
+            "id": "_a6875933646625393465",
+            "key": [
+                "shared.subtitle.retry"
+            ],
+            "value": "Hacer clic <b> \"Rever\"</b> Para volver a intentarlo, las recompensas necesitan un seguimiento adecuado para ser otorgadas.",
+            "vid": -6761110853710207000
+        },
+        {
+            "id": "_a6875933646625393463",
+            "key": [
+                "shared.subtitle.installing"
+            ],
+            "value": "",
+            "vid": -6788835906114235000
+        },
+        {
+            "id": "_a6875933646625393461",
+            "key": [
+                "shared.subtitle.finishInstall"
+            ],
+            "value": "Finaliza la instalación para desbloquear todas las recompensas y ganar hasta",
+            "vid": -6871344733582424000
+        },
+        {
+            "id": "_a6875933646625393459",
+            "key": [
+                "shared.subtitle.previouslyDownloaded"
+            ],
+            "value": "Ya has <b> jugado anteriormente </b> este juego, por lo que no registrará el progreso ni ganará {currencyName}. Por favor, elige otro juego nuevo.",
+            "vid": -6801656716889636000
+        },
+        {
+            "id": "_a6875933646625393457",
+            "key": [
+                "shared.subtitle.temporarilyUnavailable"
+            ],
+            "value": "Lo siento, este juego es<b> temporalmente no disponible</b> ¡Vuelve más tarde!",
+            "vid": -6871344413537653000
+        },
+        {
+            "id": "_a6875933646625393455",
+            "key": [
+                "shared.subtitle.unavailable"
+            ],
+            "value": "Lo siento, este juego es<b> indisponible</b> en este momento.",
+            "vid": -6871344374547403000
+        },
+        {
+            "id": "_a6875933646625393453",
+            "key": [
+                "shared.cta.playNow"
+            ],
+            "value": "Juega ahora",
+            "vid": -6871344594801293000
+        },
+        {
+            "id": "_a6875933646625393451",
+            "key": [
+                "shared.cta.retry"
+            ],
+            "value": "Rever",
+            "vid": -6871344567018224000
+        },
+        {
+            "id": "_a6875933646625393449",
+            "key": [
+                "shared.cta.submitTicket"
+            ],
+            "value": "Enviar ticket",
+            "vid": -6871344539772025000
+        },
+        {
+            "id": "_a6875933646625393447",
+            "key": [
+                "shared.button.privacyPolicy"
+            ],
+            "value": "política de privacidad",
+            "vid": -6871344482997926000
+        },
+        {
+            "id": "_a6875933646625393445",
+            "key": [
+                "shared.button.termsOfService"
+            ],
+            "value": "Condiciones de servicio",
+            "vid": -6871344448705296000
+        },
+        {
+            "id": "_a6875933646625393443",
+            "key": [
+                "shared.button.language"
+            ],
+            "value": "Idioma",
+            "vid": -6871344422465731000
+        },
+        {
+            "id": "_a6875933646625393441",
+            "key": [
+                "shared.button.ok"
+            ],
+            "value": "De acuerdo",
+            "vid": -6871344027191923000
+        },
+        {
+            "id": "_a6875933646625393439",
+            "key": [
+                "shared.label.offerExpires"
+            ],
+            "value": "La oferta vence en{time}",
+            "vid": -6871343916596515000
+        },
+        {
+            "id": "_a6875933646625393437",
+            "key": [
+                "shared.label.bonusExpires"
+            ],
+            "value": "El bono vence en",
+            "vid": -6871343891497800000
+        },
+        {
+            "id": "_a6875933646625393435",
+            "key": [
+                "shared.label.bonusTag"
+            ],
+            "value": "{multiplier}x Bono",
+            "vid": -6871343864587145000
+        },
+        {
+            "id": "_a6875933646625393433",
+            "key": [
+                "shared.label.completeWithin"
+            ],
+            "value": "Completar dentro {time}",
+            "vid": -6851421917624905000
+        },
+        {
+            "id": "_a6875933646625393431",
+            "key": [
+                "shared.label.totalLimit"
+            ],
+            "value": "Límite total",
+            "vid": -6871343989009578000
+        },
+        {
+            "id": "_a6875933646625393429",
+            "key": [
+                "shared.section.bonusRewards"
+            ],
+            "value": "Recompensas adicionales",
+            "vid": -6871343703592980000
+        },
+        {
+            "id": "_a6875933646625393427",
+            "key": [
+                "shared.section.activeTask"
+            ],
+            "value": "Tarea activa",
+            "vid": -6871343938208168000
+        },
+        {
+            "id": "_a6875933646625393425",
+            "key": [
+                "shared.section.dailyRewards"
+            ],
+            "value": "Recompensas diarias",
+            "vid": -6871343860831648000
+        },
+        {
+            "id": "_a6875933646625393423",
+            "key": [
+                "modals.shared.guidelines.dos.title"
+            ],
+            "value": "Qué hacer",
+            "vid": -6871343573603111000
+        },
+        {
+            "id": "_a6875933646625393421",
+            "key": [
+                "modals.shared.guidelines.donts.title"
+            ],
+            "value": "Qué no hacer",
+            "vid": -6871343793991219000
+        },
+        {
+            "id": "_a6875933646625393419",
+            "key": [
+                "modals.shared.guidelines.dos.list"
+            ],
+            "value": "<li><b>Ver anuncios</b> para aumentar tus ganancias</li>\n<li><b> Juega más</b> para subir de nivel y mantener tu rango.</li>\n<li><b> Realizar compras dentro del juego</b> para maximizar las recompensas.</li>\n<li><b> Sigue jugando</b> para mantener tu nivel actual</li>",
+            "vid": -6852698301775991000
+        },
+        {
+            "id": "_a6875933646625393417",
+            "key": [
+                "modals.shared.guidelines.description"
+            ],
+            "value": "Las recompensas adicionales son ganancias adicionales que se suman a tus tareas activas. Sube de nivel al completarlas.<b> Rápido</b> y<b> Recompensas diarias</b> .",
+            "vid": -6852698376202344000
+        },
+        {
+            "id": "_a6875933646625393415",
+            "key": [
+                "modals.shared.guidelines.label.tips"
+            ],
+            "value": "Aumente sus recompensas con estos consejos:",
+            "vid": -6852698159306496000
+        },
+        {
+            "id": "_a6875933646625393413",
+            "key": [
+                "modals.shared.guidelines.label.startBoosting"
+            ],
+            "value": "Comienza a potenciar tus ganancias ahora y disfruta de recompensas mayores!",
+            "vid": -6852697016241215000
+        },
+        {
+            "id": "_a6875933646625393411",
+            "key": [
+                "modals.shared.guidelines.subtitle"
+            ],
+            "value": "¿Qué son las recompensas de bonificación?",
+            "vid": -6852696727874427000
+        },
+        {
+            "id": "_a6875933646625393409",
+            "key": [
+                "modals.shared.guidelines.donts.list"
+            ],
+            "value": "<li><b>Evite la inactividad</b> , o podrías bajar a un nivel inferior.</li>\n<li><b> Evite hacer trampa</b> , ya que bajará tu nivel y reducirá tus recompensas.</li>",
+            "vid": -6852693869705285000
+        },
+        {
+            "id": "_a6875933646625393405",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.title"
+            ],
+            "value": "Caducado por tiempo máximo",
+            "vid": -6871343519985726000
+        },
+        {
+            "id": "_a6875933646625393403",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.subtitle"
+            ],
+            "value": "Esta tarea expiró porque se alcanzó el tiempo máximo.\n\nContinúe con la siguiente tarea para ganar recompensas.",
+            "vid": -6852693666096991000
+        },
+        {
+            "id": "_a6875933190152514135",
+            "key": [
+                "initialization.intro.title"
+            ],
+            "value": "Estás muy cerca de ganar tu primera recompensa",
+            "vid": -6871343445092234000
+        },
+        {
+            "id": "_a6875844351104107004",
+            "key": [
+                "offerDetails.label.earnUpTo"
+            ],
+            "value": "Gane hasta",
+            "vid": -6871343135650664000
+        },
+        {
+            "id": "_a6875823419177021804",
+            "key": [
+                "offerDetails.label.playAndEarn"
+            ],
+            "value": "Jugar <b>{time}</b> y ganar <b>{amount} !</b>",
+            "vid": -6851422426311414000
+        },
+        {
+            "id": "_a6875819040861830404",
+            "key": [
+                "shared.time.label.second"
+            ],
+            "value": "",
+            "vid": -6871342966404707000
+        },
+        {
+            "id": "_a6875818921273834731",
+            "key": [
+                "shared.time.label.minute"
+            ],
+            "value": "",
+            "vid": -6871342900302476000
+        },
+        {
+            "id": "_a6875818731288640730",
+            "key": [
+                "shared.time.label.hour"
+            ],
+            "value": "",
+            "vid": -6871342595290092000
+        },
+        {
+            "id": "_a6875818603110710482",
+            "key": [
+                "shared.time.label.day"
+            ],
+            "value": "",
+            "vid": -6871342799773398000
+        },
+        {
+            "id": "_a6875805345684905332",
+            "key": [
+                "shared.time.label.second.abbr"
+            ],
+            "value": "s",
+            "vid": -6871342496505844000
+        },
+        {
+            "id": "_a6875805284011859310",
+            "key": [
+                "shared.time.label.minute.abbr"
+            ],
+            "value": "metro",
+            "vid": -6871342709713303000
+        },
+        {
+            "id": "_a6875805219386023273",
+            "key": [
+                "shared.time.label.hour.abbr"
+            ],
+            "value": "h",
+            "vid": -6871342673608734000
+        },
+        {
+            "id": "_a6875805128050859364",
+            "key": [
+                "shared.time.label.day.abbr"
+            ],
+            "value": "d",
+            "vid": -6871342639047669000
+        },
+        {
+            "id": "_a6875576715180486868",
+            "key": [
+                "support.label.uploadYourFile"
+            ],
+            "value": "Sube tu archivo aquí",
+            "vid": -6871342343363416000
+        },
+        {
+            "id": "_a6875571577796911041",
+            "key": [
+                "shared.label.bonusTagCaps"
+            ],
+            "value": "{multiplier}x Bono",
+            "vid": -6871342314640822000
+        },
+        {
+            "id": "_a6875494838945141794",
+            "key": [
+                "errorPage.description.notFound"
+            ],
+            "value": "No se pudo encontrar el recurso solicitado",
+            "vid": -6871342547913831000
+        },
+        {
+            "id": "_a6875494737542359333",
+            "key": [
+                "errorPage.button.returnHome"
+            ],
+            "value": "Regresar a casa",
+            "vid": -6871342515634468000
+        },
+        {
+            "id": "_a6875494628089091083",
+            "key": [
+                "errorPage.description.sessionExpired"
+            ],
+            "value": "Sesión expirada o no encontrada",
+            "vid": -6871342489864664000
+        },
+        {
+            "id": "_a6874958700594795052",
+            "key": [
+                "shared.label.offerExpired"
+            ],
+            "value": "Oferta vencida",
+            "vid": -6871342192972452000
+        },
+        {
+            "id": "_a6874904366168905076",
+            "key": [
+                "offers.section.bonusRewards"
+            ],
+            "value": "Prima\nRecompensas",
+            "vid": -6852693836019259000
+        },
+        {
+            "id": "_a6874897131430712637",
+            "key": [
+                "shared.time.label.left"
+            ],
+            "value": "izquierda",
+            "vid": -6871342368800273000
+        },
+        {
+            "id": "_a6874677181190694875",
+            "key": [
+                "support.page.title"
+            ],
+            "value": "Apoyo",
+            "vid": -6871342076739899000
+        },
+        {
+            "id": "_a6874663697409303883",
+            "key": [
+                "shared.label.total"
+            ],
+            "value": "Total",
+            "vid": -6871342310080017000
+        },
+        {
+            "id": "_a6869019194079275457",
+            "key": [
+                "widget.empty.noOffers"
+            ],
+            "value": "¡Sigue jugando! \n¡Te esperan emocionantes recompensas!",
+            "vid": -6852693036615847000
+        },
+        {
+            "id": "_a6869018420850944428",
+            "key": [
+                "widget.button.continuePlaying"
+            ],
+            "value": "Continuar jugando",
+            "vid": -6852692778450672000
+        },
+        {
+            "id": "_a6854992720551446494",
+            "key": [
+                "shared.status.limitedOfferExpired"
+            ],
+            "value": "Oferta limitada vencida",
+            "vid": -6852692624234502000
+        },
+        {
+            "id": "_a6853797233314736170",
+            "key": [
+                "modals.shared.guidelines.button.seeGuidelines"
+            ],
+            "value": "Ver Directrices",
+            "vid": -6852692336471693000
+        },
+        {
+            "id": "_a6852978545506382673",
+            "key": [
+                "shared.label.bonus"
+            ],
+            "value": "Bono",
+            "vid": -6852692163196606000
+        },
+        {
+            "id": "_a6852978255394763582",
+            "key": [
+                "shared.label.bonusRewards"
+            ],
+            "value": "Recompensas adicionales",
+            "vid": -6852691783357812000
+        },
+        {
+            "id": "_a6852961481067066642",
+            "key": [
+                "offerDetails.button.levelUpNow"
+            ],
+            "value": "Sube de nivel ahora",
+            "vid": -6852691528478346000
+        },
+        {
+            "id": "_a6852961025464988931",
+            "key": [
+                "offerDetails.status.nextLevel"
+            ],
+            "value": "Siguiente nivel",
+            "vid": -6852691531702196000
+        },
+        {
+            "id": "_a6852708389244883616",
+            "key": [
+                "modals.shared.guidelines.title"
+            ],
+            "value": "Recompensas Adicionales",
+            "vid": -6852705082388500000
+        },
+        {
+            "id": "_a6851430774317232747",
+            "key": [
+                "offerDetails.status.maximumLevel"
+            ],
+            "value": "¡Nivel máximo!",
+            "vid": -6851429281077899000
+        },
+        {
+            "id": "_a6844607323132590854",
+            "key": [
+                "initialization.legal.explanation"
+            ],
+            "value": "Por la presente te informamos de que Tyrads Pte. Ltd.   trata los siguientes datos personales en el marco del uso de TyrSDK: \nAplicaciones instaladas (incluida la duración del uso y el historial de uso) \nLos datos se vinculan a tu dispositivo a través del ID del dispositivo (GAID o IDFA) que se transmite a nuestros servidores de forma cifrada. Para que los proveedores de aplicaciones puedan financiar nuestras sugerencias de aplicaciones, debemos enviarles el ID del dispositivo con fines de facturación.\n\nEl tratamiento de los datos mencionados es necesario para poder recomendar aplicaciones a través de mensajes del sistema, instalar aplicaciones disponibles en TyrSDK que se ajusten a tus intereses y calcular las recompensas obtenidas como resultado del uso de las aplicaciones correspondientes.\n\nConsentimiento\n\nAl hacer clic en «Aceptar», doy mi consentimiento a Tyrads Pte. Ltd para que procese los datos personales mencionados anteriormente y los transmita a otras aplicaciones para que pueda utilizar TyrSDK tal y como se ha explicado.\n\nSoy consciente de que los datos anteriores dan lugar a un perfil de intereses que, dependiendo del tipo de aplicaciones que utilice, puede contener datos personales especialmente sensibles (como datos sobre mi salud u orientación sexual, así como cualquier otro dato de categorías especiales definidas en el artículo 9, apartado 1, del Reglamento General de Protección de Datos (RGPD) europeo.\n\nEstos datos serán tratados por Tyrads Pte. Ltd, TyrSDK. Para obtener más información, visita https://tyrads.com/tyrsdk-privacy-policy/. ",
+            "vid": -6844602157292276000
+        },
+        {
+            "id": "_a6813429817972053463",
+            "key": [
+                "shared.button.next"
+            ],
+            "value": "Siguiente",
+            "vid": -6813404563228808000
+        },
+        {
+            "id": "_a6813428426135565070",
+            "key": [
+                "shared.button.back"
+            ],
+            "value": "Atrás",
+            "vid": -6813404506454709000
+        },
+        {
+            "id": "_a6813427918324058708",
+            "key": [
+                "shared.button.understand"
+            ],
+            "value": "Entender",
+            "vid": -6813404439077410000
+        },
+        {
+            "id": "_a6813426980275090133",
+            "key": [
+                "modals.shared.guidelines.step1"
+            ],
+            "value": "<b>Elevar a mismo nivel</b> completando<b> Rápido</b> &<b> A diario</b> ¡Recompensas para ganar 2-3 veces más recompensas!",
+            "vid": -6813400875398022000
+        },
+        {
+            "id": "_a6813426762708153028",
+            "key": [
+                "modals.shared.guidelines.step2"
+            ],
+            "value": "<b>Compra</b> y<b> elevar a mismo nivel</b> inmediatamente.",
+            "vid": -6813404192385226000
+        },
+        {
+            "id": "_a6813426406695629489",
+            "key": [
+                "modals.shared.guidelines.step3"
+            ],
+            "value": "<b>¡No hagas trampa!</b>, ya que esto perjudicará tu nivel.",
+            "vid": -6813403988105844000
+        },
+        {
+            "id": "_a6788860193281881641",
+            "key": [
+                "shared.button.skip"
+            ],
+            "value": "Saltar",
+            "vid": -6788835836388126000
+        },
+        {
+            "id": "_a6770664651105498288",
+            "key": [
+                "shared.label.description"
+            ],
+            "value": "Descripción",
+            "vid": -6761110693051587000
+        },
+        {
+            "id": "_a6770664481521398955",
+            "key": [
+                "shared.button.moreRewards"
+            ],
+            "value": "Más recompensas",
+            "vid": -6761110596481931000
+        },
+        {
+            "id": "_a6770664354886972582",
+            "key": [
+                "shared.label.new"
+            ],
+            "value": "Nuevo",
+            "vid": -6761110473404275000
+        },
+        {
+            "id": "_a6770664181007905951",
+            "key": [
+                "shared.label.rewards"
+            ],
+            "value": "Recompensas",
+            "vid": -6761110415086672000
+        },
+        {
+            "id": "_a6765736803799827981",
+            "key": [
+                "shared.label.contactOurSupport"
+            ],
+            "value": "Póngase en contacto con nuestro servicio de asistencia.",
+            "vid": -6761110323751508000
+        },
+        {
+            "id": "_a6765716724827718706",
+            "key": [
+                "shared.label.max"
+            ],
+            "value": "Máx.",
+            "vid": -6761110271138159000
+        },
+        {
+            "id": "_a6765716567792976941",
+            "key": [
+                "shared.label.limitedTimeOffer"
+            ],
+            "value": "Oferta por tiempo limitado",
+            "vid": -6761110214028515000
+        },
+        {
+            "id": "_a6761173981606675948",
+            "key": [
+                "shared.subtitle.verifying"
+            ],
+            "value": "Estamos verificando tu juego, esto puede tardar unos segundos.",
+            "vid": -6761110137323084000
+        },
+        {
+            "id": "_a6746292325601729961",
+            "key": [
+                "shared.label.moreInformation"
+            ],
+            "value": "Más información",
+            "vid": -6744851650157626000
+        },
+        {
+            "id": "_a6746291075496462474",
+            "key": [
+                "modals.shared.offerCountdownInfo.subtitle"
+            ],
+            "value": "<b>{time}</b> para ganar recompensas. Después de eso, aún podrás jugar, pero no se otorgarán recompensas.",
+            "vid": -6744859603630515000
+        },
+        {
+            "id": "_a6725117237169726516",
+            "key": [
+                "initialization.userInfo.toast.selectAgeGender"
+            ],
+            "value": "Seleccione género y edad para continuar.",
+            "vid": -6724044316220039000
+        },
+        {
+            "id": "_a6691745292020603574",
+            "key": [
+                "activeOffers.section.hotDealsShort"
+            ],
+            "value": "Caliente",
+            "vid": -6684742226780027000
+        },
+        {
+            "id": "_a6691744821724218483",
+            "key": [
+                "activeOffers.section.urgentTasksShort"
+            ],
+            "value": "Urgente",
+            "vid": -6684742138733197000
+        },
+        {
+            "id": "_a6672838810284316772",
+            "key": [
+                "shared.cta.earnNow"
+            ],
+            "value": "Gana ahora ",
+            "vid": -6672809082331310000
+        },
+        {
+            "id": "_a6666219460911676428",
+            "key": [
+                "offerDetails.label.login"
+            ],
+            "value": "Entrar",
+            "vid": -6659005355138177000
+        },
+        {
+            "id": "_a6662744229395971395",
+            "key": [
+                "shared.button.gotIt"
+            ],
+            "value": "Entendido",
+            "vid": -6659005266890021000
+        },
+        {
+            "id": "_a6662744036254112806",
+            "key": [
+                "shared.button.reset"
+            ],
+            "value": "Restablecer",
+            "vid": -6659005224477219000
+        },
+        {
+            "id": "_a6662743893717433662",
+            "key": [
+                "shared.label.chooseYourRewards"
+            ],
+            "value": "Elige tus recompensas",
+            "vid": -6659005168774190000
+        },
+        {
+            "id": "_a6662743758557633569",
+            "key": [
+                "shared.label.filter"
+            ],
+            "value": "Filtro",
+            "vid": -6659005120928242000
+        },
+        {
+            "id": "_a6662743628033441081",
+            "key": [
+                "shared.button.showOffers"
+            ],
+            "value": "Mostrar ofertas",
+            "vid": -6659005068379330000
+        },
+        {
+            "id": "_a6662743516831505436",
+            "key": [
+                "shared.button.showAllOffers"
+            ],
+            "value": "Ver todas las ofertas",
+            "vid": -6659005016101524000
+        },
+        {
+            "id": "_a6662743343626075444",
+            "key": [
+                "shared.subtitle.youCanSwitch"
+            ],
+            "value": "Puedes cambiar tus recompensas en cualquier momento pulsando este botón.",
+            "vid": -6659004952082340000
+        }
+    ],
+    "message": "OK"
+}

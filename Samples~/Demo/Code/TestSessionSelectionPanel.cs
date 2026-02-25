@@ -14,12 +14,19 @@ namespace TyrAds.Demo
         [SerializeField] private Button applyButton;
         
         private readonly TestSessionsProvider _testSessionsProvider = new();
+        
         private TestSessionConfig _selectedSessionConfig;
 
         private void Awake()
         {
-            bool isTestSessionAvailable = _testSessionsProvider.TestSessions.Count > 0;
+            bool isTestSessionAvailable = _testSessionsProvider.IsTestSessionAvailable;
             gameObject.SetActive(isTestSessionAvailable);
+
+            if (!isTestSessionAvailable)
+            {
+                Destroy(gameObject);
+                return;
+            }
 
             applyButton.onClick.AddListener(OnApplyButtonClicked);
             sessionSelection.onValueChanged.AddListener(OnSessionSelected);

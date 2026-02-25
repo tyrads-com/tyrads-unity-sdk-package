@@ -1,0 +1,1517 @@
+﻿{
+    "data": [
+        {
+            "id": "_a6875933646692502547",
+            "key": [
+                "initialization.intro.subtitle"
+            ],
+            "value": "좋아하는 게임을 플레이하고 보상을 받으세요.",
+            "vid": -6850468045923518000
+        },
+        {
+            "id": "_a6875933646692502545",
+            "key": [
+                "initialization.intro.label.iHaveRead"
+            ],
+            "value": "본인은 <tos>서비스 약관</tos> 과 <pp>개인정보 처리방침</pp>을 읽고 동의합니다.",
+            "vid": -6843347288175813000
+        },
+        {
+            "id": "_a6875933646692502541",
+            "key": [
+                "initialization.intro.cta.accept"
+            ],
+            "value": "동의",
+            "vid": -6871385493289228000
+        },
+        {
+            "id": "_a6875933646692502539",
+            "key": [
+                "initialization.intro.cta.reject"
+            ],
+            "value": "거부",
+            "vid": -6871385716026146000
+        },
+        {
+            "id": "_a6875933646692502537",
+            "key": [
+                "initialization.usagePermission.title"
+            ],
+            "value": "앱 사용 기록 추적을 허용하면 더 많은 보상을 받을 수 있습니다.",
+            "vid": -6850456580170150000
+        },
+        {
+            "id": "_a6875933646692502535",
+            "key": [
+                "initialization.usagePermission.label"
+            ],
+            "value": "사용 기록 액세스 허용",
+            "vid": -6850457719143090000
+        },
+        {
+            "id": "_a6875933646692502533",
+            "key": [
+                "initialization.usagePermission.description"
+            ],
+            "value": "사용 기록 액세스를 허용하면, 이 앱은 사용 중인 다른 앱과 사용 빈도, 통신사, 언어 설정 등 일부 기기 정보를 확인할 수 있습니다.",
+            "vid": -6850459098231572000
+        },
+        {
+            "id": "_a6875933646692502531",
+            "key": [
+                "initialization.userInfo.title"
+            ],
+            "value": "게임을 즐기시려면 성별과 연령을 입력해 주세요!",
+            "vid": -6720561498988202000
+        },
+        {
+            "id": "_a6875933646692502529",
+            "key": [
+                "initialization.userInfo.chooseGender.label"
+            ],
+            "value": "성별 선택",
+            "vid": -6850455449722636000
+        },
+        {
+            "id": "_a6875933646692502527",
+            "key": [
+                "initialization.userInfo.gender.male"
+            ],
+            "value": "남성",
+            "vid": -6871384681878552000
+        },
+        {
+            "id": "_a6875933646692502525",
+            "key": [
+                "initialization.userInfo.gender.female"
+            ],
+            "value": "여성",
+            "vid": -6871384396998826000
+        },
+        {
+            "id": "_a6875933646692502523",
+            "key": [
+                "initialization.userInfo.chooseAge.label"
+            ],
+            "value": "나이 선택",
+            "vid": -6850455594206720000
+        },
+        {
+            "id": "_a6875933646692502521",
+            "key": [
+                "initialization.userInfo.cta.continue"
+            ],
+            "value": "계속",
+            "vid": -6850455345434161000
+        },
+        {
+            "id": "_a6875933646692502519",
+            "key": [
+                "widget.page.title"
+            ],
+            "value": "프리미엄 게임",
+            "vid": -6871384327071390000
+        },
+        {
+            "id": "_a6875933646692502517",
+            "key": [
+                "widget.button.moreOffers"
+            ],
+            "value": "추가 보상 미션",
+            "vid": -6845923452843982000
+        },
+        {
+            "id": "_a6875933646692502515",
+            "key": [
+                "widget.button.play"
+            ],
+            "value": "플레이",
+            "vid": -6845923319632887000
+        },
+        {
+            "id": "_a6875933646692502513",
+            "key": [
+                "offers.page.title"
+            ],
+            "value": "보상 미션",
+            "vid": -6846815290387848000
+        },
+        {
+            "id": "_a6875933646692502511",
+            "key": [
+                "offers.subtitle.yourEarnings"
+            ],
+            "value": "내 보상\n{multiplier} 배 보너스 활성화",
+            "vid": -6846813425365409000
+        },
+        {
+            "id": "_a6875933646692502509",
+            "key": [
+                "offers.button.activeOffers"
+            ],
+            "value": "진행 중인 보상 미션",
+            "vid": -6846820283488656000
+        },
+        {
+            "id": "_a6875933646692502507",
+            "key": [
+                "offers.section.premiumGames"
+            ],
+            "value": "프리미엄 게임",
+            "vid": -6871384175808010000
+        },
+        {
+            "id": "_a6875933646692502505",
+            "key": [
+                "offers.section.otherGames"
+            ],
+            "value": "다른 게임",
+            "vid": -6871384414382620000
+        },
+        {
+            "id": "_a6875933646692502503",
+            "key": [
+                "offers.empty.noOffers"
+            ],
+            "value": "현재 이용 가능한 보상 미션이 없습니다!",
+            "vid": -6788837640140172000
+        },
+        {
+            "id": "_a6875933646692502501",
+            "key": [
+                "offers.modal.welcomeBack.title"
+            ],
+            "value": "다시 오신 것을 환영합니다",
+            "vid": -6846815641368510000
+        },
+        {
+            "id": "_a6875933646692502499",
+            "key": [
+                "offers.modal.welcomeBack.subtitle"
+            ],
+            "value": "다시 게임으로 돌아갈 시간입니다! <b>{multiplier} 배</b> 보너스 보상이 기다리고 있어요!",
+            "vid": -6846816614581256000
+        },
+        {
+            "id": "_a6875933646692502497",
+            "key": [
+                "offers.modal.welcomeBack.button.goToActiveOffers"
+            ],
+            "value": "진행중인 보상 미션으로 이동",
+            "vid": -6846818016819666000
+        },
+        {
+            "id": "_a6875933646692502495",
+            "key": [
+                "offers.modal.dontMiss.title"
+            ],
+            "value": "놓치지 마세요! 기간 한정 이벤트 – 마감 전에 받아가세요.",
+            "vid": -6846033543662927000
+        },
+        {
+            "id": "_a6875933646692502493",
+            "key": [
+                "offers.modal.limitedTimeOffer.title"
+            ],
+            "value": "기간 한정 이벤트 - 마감 전에 받아가세요",
+            "vid": -6846032438712860000
+        },
+        {
+            "id": "_a6875933646692502491",
+            "key": [
+                "offerDetails.page.title"
+            ],
+            "value": "보상 미션 상세",
+            "vid": -6846824566779011000
+        },
+        {
+            "id": "_a6875933646692502489",
+            "key": [
+                "offerDetails.label.earn"
+            ],
+            "value": "획득",
+            "vid": -6846832298862298000
+        },
+        {
+            "id": "_a6875933646692502487",
+            "key": [
+                "offerDetails.section.description"
+            ],
+            "value": "설명",
+            "vid": -6871383895091631000
+        },
+        {
+            "id": "_a6875933646625393621",
+            "key": [
+                "offerDetails.section.playTime"
+            ],
+            "value": "플레이 시간",
+            "vid": -6846824340557653000
+        },
+        {
+            "id": "_a6875933646625393619",
+            "key": [
+                "shared.section.quickRewards"
+            ],
+            "value": "빠른 보상",
+            "vid": -6871383849323386000
+        },
+        {
+            "id": "_a6875933646625393617",
+            "key": [
+                "offerDetails.cta.seeProgress"
+            ],
+            "value": "진행 상황 보기",
+            "vid": -6871383822211405000
+        },
+        {
+            "id": "_a6875933646625393615",
+            "key": [
+                "offerDetails.cta.seeStatus"
+            ],
+            "value": "상태 보기",
+            "vid": -6871383797381125000
+        },
+        {
+            "id": "_a6875933646625393613",
+            "key": [
+                "offerDetails.button.needHelp"
+            ],
+            "value": "도움이 필요하신가요?",
+            "vid": -6871384033472708000
+        },
+        {
+            "id": "_a6875933646625393607",
+            "key": [
+                "offerDetails.status.completePreviousTask"
+            ],
+            "value": "이전 작업 완료",
+            "vid": -6871383694704563000
+        },
+        {
+            "id": "_a6875933646625393605",
+            "key": [
+                "offerDetails.status.yourTicketHasBeenSubmitted"
+            ],
+            "value": "문의가 접수되었습니다.",
+            "vid": -6846821287304348000
+        },
+        {
+            "id": "_a6875933646625393603",
+            "key": [
+                "offerDetails.status.weAreProcessingYourProgress"
+            ],
+            "value": "진행 상황을 처리하고 있습니다.",
+            "vid": -6846822042613309000
+        },
+        {
+            "id": "_a6875933646625393601",
+            "key": [
+                "offerDetails.status.progressRejected"
+            ],
+            "value": "진행이 거부되었습니다",
+            "vid": -6765725863645709000
+        },
+        {
+            "id": "_a6875933646625393599",
+            "key": [
+                "offerDetails.description.completeQuick&DailyRewards"
+            ],
+            "value": "아래의 빠른 보상과 일일 보상을 완료해 레벨업하세요.",
+            "vid": -6846838836070959000
+        },
+        {
+            "id": "_a6875933646625393597",
+            "key": [
+                "offerDetails.description.downloadInstruction.followStep"
+            ],
+            "value": "다음 단계를 따라 다운로드 실패를 방지하고 보상을 꼭 받으세요.",
+            "vid": -6846837287331291000
+        },
+        {
+            "id": "_a6875933646625393595",
+            "key": [
+                "offerDetails.description.downloadInstruction.stepByStep"
+            ],
+            "value": "<li>게임 설정을 위해 <b>{appstore}</b>을 선택하세요</li>\n<li><b>\"확인\"</b> 버튼을 클릭한 후 즉시 설정하세요</li>\n<li>설정이 완료되면 <b>{appstore}에서 게임을 실행하세요</b></li>",
+            "vid": -6801664511517081000
+        },
+        {
+            "id": "_a6875933646625393593",
+            "key": [
+                "offerDetails.description.downloadInstruction.note"
+            ],
+            "value": "참고: 활성화에 실패한 경우, 계속 플레이하지 마십시오!",
+            "vid": -6801666883277251000
+        },
+        {
+            "id": "_a6875933646625393591",
+            "key": [
+                "offerDetails.modal.myPlayTime.title"
+            ],
+            "value": "내 플레이 시간",
+            "vid": -6846824940980659000
+        },
+        {
+            "id": "_a6875933646625393589",
+            "key": [
+                "offerDetails.modal.myPlayTime.status.onProgress"
+            ],
+            "value": "진행 중",
+            "vid": -6846827235564315000
+        },
+        {
+            "id": "_a6875933646625393587",
+            "key": [
+                "offerDetails.modal.myPlayTime.subtitle"
+            ],
+            "value": "보상 미션 잠금 해제 후 플레이 시간 기록 보기!",
+            "vid": -6846825152038036000
+        },
+        {
+            "id": "_a6875933646625393585",
+            "key": [
+                "offerDetails.modal.myPlayTime.label.play"
+            ],
+            "value": "{time} 플레이",
+            "vid": -6846827607615857000
+        },
+        {
+            "id": "_a6875933646625393565",
+            "key": [
+                "activeOffers.page.title"
+            ],
+            "value": "참여 가능한 보상 미션",
+            "vid": -6850479831109825000
+        },
+        {
+            "id": "_a6875933646625393563",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6785365537037196000
+        },
+        {
+            "id": "_a6875933646625393561",
+            "key": [
+                "activeOffers.cta.startPlaying"
+            ],
+            "value": "플레이 시작",
+            "vid": -6850661299117855000
+        },
+        {
+            "id": "_a6875933646625393559",
+            "key": [
+                "activeOffers.cta.seeAllTasks"
+            ],
+            "value": "모든 작업 보기",
+            "vid": -6871382316422714000
+        },
+        {
+            "id": "_a6875933646625393557",
+            "key": [
+                "activeOffers.section.hotDeals"
+            ],
+            "value": "핫딜",
+            "vid": -6871382292666177000
+        },
+        {
+            "id": "_a6875933646625393555",
+            "key": [
+                "activeOffers.section.urgentTasks"
+            ],
+            "value": "긴급 보상 미션",
+            "vid": -6850477233327001000
+        },
+        {
+            "id": "_a6875933646625393553",
+            "key": [
+                "activeOffers.section.all"
+            ],
+            "value": "전체",
+            "vid": -6850632692821096000
+        },
+        {
+            "id": "_a6875933646625393551",
+            "key": [
+                "activeOffers.section.limitedTimeOffer"
+            ],
+            "value": "기간 한정 이벤트 - 곧 종료",
+            "vid": -6846033902021639000
+        },
+        {
+            "id": "_a6875933646625393549",
+            "key": [
+                "activeOffers.subtitle.overallEarnings"
+            ],
+            "value": "누적 보상",
+            "vid": -6850476343327945000
+        },
+        {
+            "id": "_a6875933646625393547",
+            "key": [
+                "activeOffers.modal.moreInformation.title"
+            ],
+            "value": "추가 정보",
+            "vid": -6850662148112093000
+        },
+        {
+            "id": "_a6875933646625393545",
+            "key": [
+                "activeOffers.modal.moreInformation.retry.subtitle"
+            ],
+            "value": "게임 설치가 완료되면 보상을 받으실 수 있습니다. 처음인 경우, <b>다운로드가 완전히 끝났는지 확인하세요</b> . \n\n중단된 경우 <b>재시도</b>를 탭하고 설치를 완료한 후 보상을 받으세요!",
+            "vid": -6850676648121685000
+        },
+        {
+            "id": "_a6875933646625393543",
+            "key": [
+                "activeOffers.modal.moreInformation.previouslyDownloaded.subtitle"
+            ],
+            "value": "이 게임은 이전에 플레이한 게임 <b>과 다릅니다</b>. 따라서 진행 상황이 추적되지 않으며, {currencyName} 보상을 획득할 수 없습니다.\n\n보상을 계속 획득하려면 다른 게임을 선택해 주세요.",
+            "vid": -6801642801933793000
+        },
+        {
+            "id": "_a6875933646625393541",
+            "key": [
+                "activeOffers.modal.moreInformation.unavailable.subtitle"
+            ],
+            "value": "죄송합니다. 이 게임은 현재 <b>이용할 수 없습니다</b>.",
+            "vid": -6850634921776207000
+        },
+        {
+            "id": "_a6875933646625393539",
+            "key": [
+                "modals.shared.temporarilyUnavailable.title"
+            ],
+            "value": "일시적으로 이용 불가",
+            "vid": -6846841320641126000
+        },
+        {
+            "id": "_a6875933646625393537",
+            "key": [
+                "modals.shared.temporarilyUnavailable.subtitle"
+            ],
+            "value": "이 게임은 <b>일시적으로 이용할 수 없습니다</b>. 나중에 다시 확인해 주세요!",
+            "vid": -6846842157086007000
+        },
+        {
+            "id": "_a6875933646625393535",
+            "key": [
+                "activeOffers.button.moreInformation"
+            ],
+            "value": "추가 정보",
+            "vid": -6850661980472825000
+        },
+        {
+            "id": "_a6875933646625393533",
+            "key": [
+                "support.page.subtitle"
+            ],
+            "value": "보상을 받지 못했습니다",
+            "vid": -6871381954705937000
+        },
+        {
+            "id": "_a6875933646625393531",
+            "key": [
+                "support.subtitle.happyToHelp"
+            ],
+            "value": "기꺼이 도와드리겠습니다!",
+            "vid": -6845927899879964000
+        },
+        {
+            "id": "_a6875933646625393529",
+            "key": [
+                "support.subtitle.selectTask"
+            ],
+            "value": "완료했다고 생각하지만 {currencyName} 지급이 되지 않은 미션을 선택하세요.",
+            "vid": -6845926668767854000
+        },
+        {
+            "id": "_a6875933646625393527",
+            "key": [
+                "support.section.tasks"
+            ],
+            "value": "미션",
+            "vid": -6845930599135313000
+        },
+        {
+            "id": "_a6875933646625393525",
+            "key": [
+                "support.label.gamePlayerID"
+            ],
+            "value": "게임 플레이어 ID",
+            "vid": -6871381846056687000
+        },
+        {
+            "id": "_a6875933646625393523",
+            "key": [
+                "support.label.orderID"
+            ],
+            "value": "주문 ID",
+            "vid": -6871381821025080000
+        },
+        {
+            "id": "_a6875933646625393521",
+            "key": [
+                "support.label.screenshot"
+            ],
+            "value": "스크린샷",
+            "vid": -6871381793040684000
+        },
+        {
+            "id": "_a6875933646625393519",
+            "key": [
+                "support.button.browseFile"
+            ],
+            "value": "파일 선택",
+            "vid": -6846010304598900000
+        },
+        {
+            "id": "_a6875933646625393517",
+            "key": [
+                "support.subtitle.ticketSubmittedSuccessfully"
+            ],
+            "value": "문의가 정상적으로 접수되었습니다!",
+            "vid": -6845925332227718000
+        },
+        {
+            "id": "_a6875933646625393515",
+            "key": [
+                "support.subtitle.thankYouForReachingOut"
+            ],
+            "value": "문의해 주셔서 감사합니다!\n고객 지원팀이 요청을 검토하고 곧 답변드리겠습니다.",
+            "vid": -6845925796688166000
+        },
+        {
+            "id": "_a6875933646625393513",
+            "key": [
+                "support.status.haventReachedThisLevel"
+            ],
+            "value": "아직 이 레벨에 도달하지 않았습니다",
+            "vid": -6845929805704592000
+        },
+        {
+            "id": "_a6875933646625393511",
+            "key": [
+                "support.status.ticketBeingProcessed"
+            ],
+            "value": "문의는 24시간 이내에 처리됩니다",
+            "vid": -6845928762832846000
+        },
+        {
+            "id": "_a6875933646625393509",
+            "key": [
+                "support.status.ticketBeingRejected"
+            ],
+            "value": "문의가 거부되었습니다",
+            "vid": -6845928428899139000
+        },
+        {
+            "id": "_a6875933646625393507",
+            "key": [
+                "support.status.ticketBeingApproved"
+            ],
+            "value": "문의가 승인되었습니다",
+            "vid": -6845929167700622000
+        },
+        {
+            "id": "_a6875933646625393505",
+            "key": [
+                "support.status.haveCompletedThisLevel"
+            ],
+            "value": "이 레벨을 완료했습니다",
+            "vid": -6871381591043003000
+        },
+        {
+            "id": "_a6875933646625393503",
+            "key": [
+                "support.description.clickHereToSeeExample"
+            ],
+            "value": "예시 보기",
+            "vid": -6845934112885702000
+        },
+        {
+            "id": "_a6875933646625393501",
+            "key": [
+                "support.description.pleaseAttach"
+            ],
+            "value": "위 예시와 같이 주문 ID(Order ID)와 스크린샷을 첨부해 주세요.",
+            "vid": -6845933162557079000
+        },
+        {
+            "id": "_a6875933646625393499",
+            "key": [
+                "support.button.preview"
+            ],
+            "value": "미리보기",
+            "vid": -6846009613377601000
+        },
+        {
+            "id": "_a6875933646625393497",
+            "key": [
+                "support.button.iUnderstand"
+            ],
+            "value": "확인",
+            "vid": -6846009768734621000
+        },
+        {
+            "id": "_a6875933646625393495",
+            "key": [
+                "support.modal.gamePlayerID.title"
+            ],
+            "value": "게임 플레이어 ID",
+            "vid": -6871381464005924000
+        },
+        {
+            "id": "_a6875933646625393493",
+            "key": [
+                "support.modal.gamePlayerID.subtitle"
+            ],
+            "value": "이것은 게임 프로필에 표시되는 고유 ID입니다.",
+            "vid": -6845931653077401000
+        },
+        {
+            "id": "_a6875933646625393491",
+            "key": [
+                "errorPage.title"
+            ],
+            "value": "앗!",
+            "vid": -6871381412801861000
+        },
+        {
+            "id": "_a6875933646625393489",
+            "key": [
+                "errorPage.description.failedToLoad"
+            ],
+            "value": "불러오기에 실패했습니다. 페이지를 다시 불러오세요.",
+            "vid": -6850471324054680000
+        },
+        {
+            "id": "_a6875933646625393487",
+            "key": [
+                "errorPage.button.reload"
+            ],
+            "value": "다시 불러오기",
+            "vid": -6850474925720302000
+        },
+        {
+            "id": "_a6875933646625393485",
+            "key": [
+                "errorPage.button.refresh"
+            ],
+            "value": "새로고침",
+            "vid": -6850475557214712000
+        },
+        {
+            "id": "_a6875933646625393483",
+            "key": [
+                "errorPage.description.weCouldntConnect"
+            ],
+            "value": "연결할 수 없습니다. 다시 시도해 주세요.",
+            "vid": -6850468783851260000
+        },
+        {
+            "id": "_a6875933646625393481",
+            "key": [
+                "settings.page.title"
+            ],
+            "value": "설정",
+            "vid": -6871381276235322000
+        },
+        {
+            "id": "_a6875933646625393479",
+            "key": [
+                "language.page.title"
+            ],
+            "value": "언어",
+            "vid": -6871381251874805000
+        },
+        {
+            "id": "_a6875933646625393477",
+            "key": [
+                "shared.error.emptyField"
+            ],
+            "value": "필수 입력 항목입니다.",
+            "vid": -6846810933210635000
+        },
+        {
+            "id": "_a6875933646625393475",
+            "key": [
+                "shared.status.rejected"
+            ],
+            "value": "거부됨",
+            "vid": -6871381200737850000
+        },
+        {
+            "id": "_a6875933646625393473",
+            "key": [
+                "shared.status.expired"
+            ],
+            "value": "만료",
+            "vid": -6846034916506336000
+        },
+        {
+            "id": "_a6875933646625393471",
+            "key": [
+                "shared.status.completed"
+            ],
+            "value": "완료",
+            "vid": -6846035105753333000
+        },
+        {
+            "id": "_a6875933646625393469",
+            "key": [
+                "shared.status.expiredDueToMaxtime"
+            ],
+            "value": "시간 초과로 만료",
+            "vid": -6846034464461028000
+        },
+        {
+            "id": "_a6875933646625393467",
+            "key": [
+                "shared.subtitle.couldntValidate"
+            ],
+            "value": "다운로드를 확인할 수 없습니다.",
+            "vid": -6846022895296839000
+        },
+        {
+            "id": "_a6875933646625393465",
+            "key": [
+                "shared.subtitle.retry"
+            ],
+            "value": "앱 내 특정 액션이 제대로 <b>추적</b>되지 않고 있습니다 (예: 레벨 완료, 광고 시청). 이로 인해 <b>진행 상황</b>에 <b>문제</b>가 발생할 수 있으니 유의해 주세요.",
+            "vid": -6728773608795496000
+        },
+        {
+            "id": "_a6875933646625393463",
+            "key": [
+                "shared.subtitle.installing"
+            ],
+            "value": "활성화 중...",
+            "vid": -6788836598410600000
+        },
+        {
+            "id": "_a6875933646625393461",
+            "key": [
+                "shared.subtitle.finishInstall"
+            ],
+            "value": "설치를 완료해 모든 보상을 잠금 해제하세요. 최대 획득",
+            "vid": -6846021340116024000
+        },
+        {
+            "id": "_a6875933646625393459",
+            "key": [
+                "shared.subtitle.previouslyDownloaded"
+            ],
+            "value": "이 게임은 <b>이전에 다운로드</b>한 적이 있어 진행 상황이 추적되지 않으며 {currencyName} 획득이 불가능합니다. 다른 새 게임을 선택해 주세요.",
+            "vid": -6846018595295067000
+        },
+        {
+            "id": "_a6875933646625393457",
+            "key": [
+                "shared.subtitle.temporarilyUnavailable"
+            ],
+            "value": "죄송합니다. 이 게임은 <b>일시적으로 이용할 수 없습니다</b>. 나중에 다시 방문해 주세요!",
+            "vid": -6846012469329526000
+        },
+        {
+            "id": "_a6875933646625393455",
+            "key": [
+                "shared.subtitle.unavailable"
+            ],
+            "value": "죄송합니다. 현재 이 게임은 <b>이용할 수 없습니다</b>.",
+            "vid": -6846011433439722000
+        },
+        {
+            "id": "_a6875933646625393453",
+            "key": [
+                "shared.cta.playNow"
+            ],
+            "value": "지금 플레이",
+            "vid": -6871380866468599000
+        },
+        {
+            "id": "_a6875933646625393451",
+            "key": [
+                "shared.cta.retry"
+            ],
+            "value": "재시도",
+            "vid": -6850679593665270000
+        },
+        {
+            "id": "_a6875933646625393449",
+            "key": [
+                "shared.cta.submitTicket"
+            ],
+            "value": "문의 제출",
+            "vid": -6846811459411238000
+        },
+        {
+            "id": "_a6875933646625393447",
+            "key": [
+                "shared.button.privacyPolicy"
+            ],
+            "value": "개인정보 보호정책",
+            "vid": -6871380787078813000
+        },
+        {
+            "id": "_a6875933646625393445",
+            "key": [
+                "shared.button.termsOfService"
+            ],
+            "value": "서비스 약관",
+            "vid": -6871380755738973000
+        },
+        {
+            "id": "_a6875933646625393443",
+            "key": [
+                "shared.button.language"
+            ],
+            "value": "언어",
+            "vid": -6871380729365190000
+        },
+        {
+            "id": "_a6875933646625393441",
+            "key": [
+                "shared.button.ok"
+            ],
+            "value": "확인",
+            "vid": -6846812196199456000
+        },
+        {
+            "id": "_a6875933646625393439",
+            "key": [
+                "shared.label.offerExpires"
+            ],
+            "value": "보상 미션이 {time} 안에 만료됩니다.",
+            "vid": -6846036614494813000
+        },
+        {
+            "id": "_a6875933646625393437",
+            "key": [
+                "shared.label.bonusExpires"
+            ],
+            "value": "보너스 만료까지",
+            "vid": -6846040997174705000
+        },
+        {
+            "id": "_a6875933646625393435",
+            "key": [
+                "shared.label.bonusTag"
+            ],
+            "value": "{multiplier}x 보너스",
+            "vid": -6871380623467402000
+        },
+        {
+            "id": "_a6875933646625393433",
+            "key": [
+                "shared.label.completeWithin"
+            ],
+            "value": "{time} 이내 완료",
+            "vid": -6846038035256573000
+        },
+        {
+            "id": "_a6875933646625393431",
+            "key": [
+                "shared.label.totalLimit"
+            ],
+            "value": "전체 한도",
+            "vid": -6846036145873616000
+        },
+        {
+            "id": "_a6875933646625393429",
+            "key": [
+                "shared.section.bonusRewards"
+            ],
+            "value": "보너스 보상",
+            "vid": -6846035294195023000
+        },
+        {
+            "id": "_a6875933646625393427",
+            "key": [
+                "shared.section.activeTask"
+            ],
+            "value": "활성 미션",
+            "vid": -6846035431768194000
+        },
+        {
+            "id": "_a6875933646625393425",
+            "key": [
+                "shared.section.dailyRewards"
+            ],
+            "value": "일일 보상",
+            "vid": -6871380499785766000
+        },
+        {
+            "id": "_a6875933646625393423",
+            "key": [
+                "modals.shared.guidelines.dos.title"
+            ],
+            "value": "권장 사항",
+            "vid": -6846854551356296000
+        },
+        {
+            "id": "_a6875933646625393421",
+            "key": [
+                "modals.shared.guidelines.donts.title"
+            ],
+            "value": "금지 사항",
+            "vid": -6846855229758498000
+        },
+        {
+            "id": "_a6875933646625393419",
+            "key": [
+                "modals.shared.guidelines.dos.list"
+            ],
+            "value": "<li><b>광고를 시청</b>하여 수익을 늘리세요.</li>\n<li><b>더 많이 플레이</b>해서 레벨을 올리고 순위를 유지하세요.</li>\n<li><b>인게임 아이템을 구매</b>해 보상을 최대화하세요.</li>\n<li><b>계속 플레이</b>해서 현재 레벨을 유지하세요.</li>",
+            "vid": -6846849496583760000
+        },
+        {
+            "id": "_a6875933646625393417",
+            "key": [
+                "modals.shared.guidelines.description"
+            ],
+            "value": "보너스 보상은 진행 중인 미션에 추가로 지급되는 수익입니다. <b>빠른 보상</b>과 <b>일일 보상</b>을 완료해 레벨을 올리세요.",
+            "vid": -6846859854432947000
+        },
+        {
+            "id": "_a6875933646625393415",
+            "key": [
+                "modals.shared.guidelines.label.tips"
+            ],
+            "value": "이 팁으로 보상을 늘려보세요:",
+            "vid": -6846847939387057000
+        },
+        {
+            "id": "_a6875933646625393413",
+            "key": [
+                "modals.shared.guidelines.label.startBoosting"
+            ],
+            "value": "지금 부스트를 시작해 더 큰 보상을 받으세요!",
+            "vid": -6846848659870444000
+        },
+        {
+            "id": "_a6875933646625393411",
+            "key": [
+                "modals.shared.guidelines.subtitle"
+            ],
+            "value": "보너스 보상이란?",
+            "vid": -6846846973290473000
+        },
+        {
+            "id": "_a6875933646625393409",
+            "key": [
+                "modals.shared.guidelines.donts.list"
+            ],
+            "value": "<li><b>활동을 멈추지 마세요</b>, 레벨이 내려갈 수 있습니다.</li>\n<li><b>부정 행위를 하지 마세요</b>, 레벨이 하락하고 보상이 줄어듭니다.</li>",
+            "vid": -6846856093382469000
+        },
+        {
+            "id": "_a6875933646625393405",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.title"
+            ],
+            "value": "시간 초과로 종료",
+            "vid": -6846863103373075000
+        },
+        {
+            "id": "_a6875933646625393403",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.subtitle"
+            ],
+            "value": "제한 시간이 지나 이 미션이 종료되었습니다.\n\n다음 미션을 진행해 보상을 받으세요.",
+            "vid": -6846862817959077000
+        },
+        {
+            "id": "_a6875933190152514135",
+            "key": [
+                "initialization.intro.title"
+            ],
+            "value": "첫 보상을 받기까지 얼마 남지 않았습니다.",
+            "vid": -6846866219774502000
+        },
+        {
+            "id": "_a6875844351104107004",
+            "key": [
+                "offerDetails.label.earnUpTo"
+            ],
+            "value": "최대 획득",
+            "vid": -6846830188354331000
+        },
+        {
+            "id": "_a6875823419177021804",
+            "key": [
+                "offerDetails.label.playAndEarn"
+            ],
+            "value": "<b>{time}</b> 플레이하고 <b>{amount}</b> 획득!",
+            "vid": -6846827927322485000
+        },
+        {
+            "id": "_a6875819040861830404",
+            "key": [
+                "shared.time.label.second"
+            ],
+            "value": "",
+            "vid": -6871379840309558000
+        },
+        {
+            "id": "_a6875818921273834731",
+            "key": [
+                "shared.time.label.minute"
+            ],
+            "value": "",
+            "vid": -6871379625426976000
+        },
+        {
+            "id": "_a6875818731288640730",
+            "key": [
+                "shared.time.label.hour"
+            ],
+            "value": "",
+            "vid": -6871379559526071000
+        },
+        {
+            "id": "_a6875818603110710482",
+            "key": [
+                "shared.time.label.day"
+            ],
+            "value": "",
+            "vid": -6845889795201170000
+        },
+        {
+            "id": "_a6875805345684905332",
+            "key": [
+                "shared.time.label.second.abbr"
+            ],
+            "value": "초",
+            "vid": -6846010957772094000
+        },
+        {
+            "id": "_a6875805284011859310",
+            "key": [
+                "shared.time.label.minute.abbr"
+            ],
+            "value": "분",
+            "vid": -6846011090848972000
+        },
+        {
+            "id": "_a6875805219386023273",
+            "key": [
+                "shared.time.label.hour.abbr"
+            ],
+            "value": "시간",
+            "vid": -6871379419738308000
+        },
+        {
+            "id": "_a6875805128050859364",
+            "key": [
+                "shared.time.label.day.abbr"
+            ],
+            "value": "일",
+            "vid": -6846011220369079000
+        },
+        {
+            "id": "_a6875576715180486868",
+            "key": [
+                "support.label.uploadYourFile"
+            ],
+            "value": "여기에 파일을 업로드하세요",
+            "vid": -6871379105734607000
+        },
+        {
+            "id": "_a6875571577796911041",
+            "key": [
+                "shared.label.bonusTagCaps"
+            ],
+            "value": "{multiplier}x 보너스",
+            "vid": -6871379340549848000
+        },
+        {
+            "id": "_a6875494838945141794",
+            "key": [
+                "errorPage.description.notFound"
+            ],
+            "value": "죄송합니다. 해당 페이지를 찾을 수 없습니다.",
+            "vid": -6752970029485729000
+        },
+        {
+            "id": "_a6875494737542359333",
+            "key": [
+                "errorPage.button.returnHome"
+            ],
+            "value": "홈으로 이동",
+            "vid": -6850474424822368000
+        },
+        {
+            "id": "_a6875494628089091083",
+            "key": [
+                "errorPage.description.sessionExpired"
+            ],
+            "value": "세션이 만료되었거나 찾을 수 없습니다.",
+            "vid": -6871378985609740000
+        },
+        {
+            "id": "_a6874958700594795052",
+            "key": [
+                "shared.label.offerExpired"
+            ],
+            "value": "보상 미션이 만료되었습니다",
+            "vid": -6846037183714819000
+        },
+        {
+            "id": "_a6874904366168905076",
+            "key": [
+                "offers.section.bonusRewards"
+            ],
+            "value": "보너스 \n보상",
+            "vid": -6846815046985302000
+        },
+        {
+            "id": "_a6874897131430712637",
+            "key": [
+                "shared.time.label.left"
+            ],
+            "value": "왼쪽",
+            "vid": -6871378896354951000
+        },
+        {
+            "id": "_a6874677181190694875",
+            "key": [
+                "support.page.title"
+            ],
+            "value": "고객지원",
+            "vid": -6845930788648123000
+        },
+        {
+            "id": "_a6874663697409303883",
+            "key": [
+                "shared.label.total"
+            ],
+            "value": "전체",
+            "vid": -6846036459272011000
+        },
+        {
+            "id": "_a6869019194079275457",
+            "key": [
+                "widget.empty.noOffers"
+            ],
+            "value": "계속 플레이하세요!\n놀라운 보상이 기다립니다!",
+            "vid": -6845922822490422000
+        },
+        {
+            "id": "_a6869018420850944428",
+            "key": [
+                "widget.button.continuePlaying"
+            ],
+            "value": "플레이 계속하기",
+            "vid": -6845924962055224000
+        },
+        {
+            "id": "_a6854992720551446494",
+            "key": [
+                "shared.status.limitedOfferExpired"
+            ],
+            "value": "기간 한정 이벤트 종료",
+            "vid": -6846032193027309000
+        },
+        {
+            "id": "_a6853797233314736170",
+            "key": [
+                "modals.shared.guidelines.button.seeGuidelines"
+            ],
+            "value": "안내 보기",
+            "vid": -6846861976413922000
+        },
+        {
+            "id": "_a6852978545506382673",
+            "key": [
+                "shared.label.bonus"
+            ],
+            "value": "보너스",
+            "vid": -6852891588728712000
+        },
+        {
+            "id": "_a6852978255394763582",
+            "key": [
+                "shared.label.bonusRewards"
+            ],
+            "value": "보너스 보상",
+            "vid": -6846040618410967000
+        },
+        {
+            "id": "_a6852961481067066642",
+            "key": [
+                "offerDetails.button.levelUpNow"
+            ],
+            "value": "지금 레벨업",
+            "vid": -6846840842087817000
+        },
+        {
+            "id": "_a6852961025464988931",
+            "key": [
+                "offerDetails.status.nextLevel"
+            ],
+            "value": "다음 레벨",
+            "vid": -6852891351767313000
+        },
+        {
+            "id": "_a6852708389244883616",
+            "key": [
+                "modals.shared.guidelines.title"
+            ],
+            "value": "보너스 보상",
+            "vid": -6846846832627672000
+        },
+        {
+            "id": "_a6851430774317232747",
+            "key": [
+                "offerDetails.status.maximumLevel"
+            ],
+            "value": "최대 레벨!",
+            "vid": -6851429485758629000
+        },
+        {
+            "id": "_a6844607323132590854",
+            "key": [
+                "initialization.legal.explanation"
+            ],
+            "value": "Tyrads Pte. Ltd.는 TyrSDK의 사용 범위 내에서 다음과 같은 개인 데이터를 처리함을 알려드립니다: \n설치된 앱 (사용 시간 및 사용 내역 포함) \n해당 데이터는 기기 ID (GAID 또는 IDFA)를 통해 암호화된 형태로 서버로 전송되며, 이 기기 ID는 귀하의 기기와 연결됩니다. 앱 제공업체가 앱 추천을 위해 우리 앱을 자금 지원할 수 있도록, 결제 목적으로 기기 ID를 해당 업체에 전송해야 합니다.\n\n위 데이터의 처리는 시스템 메시지를 통해 앱을 추천하고, TyrSDK에 포함된 귀하의 관심사에 맞는 앱을 설치하며, 해당 앱 사용으로 인해 획득한 보상을 계산하기 위해 필요합니다.\n\n동의\n\n''동의''를 클릭함으로써 저는 Tyrads Pte. Ltd.에게 위에서 언급된 개인 데이터를 처리하고 다른 앱에 전송하는 데 동의하며, 이를 통해 TyrSDK를 설명된 대로 사용할 수 있도록 합니다.\n\n저는 위 데이터가 관심 프로필을 생성하며, 사용하시는 앱의 유형에 따라 건강 데이터나 성적 지향과 같은 특별 카테고리에 속하는 개인 데이터(유럽 일반 데이터 보호 규정(GDPR) 제9조 제1항에 정의된 기타 데이터 포함)를 포함할 수 있음을 인지합니다.\n\n이 데이터는 Tyrads Pte. Ltd, TyrSDK에 의해 처리됩니다. 자세한 정보는 https://tyrads.com/tyrsdk-privacy-policy/ 를 참조하세요. ",
+            "vid": -6777315843230064000
+        },
+        {
+            "id": "_a6813429817972053463",
+            "key": [
+                "shared.button.next"
+            ],
+            "value": "다음",
+            "vid": -6813405177947353000
+        },
+        {
+            "id": "_a6813428426135565070",
+            "key": [
+                "shared.button.back"
+            ],
+            "value": "뒤로",
+            "vid": -6813405100101071000
+        },
+        {
+            "id": "_a6813427918324058708",
+            "key": [
+                "shared.button.understand"
+            ],
+            "value": "이해하다",
+            "vid": -6813405040105746000
+        },
+        {
+            "id": "_a6813426980275090133",
+            "key": [
+                "modals.shared.guidelines.step1"
+            ],
+            "value": "<b>레벨 업</b> 완료 <b>빠른</b> & <b>매일</b> 보상 2-3배 더 높은 보상을 받으세요!",
+            "vid": -6813401599435556000
+        },
+        {
+            "id": "_a6813426762708153028",
+            "key": [
+                "modals.shared.guidelines.step2"
+            ],
+            "value": "<b>구입</b> 그리고<b> 레벨업</b> 즉시.",
+            "vid": -6813404817774080000
+        },
+        {
+            "id": "_a6813426406695629489",
+            "key": [
+                "modals.shared.guidelines.step3"
+            ],
+            "value": "<b>속임수를 쓰지 마세요!</b> 이건 당신의 레벨에 해가 될 거예요!",
+            "vid": -6813404684630094000
+        },
+        {
+            "id": "_a6788860193281881641",
+            "key": [
+                "shared.button.skip"
+            ],
+            "value": "건너뛰기",
+            "vid": -6788837058508972000
+        },
+        {
+            "id": "_a6770664651105498288",
+            "key": [
+                "shared.label.description"
+            ],
+            "value": "상세 설명",
+            "vid": -6765725211213334000
+        },
+        {
+            "id": "_a6770664481521398955",
+            "key": [
+                "shared.button.moreRewards"
+            ],
+            "value": "더 많은 보상",
+            "vid": -6765724666155140000
+        },
+        {
+            "id": "_a6770664354886972582",
+            "key": [
+                "shared.label.new"
+            ],
+            "value": "신규",
+            "vid": -6765724554757053000
+        },
+        {
+            "id": "_a6770664181007905951",
+            "key": [
+                "shared.label.rewards"
+            ],
+            "value": "보상",
+            "vid": -6765724444024800000
+        },
+        {
+            "id": "_a6765736803799827981",
+            "key": [
+                "shared.label.contactOurSupport"
+            ],
+            "value": "고객지원팀에 문의해 주세요.",
+            "vid": -6765723815485808000
+        },
+        {
+            "id": "_a6765716724827718706",
+            "key": [
+                "shared.label.max"
+            ],
+            "value": "최대",
+            "vid": -6761112120992682000
+        },
+        {
+            "id": "_a6765716567792976941",
+            "key": [
+                "shared.label.limitedTimeOffer"
+            ],
+            "value": "한시적으로 제공되는 상품",
+            "vid": -6761112058514330000
+        },
+        {
+            "id": "_a6761173981606675948",
+            "key": [
+                "shared.subtitle.verifying"
+            ],
+            "value": "",
+            "vid": -6752969867484931000
+        },
+        {
+            "id": "_a6753049745824810749",
+            "key": [
+                "errorPage.subtitle.notFound"
+            ],
+            "value": "페이지를 찾을 수 없습니다(404)",
+            "vid": -6752969721254716000
+        },
+        {
+            "id": "_a6746292325601729961",
+            "key": [
+                "shared.label.moreInformation"
+            ],
+            "value": "추가 정보",
+            "vid": -6744851898057770000
+        },
+        {
+            "id": "_a6746291075496462474",
+            "key": [
+                "modals.shared.offerCountdownInfo.subtitle"
+            ],
+            "value": "<b>{time}</b> 보상을 획득하기 위해. 이후에도 계속 플레이할 수 있지만, 보상은 지급되지 않습니다.",
+            "vid": -6744859824821331000
+        },
+        {
+            "id": "_a6725117237169726516",
+            "key": [
+                "initialization.userInfo.toast.selectAgeGender"
+            ],
+            "value": "성별과 연령을 선택하여 진행해 주세요",
+            "vid": -6724044531371057000
+        },
+        {
+            "id": "_a6691745292020603574",
+            "key": [
+                "activeOffers.section.hotDealsShort"
+            ],
+            "value": "더움",
+            "vid": -6684742547427545000
+        },
+        {
+            "id": "_a6691744821724218483",
+            "key": [
+                "activeOffers.section.urgentTasksShort"
+            ],
+            "value": "긴급",
+            "vid": -6684742464279663000
+        },
+        {
+            "id": "_a6672838810284316772",
+            "key": [
+                "shared.cta.earnNow"
+            ],
+            "value": "지금 수익 창출 ",
+            "vid": -6650868631599543000
+        },
+        {
+            "id": "_a6662744229395971395",
+            "key": [
+                "shared.button.gotIt"
+            ],
+            "value": "확인",
+            "vid": -6659006044679083000
+        },
+        {
+            "id": "_a6662744036254112806",
+            "key": [
+                "shared.button.reset"
+            ],
+            "value": "초기화",
+            "vid": -6659005921805425000
+        },
+        {
+            "id": "_a6662743893717433662",
+            "key": [
+                "shared.label.chooseYourRewards"
+            ],
+            "value": "보상을 선택하세요",
+            "vid": -6659005853958363000
+        },
+        {
+            "id": "_a6662743758557633569",
+            "key": [
+                "shared.label.filter"
+            ],
+            "value": "필터",
+            "vid": -6659005806445287000
+        },
+        {
+            "id": "_a6662743628033441081",
+            "key": [
+                "shared.button.showOffers"
+            ],
+            "value": "제안 보기",
+            "vid": -6659005752892414000
+        },
+        {
+            "id": "_a6662743516831505436",
+            "key": [
+                "shared.button.showAllOffers"
+            ],
+            "value": "모든 제안 보기",
+            "vid": -6659005709942741000
+        },
+        {
+            "id": "_a6662743343626075444",
+            "key": [
+                "shared.subtitle.youCanSwitch"
+            ],
+            "value": "이 버튼을 탭하면 언제든지 보상을 변경할 수 있습니다.",
+            "vid": -6659005663369189000
+        }
+    ],
+    "message": "OK"
+}

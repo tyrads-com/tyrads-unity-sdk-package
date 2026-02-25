@@ -1,0 +1,1517 @@
+﻿{
+    "data": [
+        {
+            "id": "_a6875933646692502547",
+            "key": [
+                "initialization.intro.subtitle"
+            ],
+            "value": "お気に入りのゲームをプレイして報酬を獲得しましょう",
+            "vid": -6871390344186354000
+        },
+        {
+            "id": "_a6875933646692502545",
+            "key": [
+                "initialization.intro.label.iHaveRead"
+            ],
+            "value": "私は以下の内容を読み、同意します。<tos>利用規約</tos>そして<pp>プライバシーポリシー</pp>",
+            "vid": -6846832528708854000
+        },
+        {
+            "id": "_a6875933646692502541",
+            "key": [
+                "initialization.intro.cta.accept"
+            ],
+            "value": "許可する",
+            "vid": -6871390085146139000
+        },
+        {
+            "id": "_a6875933646692502539",
+            "key": [
+                "initialization.intro.cta.reject"
+            ],
+            "value": "拒否",
+            "vid": -6871390012802783000
+        },
+        {
+            "id": "_a6875933646692502537",
+            "key": [
+                "initialization.usagePermission.title"
+            ],
+            "value": "収益の可能性を高めるためにアプリが使用状況データを追跡することを許可する",
+            "vid": -6871389970457090000
+        },
+        {
+            "id": "_a6875933646692502535",
+            "key": [
+                "initialization.usagePermission.label"
+            ],
+            "value": "使用アクセスを許可する",
+            "vid": -6871389935224936000
+        },
+        {
+            "id": "_a6875933646692502533",
+            "key": [
+                "initialization.usagePermission.description"
+            ],
+            "value": "使用状況アクセスにより、アプリは他のアプリの使用状況や使用頻度、また、オペレーター、言語設定などの詳細情報を追跡できます。",
+            "vid": -6871389899455912000
+        },
+        {
+            "id": "_a6875933646692502531",
+            "key": [
+                "initialization.userInfo.title"
+            ],
+            "value": "ゲームをお楽しみいただくには、性別と年齢をご入力ください！",
+            "vid": -6715752622549023000
+        },
+        {
+            "id": "_a6875933646692502529",
+            "key": [
+                "initialization.userInfo.chooseGender.label"
+            ],
+            "value": "性別を選択してください",
+            "vid": -6871389799262378000
+        },
+        {
+            "id": "_a6875933646692502527",
+            "key": [
+                "initialization.userInfo.gender.male"
+            ],
+            "value": "男性",
+            "vid": -6871389745441069000
+        },
+        {
+            "id": "_a6875933646692502525",
+            "key": [
+                "initialization.userInfo.gender.female"
+            ],
+            "value": "女性",
+            "vid": -6871389702692723000
+        },
+        {
+            "id": "_a6875933646692502523",
+            "key": [
+                "initialization.userInfo.chooseAge.label"
+            ],
+            "value": "年齢を選択してください",
+            "vid": -6871389601089903000
+        },
+        {
+            "id": "_a6875933646692502521",
+            "key": [
+                "initialization.userInfo.cta.continue"
+            ],
+            "value": "続行",
+            "vid": -6871389238702037000
+        },
+        {
+            "id": "_a6875933646692502519",
+            "key": [
+                "widget.page.title"
+            ],
+            "value": "プレミアムゲーム",
+            "vid": -6871389168774601000
+        },
+        {
+            "id": "_a6875933646692502517",
+            "key": [
+                "widget.button.moreOffers"
+            ],
+            "value": "その他のオファー",
+            "vid": -6871389085760936000
+        },
+        {
+            "id": "_a6875933646692502515",
+            "key": [
+                "widget.button.play"
+            ],
+            "value": "再生",
+            "vid": -6871389038516296000
+        },
+        {
+            "id": "_a6875933646692502513",
+            "key": [
+                "offers.page.title"
+            ],
+            "value": "オファー",
+            "vid": -6874740308017349000
+        },
+        {
+            "id": "_a6875933646692502511",
+            "key": [
+                "offers.subtitle.yourEarnings"
+            ],
+            "value": "あなたの収入\n{multiplier}x ボーナスアクティブ",
+            "vid": -6852906374419443000
+        },
+        {
+            "id": "_a6875933646692502509",
+            "key": [
+                "offers.button.activeOffers"
+            ],
+            "value": "アクティブなオファー",
+            "vid": -6874755519782291000
+        },
+        {
+            "id": "_a6875933646692502507",
+            "key": [
+                "offers.section.premiumGames"
+            ],
+            "value": "プレミアムゲーム",
+            "vid": -6874739985827693000
+        },
+        {
+            "id": "_a6875933646692502505",
+            "key": [
+                "offers.section.otherGames"
+            ],
+            "value": "その他のゲーム",
+            "vid": -6874740146217878000
+        },
+        {
+            "id": "_a6875933646692502503",
+            "key": [
+                "offers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6788836272595742000
+        },
+        {
+            "id": "_a6875933646692502501",
+            "key": [
+                "offers.modal.welcomeBack.title"
+            ],
+            "value": "こんにちは",
+            "vid": -6871388991741417000
+        },
+        {
+            "id": "_a6875933646692502499",
+            "key": [
+                "offers.modal.welcomeBack.subtitle"
+            ],
+            "value": "ゲームに戻る時間です、あなたの<b>{multiplier}×</b>ボーナス報酬が待っています！",
+            "vid": -6871388957583006000
+        },
+        {
+            "id": "_a6875933646692502497",
+            "key": [
+                "offers.modal.welcomeBack.button.goToActiveOffers"
+            ],
+            "value": "有効なオファーへ移動",
+            "vid": -6871388920203368000
+        },
+        {
+            "id": "_a6875933646692502495",
+            "key": [
+                "offers.modal.dontMiss.title"
+            ],
+            "value": "お見逃しなく！期間限定オファー - 期限が切れる前にお申し込みください",
+            "vid": -6871388884098800000
+        },
+        {
+            "id": "_a6875933646692502493",
+            "key": [
+                "offers.modal.limitedTimeOffer.title"
+            ],
+            "value": "期間限定オファー - 時間切れ前にお申し込みください",
+            "vid": -6874614102549517000
+        },
+        {
+            "id": "_a6875933646692502491",
+            "key": [
+                "offerDetails.page.title"
+            ],
+            "value": "オファーの詳細",
+            "vid": -6874693178801750000
+        },
+        {
+            "id": "_a6875933646692502489",
+            "key": [
+                "offerDetails.label.earn"
+            ],
+            "value": "得る",
+            "vid": -6874691956078247000
+        },
+        {
+            "id": "_a6875933646692502487",
+            "key": [
+                "offerDetails.section.description"
+            ],
+            "value": "説明",
+            "vid": -6874691319483551000
+        },
+        {
+            "id": "_a6875933646625393621",
+            "key": [
+                "offerDetails.section.playTime"
+            ],
+            "value": "プレイタイム",
+            "vid": -6874690634234940000
+        },
+        {
+            "id": "_a6875933646625393619",
+            "key": [
+                "shared.section.quickRewards"
+            ],
+            "value": "クイック報酬",
+            "vid": -6874686540392910000
+        },
+        {
+            "id": "_a6875933646625393617",
+            "key": [
+                "offerDetails.cta.seeProgress"
+            ],
+            "value": "進捗状況を見る",
+            "vid": -6874688300793916000
+        },
+        {
+            "id": "_a6875933646625393615",
+            "key": [
+                "offerDetails.cta.seeStatus"
+            ],
+            "value": "ステータスを見る",
+            "vid": -6874682120134650000
+        },
+        {
+            "id": "_a6875933646625393613",
+            "key": [
+                "offerDetails.button.needHelp"
+            ],
+            "value": "助けが必要？",
+            "vid": -6874687784660957000
+        },
+        {
+            "id": "_a6875933646625393607",
+            "key": [
+                "offerDetails.status.completePreviousTask"
+            ],
+            "value": "前のタスクを完了する",
+            "vid": -6874687056057421000
+        },
+        {
+            "id": "_a6875933646625393605",
+            "key": [
+                "offerDetails.status.yourTicketHasBeenSubmitted"
+            ],
+            "value": "チケットが送信されました",
+            "vid": -6874683093146069000
+        },
+        {
+            "id": "_a6875933646625393603",
+            "key": [
+                "offerDetails.status.weAreProcessingYourProgress"
+            ],
+            "value": "進捗状況を処理中です",
+            "vid": -6874682911078436000
+        },
+        {
+            "id": "_a6875933646625393601",
+            "key": [
+                "offerDetails.status.progressRejected"
+            ],
+            "value": "進捗が拒否されました",
+            "vid": -6761117097787349000
+        },
+        {
+            "id": "_a6875933646625393599",
+            "key": [
+                "offerDetails.description.completeQuick&DailyRewards"
+            ],
+            "value": "以下のクイック報酬とデイリー報酬を完了してレベルアップしましょう",
+            "vid": -6852906217921572000
+        },
+        {
+            "id": "_a6875933646625393597",
+            "key": [
+                "offerDetails.description.downloadInstruction.followStep"
+            ],
+            "value": "ダウンロードの失敗を回避し、報酬を確実に受け取るには、次の手順に従ってください。",
+            "vid": -6874679822392970000
+        },
+        {
+            "id": "_a6875933646625393595",
+            "key": [
+                "offerDetails.description.downloadInstruction.stepByStep"
+            ],
+            "value": "<li>必ず選択してください<b>{appstore}</b>ゲームをダウンロードするには</li>\n<li>クリックしたらすぐにダウンロード<b>\"確認する\"</b>ボタン</li>\n<li>ダウンロードが完了したら、<b>ゲームを開く{appstore}</b></li>",
+            "vid": -6874680209409789000
+        },
+        {
+            "id": "_a6875933646625393593",
+            "key": [
+                "offerDetails.description.downloadInstruction.note"
+            ],
+            "value": "注意：アクティベーションが失敗した場合、プレイを続けないでください！",
+            "vid": -6801671549893435000
+        },
+        {
+            "id": "_a6875933646625393591",
+            "key": [
+                "offerDetails.modal.myPlayTime.title"
+            ],
+            "value": "私のプレイ時間",
+            "vid": -6874689752021814000
+        },
+        {
+            "id": "_a6875933646625393589",
+            "key": [
+                "offerDetails.modal.myPlayTime.status.onProgress"
+            ],
+            "value": "進行中",
+            "vid": -6874688652847017000
+        },
+        {
+            "id": "_a6875933646625393587",
+            "key": [
+                "offerDetails.modal.myPlayTime.subtitle"
+            ],
+            "value": "オファーのロックを解除して、プレイ時間の履歴を表示しましょう!",
+            "vid": -6874689845303135000
+        },
+        {
+            "id": "_a6875933646625393585",
+            "key": [
+                "offerDetails.modal.myPlayTime.label.play"
+            ],
+            "value": "遊ぶ {time}",
+            "vid": -6874618810167934000
+        },
+        {
+            "id": "_a6875933646625393565",
+            "key": [
+                "activeOffers.page.title"
+            ],
+            "value": "アクティブなオファー",
+            "vid": -6874727319028303000
+        },
+        {
+            "id": "_a6875933646625393563",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6785365719707524000
+        },
+        {
+            "id": "_a6875933646625393561",
+            "key": [
+                "activeOffers.cta.startPlaying"
+            ],
+            "value": "プレイを開始",
+            "vid": -6874616613628990000
+        },
+        {
+            "id": "_a6875933646625393559",
+            "key": [
+                "activeOffers.cta.seeAllTasks"
+            ],
+            "value": "すべてのタスクを表示",
+            "vid": -6874722209225180000
+        },
+        {
+            "id": "_a6875933646625393557",
+            "key": [
+                "activeOffers.section.hotDeals"
+            ],
+            "value": "ホットディール",
+            "vid": -6874726773230634000
+        },
+        {
+            "id": "_a6875933646625393555",
+            "key": [
+                "activeOffers.section.urgentTasks"
+            ],
+            "value": "緊急タスク",
+            "vid": -6874726569286796000
+        },
+        {
+            "id": "_a6875933646625393553",
+            "key": [
+                "activeOffers.section.all"
+            ],
+            "value": "全て",
+            "vid": -6874725392401235000
+        },
+        {
+            "id": "_a6875933646625393551",
+            "key": [
+                "activeOffers.section.limitedTimeOffer"
+            ],
+            "value": "期間限定オファー - まもなく終了",
+            "vid": -6874724008146697000
+        },
+        {
+            "id": "_a6875933646625393549",
+            "key": [
+                "activeOffers.subtitle.overallEarnings"
+            ],
+            "value": "総収益",
+            "vid": -6874724347449114000
+        },
+        {
+            "id": "_a6875933646625393547",
+            "key": [
+                "activeOffers.modal.moreInformation.title"
+            ],
+            "value": "詳細情報",
+            "vid": -6874708822079275000
+        },
+        {
+            "id": "_a6875933646625393545",
+            "key": [
+                "activeOffers.modal.moreInformation.retry.subtitle"
+            ],
+            "value": "ゲームが完全に起動したら報酬を受け取れる。初めて利用する場合は、<b>の設定を完全に終えること</b> 。\n\n途中で中断した場合は、<b>をタップして</b> を再試行し、報酬を受け取れるように続行しろ！",
+            "vid": -6801671277299820000
+        },
+        {
+            "id": "_a6875933646625393543",
+            "key": [
+                "activeOffers.modal.moreInformation.previouslyDownloaded.subtitle"
+            ],
+            "value": "このゲームは<b>以前にダウンロードしたもの</b>進捗状況は追跡されず、{currencyName}獲得することはできません。\n\n引き続き報酬を獲得するには、別のゲームを選択してください。",
+            "vid": -6852906157928870000
+        },
+        {
+            "id": "_a6875933646625393541",
+            "key": [
+                "activeOffers.modal.moreInformation.unavailable.subtitle"
+            ],
+            "value": "申し訳ありませんが、このゲームは<b>利用不可</b>現時点で。",
+            "vid": -6874707705924649000
+        },
+        {
+            "id": "_a6875933646625393539",
+            "key": [
+                "modals.shared.temporarilyUnavailable.title"
+            ],
+            "value": "一時的に利用できません",
+            "vid": -6874602854364428000
+        },
+        {
+            "id": "_a6875933646625393537",
+            "key": [
+                "modals.shared.temporarilyUnavailable.subtitle"
+            ],
+            "value": "このゲームは<b>一時的に利用できません</b>後ほど再度ご確認ください。",
+            "vid": -6874610458539518000
+        },
+        {
+            "id": "_a6875933646625393535",
+            "key": [
+                "activeOffers.button.moreInformation"
+            ],
+            "value": "詳細情報",
+            "vid": -6874708374261826000
+        },
+        {
+            "id": "_a6875933646625393533",
+            "key": [
+                "support.page.subtitle"
+            ],
+            "value": "報酬を受け取れませんでした",
+            "vid": -6874678609534471000
+        },
+        {
+            "id": "_a6875933646625393531",
+            "key": [
+                "support.subtitle.happyToHelp"
+            ],
+            "value": "喜んでお手伝いさせていただきます!",
+            "vid": -6874670557882676000
+        },
+        {
+            "id": "_a6875933646625393529",
+            "key": [
+                "support.subtitle.selectTask"
+            ],
+            "value": "完了したはずなのに受け取っていないタスクを選択してください{currencyName}",
+            "vid": -6874671311177076000
+        },
+        {
+            "id": "_a6875933646625393527",
+            "key": [
+                "support.section.tasks"
+            ],
+            "value": "タスク",
+            "vid": -6874670048593507000
+        },
+        {
+            "id": "_a6875933646625393525",
+            "key": [
+                "support.label.gamePlayerID"
+            ],
+            "value": "ゲームプレーヤーID",
+            "vid": -6874636921776587000
+        },
+        {
+            "id": "_a6875933646625393523",
+            "key": [
+                "support.label.orderID"
+            ],
+            "value": "注文ID",
+            "vid": -6874629400617763000
+        },
+        {
+            "id": "_a6875933646625393521",
+            "key": [
+                "support.label.screenshot"
+            ],
+            "value": "スクリーンショット",
+            "vid": -6874636521002451000
+        },
+        {
+            "id": "_a6875933646625393519",
+            "key": [
+                "support.button.browseFile"
+            ],
+            "value": "ファイルを参照",
+            "vid": -6874631015324140000
+        },
+        {
+            "id": "_a6875933646625393517",
+            "key": [
+                "support.subtitle.ticketSubmittedSuccessfully"
+            ],
+            "value": "チケットが正常に送信されました。",
+            "vid": -6874587898617215000
+        },
+        {
+            "id": "_a6875933646625393515",
+            "key": [
+                "support.subtitle.thankYouForReachingOut"
+            ],
+            "value": "お問い合わせいただきありがとうございます！\n弊社のサポートチームがお客様のリクエストを確認しており、すぐにご連絡いたします。",
+            "vid": -6852905683735014000
+        },
+        {
+            "id": "_a6875933646625393513",
+            "key": [
+                "support.status.haventReachedThisLevel"
+            ],
+            "value": "このレベルに達していません",
+            "vid": -6874670767059692000
+        },
+        {
+            "id": "_a6875933646625393511",
+            "key": [
+                "support.status.ticketBeingProcessed"
+            ],
+            "value": "チケットは 24時間以内に処理されます",
+            "vid": -6852905149414239000
+        },
+        {
+            "id": "_a6875933646625393509",
+            "key": [
+                "support.status.ticketBeingRejected"
+            ],
+            "value": "チケットは拒否されました",
+            "vid": -6874670258241598000
+        },
+        {
+            "id": "_a6875933646625393507",
+            "key": [
+                "support.status.ticketBeingApproved"
+            ],
+            "value": "チケットが承認されました",
+            "vid": -6874670393063306000
+        },
+        {
+            "id": "_a6875933646625393505",
+            "key": [
+                "support.status.haveCompletedThisLevel"
+            ],
+            "value": "このレベルをクリアしました",
+            "vid": -6874671025831471000
+        },
+        {
+            "id": "_a6875933646625393503",
+            "key": [
+                "support.description.clickHereToSeeExample"
+            ],
+            "value": "例を見るにはここをクリックしてください",
+            "vid": -6874628112195967000
+        },
+        {
+            "id": "_a6875933646625393501",
+            "key": [
+                "support.description.pleaseAttach"
+            ],
+            "value": "上記のように注文IDとスクリーンショットを添付してください。",
+            "vid": -6874629014003597000
+        },
+        {
+            "id": "_a6875933646625393499",
+            "key": [
+                "support.button.preview"
+            ],
+            "value": "プレビュー",
+            "vid": -6874624133378529000
+        },
+        {
+            "id": "_a6875933646625393497",
+            "key": [
+                "support.button.iUnderstand"
+            ],
+            "value": "わかりました",
+            "vid": -6874622702483331000
+        },
+        {
+            "id": "_a6875933646625393495",
+            "key": [
+                "support.modal.gamePlayerID.title"
+            ],
+            "value": "ゲームプレーヤーID",
+            "vid": -6874636809570566000
+        },
+        {
+            "id": "_a6875933646625393493",
+            "key": [
+                "support.modal.gamePlayerID.subtitle"
+            ],
+            "value": "これはゲーム プロフィールに表示される一意の ID です。",
+            "vid": -6874588474746812000
+        },
+        {
+            "id": "_a6875933646625393491",
+            "key": [
+                "errorPage.title"
+            ],
+            "value": "おっと！",
+            "vid": -6874655278064159000
+        },
+        {
+            "id": "_a6875933646625393489",
+            "key": [
+                "errorPage.description.failedToLoad"
+            ],
+            "value": "読み込みに失敗しました。ページを再読み込みしてください。",
+            "vid": -6874647491155516000
+        },
+        {
+            "id": "_a6875933646625393487",
+            "key": [
+                "errorPage.button.reload"
+            ],
+            "value": "リロード",
+            "vid": -6874647174937265000
+        },
+        {
+            "id": "_a6875933646625393485",
+            "key": [
+                "errorPage.button.refresh"
+            ],
+            "value": "リフレッシュ",
+            "vid": -6874655906538670000
+        },
+        {
+            "id": "_a6875933646625393483",
+            "key": [
+                "errorPage.description.weCouldntConnect"
+            ],
+            "value": "接続できませんでした。ページを更新してください。",
+            "vid": -6874750630433065000
+        },
+        {
+            "id": "_a6875933646625393481",
+            "key": [
+                "settings.page.title"
+            ],
+            "value": "設定",
+            "vid": -6874639901814087000
+        },
+        {
+            "id": "_a6875933646625393479",
+            "key": [
+                "language.page.title"
+            ],
+            "value": "言語",
+            "vid": -6874639085701906000
+        },
+        {
+            "id": "_a6875933646625393477",
+            "key": [
+                "shared.error.emptyField"
+            ],
+            "value": "このフィールドは空欄にできません",
+            "vid": -6874635038567645000
+        },
+        {
+            "id": "_a6875933646625393475",
+            "key": [
+                "shared.status.rejected"
+            ],
+            "value": "拒否されました",
+            "vid": -6874591114208142000
+        },
+        {
+            "id": "_a6875933646625393473",
+            "key": [
+                "shared.status.expired"
+            ],
+            "value": "期限切れ",
+            "vid": -6871388356086258000
+        },
+        {
+            "id": "_a6875933646625393471",
+            "key": [
+                "shared.status.completed"
+            ],
+            "value": "完了",
+            "vid": -6874684994204683000
+        },
+        {
+            "id": "_a6875933646625393469",
+            "key": [
+                "shared.status.expiredDueToMaxtime"
+            ],
+            "value": "Maxtime により期限切れ",
+            "vid": -6871447329947928000
+        },
+        {
+            "id": "_a6875933646625393467",
+            "key": [
+                "shared.subtitle.couldntValidate"
+            ],
+            "value": "アクティベーションプロセスを検証できなかった",
+            "vid": -6801671709346686000
+        },
+        {
+            "id": "_a6875933646625393465",
+            "key": [
+                "shared.subtitle.retry"
+            ],
+            "value": "<b>をクリックし、「再試行」</b> を再度お試しください。報酬は適切な追跡が必要となります。",
+            "vid": -6761116802372817000
+        },
+        {
+            "id": "_a6875933646625393463",
+            "key": [
+                "shared.subtitle.installing"
+            ],
+            "value": "",
+            "vid": -6788836222062767000
+        },
+        {
+            "id": "_a6875933646625393461",
+            "key": [
+                "shared.subtitle.finishInstall"
+            ],
+            "value": "アクティベーションプロセスを完了して全ての報酬をアンロックし、最大で獲得できる。",
+            "vid": -6801672611491145000
+        },
+        {
+            "id": "_a6875933646625393459",
+            "key": [
+                "shared.subtitle.previouslyDownloaded"
+            ],
+            "value": "あなたは<b>以前にダウンロードしたもの</b>このゲームでは、進捗状況を追跡したり、獲得したりすることはできません {currencyName} 別の新しいゲームを選択してください。",
+            "vid": -6872273675548785000
+        },
+        {
+            "id": "_a6875933646625393457",
+            "key": [
+                "shared.subtitle.temporarilyUnavailable"
+            ],
+            "value": "申し訳ありませんが、このゲームは<b>一時的に利用できません</b>、また後で来てください！",
+            "vid": -6874718726475187000
+        },
+        {
+            "id": "_a6875933646625393455",
+            "key": [
+                "shared.subtitle.unavailable"
+            ],
+            "value": "申し訳ありませんが、このゲームは<b>利用不可</b>現時点で。",
+            "vid": -6874719220129269000
+        },
+        {
+            "id": "_a6875933646625393453",
+            "key": [
+                "shared.cta.playNow"
+            ],
+            "value": "今すぐプレイ",
+            "vid": -6874757004835621000
+        },
+        {
+            "id": "_a6875933646625393451",
+            "key": [
+                "shared.cta.retry"
+            ],
+            "value": "リトライ",
+            "vid": -6874718032502425000
+        },
+        {
+            "id": "_a6875933646625393449",
+            "key": [
+                "shared.cta.submitTicket"
+            ],
+            "value": "チケットを送信",
+            "vid": -6874682525405080000
+        },
+        {
+            "id": "_a6875933646625393447",
+            "key": [
+                "shared.button.privacyPolicy"
+            ],
+            "value": "プライバシーポリシー",
+            "vid": -6874639554727042000
+        },
+        {
+            "id": "_a6875933646625393445",
+            "key": [
+                "shared.button.termsOfService"
+            ],
+            "value": "利用規約",
+            "vid": -6874639704178482000
+        },
+        {
+            "id": "_a6875933646625393443",
+            "key": [
+                "shared.button.language"
+            ],
+            "value": "言語",
+            "vid": -6874639347627803000
+        },
+        {
+            "id": "_a6875933646625393441",
+            "key": [
+                "shared.button.ok"
+            ],
+            "value": "よし",
+            "vid": -6874587008822071000
+        },
+        {
+            "id": "_a6875933646625393439",
+            "key": [
+                "shared.label.offerExpires"
+            ],
+            "value": "オファーの有効期限 {time}",
+            "vid": -6872281167917906000
+        },
+        {
+            "id": "_a6875933646625393437",
+            "key": [
+                "shared.label.bonusExpires"
+            ],
+            "value": "ボーナスの有効期限は",
+            "vid": -6874741204522075000
+        },
+        {
+            "id": "_a6875933646625393435",
+            "key": [
+                "shared.label.bonusTag"
+            ],
+            "value": "{multiplier}×ボーナス",
+            "vid": -6874745043685968000
+        },
+        {
+            "id": "_a6875933646625393433",
+            "key": [
+                "shared.label.completeWithin"
+            ],
+            "value": "完了期限 {time}",
+            "vid": -6872280958404033000
+        },
+        {
+            "id": "_a6875933646625393431",
+            "key": [
+                "shared.label.totalLimit"
+            ],
+            "value": "合計制限",
+            "vid": -6874721528204428000
+        },
+        {
+            "id": "_a6875933646625393429",
+            "key": [
+                "shared.section.bonusRewards"
+            ],
+            "value": "ボーナス報酬",
+            "vid": -6874686737021881000
+        },
+        {
+            "id": "_a6875933646625393427",
+            "key": [
+                "shared.section.activeTask"
+            ],
+            "value": "アクティブタスク",
+            "vid": -6874722481149019000
+        },
+        {
+            "id": "_a6875933646625393425",
+            "key": [
+                "shared.section.dailyRewards"
+            ],
+            "value": "デイリー報酬",
+            "vid": -6874721653362460000
+        },
+        {
+            "id": "_a6875933646625393423",
+            "key": [
+                "modals.shared.guidelines.dos.title"
+            ],
+            "value": "すべきこと",
+            "vid": -6871388285823277000
+        },
+        {
+            "id": "_a6875933646625393421",
+            "key": [
+                "modals.shared.guidelines.donts.title"
+            ],
+            "value": "してはいけないこと",
+            "vid": -6871388250322688000
+        },
+        {
+            "id": "_a6875933646625393419",
+            "key": [
+                "modals.shared.guidelines.dos.list"
+            ],
+            "value": "<li><b>広告を見る</b>収入を増やすために</li>\n<li><b>もっとプレイ</b>レベルアップしてランクを維持します。</li>\n<li><b>ゲーム内購入を行う</b>報酬を最大化するため。</li>\n<li><b>プレイを続ける</b>現在のレベルを維持する</li>",
+            "vid": -6852904844270235000
+        },
+        {
+            "id": "_a6875933646625393417",
+            "key": [
+                "modals.shared.guidelines.description"
+            ],
+            "value": "ボーナス報酬は、アクティブタスクに追加される追加の報酬です。完了することでレベルアップできます。<b>素早い</b>そして<b>デイリー報酬</b>。",
+            "vid": -6852904938426593000
+        },
+        {
+            "id": "_a6875933646625393415",
+            "key": [
+                "modals.shared.guidelines.label.tips"
+            ],
+            "value": "以下のヒントを活用して報酬を増やしましょう:",
+            "vid": -6852904564694707000
+        },
+        {
+            "id": "_a6875933646625393413",
+            "key": [
+                "modals.shared.guidelines.label.startBoosting"
+            ],
+            "value": "今すぐブーストを始めて、より大きな報酬を獲得しましょう！",
+            "vid": -6852904792263487000
+        },
+        {
+            "id": "_a6875933646625393411",
+            "key": [
+                "modals.shared.guidelines.subtitle"
+            ],
+            "value": "ボーナス報酬とは何ですか?",
+            "vid": -6852904697774207000
+        },
+        {
+            "id": "_a6875933646625393409",
+            "key": [
+                "modals.shared.guidelines.donts.list"
+            ],
+            "value": "<li><b>活動不足を避ける</b>または、より低いレベルに落ちる可能性があります。</li>\n<li><b>不正行為を避ける</b>レベルが下がり、報酬が減ってしまうからです。</li>",
+            "vid": -6852904267872202000
+        },
+        {
+            "id": "_a6875933646625393405",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.title"
+            ],
+            "value": "Maxtime により期限切れ",
+            "vid": -6871453409271537000
+        },
+        {
+            "id": "_a6875933646625393403",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.subtitle"
+            ],
+            "value": "最大時間に達したため、このタスクは期限切れになりました。\n\n報酬を獲得するには、次のタスクに進んでください。",
+            "vid": -6852904445981749000
+        },
+        {
+            "id": "_a6875933190152514135",
+            "key": [
+                "initialization.intro.title"
+            ],
+            "value": "最初の報酬獲得まであと少しです",
+            "vid": -6871388001885673000
+        },
+        {
+            "id": "_a6875844351104107004",
+            "key": [
+                "offerDetails.label.earnUpTo"
+            ],
+            "value": "最大で稼ぐ",
+            "vid": -6874668746343401000
+        },
+        {
+            "id": "_a6875823419177021804",
+            "key": [
+                "offerDetails.label.playAndEarn"
+            ],
+            "value": "遊ぶ<b>{time}</b>そして稼ぐ <b>{amount}</b>",
+            "vid": -6872281053295966000
+        },
+        {
+            "id": "_a6875819040861830404",
+            "key": [
+                "shared.time.label.second"
+            ],
+            "value": "",
+            "vid": -6874728139634214000
+        },
+        {
+            "id": "_a6875818921273834731",
+            "key": [
+                "shared.time.label.minute"
+            ],
+            "value": "",
+            "vid": -6874728241237034000
+        },
+        {
+            "id": "_a6875818731288640730",
+            "key": [
+                "shared.time.label.hour"
+            ],
+            "value": "",
+            "vid": -6874728510343579000
+        },
+        {
+            "id": "_a6875818603110710482",
+            "key": [
+                "shared.time.label.day"
+            ],
+            "value": "",
+            "vid": -6874728623354906000
+        },
+        {
+            "id": "_a6875805345684905332",
+            "key": [
+                "shared.time.label.second.abbr"
+            ],
+            "value": "s",
+            "vid": -6871387952023788000
+        },
+        {
+            "id": "_a6875805284011859310",
+            "key": [
+                "shared.time.label.minute.abbr"
+            ],
+            "value": "メートル",
+            "vid": -6871387925046024000
+        },
+        {
+            "id": "_a6875805219386023273",
+            "key": [
+                "shared.time.label.hour.abbr"
+            ],
+            "value": "h",
+            "vid": -6871387125714943000
+        },
+        {
+            "id": "_a6875805128050859364",
+            "key": [
+                "shared.time.label.day.abbr"
+            ],
+            "value": "d",
+            "vid": -6871387095985716000
+        },
+        {
+            "id": "_a6875576715180486868",
+            "key": [
+                "support.label.uploadYourFile"
+            ],
+            "value": "ここにファイルをアップロードしてください",
+            "vid": -6874636090904342000
+        },
+        {
+            "id": "_a6875571577796911041",
+            "key": [
+                "shared.label.bonusTagCaps"
+            ],
+            "value": "{multiplier}×ボーナス",
+            "vid": -6874743990682061000
+        },
+        {
+            "id": "_a6875494838945141794",
+            "key": [
+                "errorPage.description.notFound"
+            ],
+            "value": "要求されたリソースが見つかりませんでした",
+            "vid": -6874641823140863000
+        },
+        {
+            "id": "_a6875494737542359333",
+            "key": [
+                "errorPage.button.returnHome"
+            ],
+            "value": "ホームへ戻る",
+            "vid": -6874640949250552000
+        },
+        {
+            "id": "_a6875494628089091083",
+            "key": [
+                "errorPage.description.sessionExpired"
+            ],
+            "value": "セッションが期限切れか見つかりません",
+            "vid": -6874615101195238000
+        },
+        {
+            "id": "_a6874958700594795052",
+            "key": [
+                "shared.label.offerExpired"
+            ],
+            "value": "オファー期限切れ",
+            "vid": -6874593090762914000
+        },
+        {
+            "id": "_a6874904366168905076",
+            "key": [
+                "offers.section.bonusRewards"
+            ],
+            "value": "ボーナス\n報酬",
+            "vid": -6852904094060244000
+        },
+        {
+            "id": "_a6874897131430712637",
+            "key": [
+                "shared.time.label.left"
+            ],
+            "value": "残り",
+            "vid": -6874738245759370000
+        },
+        {
+            "id": "_a6874677181190694875",
+            "key": [
+                "support.page.title"
+            ],
+            "value": "サポート",
+            "vid": -6874673248341544000
+        },
+        {
+            "id": "_a6874663697409303883",
+            "key": [
+                "shared.label.total"
+            ],
+            "value": "合計",
+            "vid": -6874663370656245000
+        },
+        {
+            "id": "_a6869019194079275457",
+            "key": [
+                "widget.empty.noOffers"
+            ],
+            "value": "プレイを続けてください！\n魅力的な報酬が待っています！",
+            "vid": -6852903981384461000
+        },
+        {
+            "id": "_a6869018420850944428",
+            "key": [
+                "widget.button.continuePlaying"
+            ],
+            "value": "プレイを続ける",
+            "vid": -6852904155266150000
+        },
+        {
+            "id": "_a6854992720551446494",
+            "key": [
+                "shared.status.limitedOfferExpired"
+            ],
+            "value": "限定オファーは終了しました",
+            "vid": -6852903823812849000
+        },
+        {
+            "id": "_a6853797233314736170",
+            "key": [
+                "modals.shared.guidelines.button.seeGuidelines"
+            ],
+            "value": "ガイドラインを見る",
+            "vid": -6852904049234145000
+        },
+        {
+            "id": "_a6852978545506382673",
+            "key": [
+                "shared.label.bonus"
+            ],
+            "value": "ボーナス",
+            "vid": -6852903869181063000
+        },
+        {
+            "id": "_a6852978255394763582",
+            "key": [
+                "shared.label.bonusRewards"
+            ],
+            "value": "ボーナス報酬",
+            "vid": -6852903755834192000
+        },
+        {
+            "id": "_a6852961481067066642",
+            "key": [
+                "offerDetails.button.levelUpNow"
+            ],
+            "value": "今すぐレベルアップ",
+            "vid": -6852903714562240000
+        },
+        {
+            "id": "_a6852961025464988931",
+            "key": [
+                "offerDetails.status.nextLevel"
+            ],
+            "value": "次のレベル",
+            "vid": -6852903632353882000
+        },
+        {
+            "id": "_a6852708389244883616",
+            "key": [
+                "modals.shared.guidelines.title"
+            ],
+            "value": "ボーナス報酬",
+            "vid": -6852687113523026000
+        },
+        {
+            "id": "_a6851430774317232747",
+            "key": [
+                "offerDetails.status.maximumLevel"
+            ],
+            "value": "最大レベル!",
+            "vid": -6851429724063511000
+        },
+        {
+            "id": "_a6844607323132590854",
+            "key": [
+                "initialization.legal.explanation"
+            ],
+            "value": "当社は、TyrSDK の使用において、Tyrads Pte. Ltd. が以下の個人データを処理することをお知らせする。\nインストールされたアプリ（使用時間および使用履歴を含む）\nデータは、暗号化された形式で当社のサーバーに送信されるデバイス ID（GAID または IDFA）を介して、お客様のデバイスに関連付けられる。アプリ提供者が当社のアプリ推奨を資金調達できるよう、課金目的でデバイスIDをアプリ提供者に送信する必要があります。\n\n上記のデータの処理は、システムメッセージを通じてアプリを推奨し、TyrSDKで利用可能なアプリのうち、あなたの興味に合ったアプリのインストールを提案し、対応するアプリの利用結果として獲得した報酬を計算するために必要です。\n\n同意\n\n「同意する」をクリックすることにより、私はTyrads Pte. Ltdに対し、上記個人データを処理し、他のアプリに送信することに同意し、説明されたとおりにTyrSDKを利用できることを承諾する。\n\n私は、上記のデータが興味プロファイルを作成し、利用するアプリのタイプによっては、特に敏感な個人データ（健康データや性的指向に関するデータ、および欧州一般データ保護規則（GDPR）第9条第1項で定義されるその他の特別なカテゴリのデータを含む）を含む可能性があることを認識している。\n\nこのデータは、Tyrads Pte. Ltd、TyrSDKによって処理されます。詳細については、https://tyrads.com/tyrsdk-privacy-policy/ をご覧ください。 ",
+            "vid": -6844602880324468000
+        },
+        {
+            "id": "_a6813429817972053463",
+            "key": [
+                "shared.button.next"
+            ],
+            "value": "次へ",
+            "vid": -6813406935394284000
+        },
+        {
+            "id": "_a6813428426135565070",
+            "key": [
+                "shared.button.back"
+            ],
+            "value": "戻る",
+            "vid": -6813406877343766000
+        },
+        {
+            "id": "_a6813427918324058708",
+            "key": [
+                "shared.button.understand"
+            ],
+            "value": "理解する",
+            "vid": -6813406807751874000
+        },
+        {
+            "id": "_a6813426980275090133",
+            "key": [
+                "modals.shared.guidelines.step1"
+            ],
+            "value": "<b>レベルアップ</b>完了することにより<b>素早い</b>＆<b>毎日</b>2〜3倍の報酬を獲得できる報酬！",
+            "vid": -6813405775082025000
+        },
+        {
+            "id": "_a6813426762708153028",
+            "key": [
+                "modals.shared.guidelines.step2"
+            ],
+            "value": "<b>購入</b>そして<b>レベルアップ</b>すぐに。",
+            "vid": -6813405583620436000
+        },
+        {
+            "id": "_a6813426406695629489",
+            "key": [
+                "modals.shared.guidelines.step3"
+            ],
+            "value": "<b>ごまかすな！</b> こんなことをするとレベルが下がるぞ！",
+            "vid": -6813405501344969000
+        },
+        {
+            "id": "_a6788860193281881641",
+            "key": [
+                "shared.button.skip"
+            ],
+            "value": "スキップ",
+            "vid": -6788836149652303000
+        },
+        {
+            "id": "_a6770664651105498288",
+            "key": [
+                "shared.label.description"
+            ],
+            "value": "説明",
+            "vid": -6761116666680007000
+        },
+        {
+            "id": "_a6770664481521398955",
+            "key": [
+                "shared.button.moreRewards"
+            ],
+            "value": "より多くの報酬",
+            "vid": -6761116615274617000
+        },
+        {
+            "id": "_a6770664354886972582",
+            "key": [
+                "shared.label.new"
+            ],
+            "value": "新着",
+            "vid": -6761116558768953000
+        },
+        {
+            "id": "_a6770664181007905951",
+            "key": [
+                "shared.label.rewards"
+            ],
+            "value": "報酬",
+            "vid": -6761116502664630000
+        },
+        {
+            "id": "_a6765736803799827981",
+            "key": [
+                "shared.label.contactOurSupport"
+            ],
+            "value": "サポートまでご連絡ください。",
+            "vid": -6761116437233488000
+        },
+        {
+            "id": "_a6765716724827718706",
+            "key": [
+                "shared.label.max"
+            ],
+            "value": "最大",
+            "vid": -6761116346436508000
+        },
+        {
+            "id": "_a6765716567792976941",
+            "key": [
+                "shared.label.limitedTimeOffer"
+            ],
+            "value": "期間限定割引",
+            "vid": -6761115567503923000
+        },
+        {
+            "id": "_a6761173981606675948",
+            "key": [
+                "shared.subtitle.verifying"
+            ],
+            "value": "ゲームを確認中です。数秒かかる場合があります。",
+            "vid": -6761115493414425000
+        },
+        {
+            "id": "_a6746292325601729961",
+            "key": [
+                "shared.label.moreInformation"
+            ],
+            "value": "詳細情報",
+            "vid": -6744852074621191000
+        },
+        {
+            "id": "_a6746291075496462474",
+            "key": [
+                "modals.shared.offerCountdownInfo.subtitle"
+            ],
+            "value": "<b>{time}</b> 報酬を獲得できます。その後は引き続きプレイできますが、報酬は付与されません。",
+            "vid": -6744860079366489000
+        },
+        {
+            "id": "_a6725117237169726516",
+            "key": [
+                "initialization.userInfo.toast.selectAgeGender"
+            ],
+            "value": "性別と年齢を選択して次に進んでください",
+            "vid": -6724044697264169000
+        },
+        {
+            "id": "_a6691745292020603574",
+            "key": [
+                "activeOffers.section.hotDealsShort"
+            ],
+            "value": "暑い",
+            "vid": -6684743282806477000
+        },
+        {
+            "id": "_a6691744821724218483",
+            "key": [
+                "activeOffers.section.urgentTasksShort"
+            ],
+            "value": "緊急",
+            "vid": -6684743141072556000
+        },
+        {
+            "id": "_a6672838810284316772",
+            "key": [
+                "shared.cta.earnNow"
+            ],
+            "value": "今すぐ稼ぐ ",
+            "vid": -6672808183073854000
+        },
+        {
+            "id": "_a6666219460911676428",
+            "key": [
+                "offerDetails.label.login"
+            ],
+            "value": "ログイン",
+            "vid": -6659006966220675000
+        },
+        {
+            "id": "_a6662744229395971395",
+            "key": [
+                "shared.button.gotIt"
+            ],
+            "value": "OK",
+            "vid": -6659006835221502000
+        },
+        {
+            "id": "_a6662744036254112806",
+            "key": [
+                "shared.button.reset"
+            ],
+            "value": "リセット",
+            "vid": -6659006678455196000
+        },
+        {
+            "id": "_a6662743893717433662",
+            "key": [
+                "shared.label.chooseYourRewards"
+            ],
+            "value": "報酬を選んでください",
+            "vid": -6659006565980740000
+        },
+        {
+            "id": "_a6662743758557633569",
+            "key": [
+                "shared.label.filter"
+            ],
+            "value": "フィルター",
+            "vid": -6659006512763410000
+        },
+        {
+            "id": "_a6662743628033441081",
+            "key": [
+                "shared.button.showOffers"
+            ],
+            "value": "オファーを表示",
+            "vid": -6659006461293582000
+        },
+        {
+            "id": "_a6662743516831505436",
+            "key": [
+                "shared.button.showAllOffers"
+            ],
+            "value": "すべてのオファーを表示",
+            "vid": -6659006414314707000
+        },
+        {
+            "id": "_a6662743343626075444",
+            "key": [
+                "shared.subtitle.youCanSwitch"
+            ],
+            "value": "このボタンをタップすれば、いつでも報酬を切り替えることができます。",
+            "vid": -6659006366935849000
+        }
+    ],
+    "message": "OK"
+}

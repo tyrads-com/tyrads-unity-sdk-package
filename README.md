@@ -9,6 +9,7 @@ versioning: SemVer 2.0
     - [Benefits](#benefits)
 - [Requirements](#requirements)
 - [Installation](#installation)
+  - [Install External Dependency Manager for Unity](#install-External-dependency-manager-for-unity)
 - [Getting Started](#getting-started)
   - [Scene setup](#scene-setup)
   - [Credentials setup](#credentials-setup)
@@ -61,10 +62,43 @@ click **_Update_** in the **_Package Manager_** window.
 
 If you want to install a certain version of the **TyrAds Unity SDK** you can specified a version in the Git URL:
 ```
-https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v4.0.0-pre.4
+https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v4.0.0-pre.5
 ```
 To explore how to use the TyrAds Unity SDK, import the Demo example from the package’s Samples section in the Unity Package Manager.
 To run a Demo scene, please add a valid credentials from our CRM.
+
+## Install External Dependency Manager for Unity
+
+The SDK depends on External Dependency Manager for Unity (EDM4U) for automatic resolution of native Android/iOS dependencies (e.g., Google Play Integrity libraries).
+
+If EDM4U is not already present in your project, install it before building.
+
+### Option A: Install via package manager
+1. Open Edit -> Project Settings -> Package Manager
+2. Add a new Scoped Registry (or edit the existing OpenUPM entry)
+ - Name: package.openupm.com
+ - URL: https://package.openupm.com
+ - Scope(s): com.google.external-dependency-manager
+3. Click Save or Apply
+
+### Option B: Install via OpenUPM
+1. Install OpenUPM CLI (if not installed):
+```
+npm install -g openupm-cli
+```
+2. In your Unity project folder, run:
+```
+openupm add com.google.external-dependency-manager
+```
+
+### Option C: Install via Git URL
+1. Open Package Manager.
+2. Click on the + icon on the top left corner of the "Package Manager" screen
+3. Click on "Install package from git url..."
+4. Paste:
+```
+https://github.com/googlesamples/unity-jar-resolver.git?path=upm
+```
 
 # Getting Started
 

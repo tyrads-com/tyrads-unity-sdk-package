@@ -51,6 +51,7 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 06039060f21f14f2990d6060a5aab022, type: 3}
+  - {fileID: 21300000, guid: e89f17811165d427abaef094e26f0709, type: 3}
   - {fileID: 21300000, guid: aecc92c144e78437b84e179a5d55a2c0, type: 3}
   - {fileID: 21300000, guid: c52d2224115c44ddb8cc45d1b9ec4f2e, type: 3}
   - {fileID: 21300000, guid: 5c10a1f4982bf403488f3bbfeaff01fa, type: 3}
@@ -64,6 +65,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a42f661f6f54146578f7c672c65c3a40, type: 3}
   m_PackedSpriteNamesToIndex:
   - Circle-outline
+  - close
   - Circle
   - Spinner
   - Squere-corner-radius-16px

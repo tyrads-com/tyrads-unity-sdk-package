@@ -91,7 +91,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 302459238378528701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 414440339, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 414440339, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   key: initialization.usagePermission.description
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 302459239456908358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1620081661, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 1620081661, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   toggleOn: {fileID: 3784981954689433381}
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 302459239807557448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 414440339, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 414440339, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   key: initialization.usagePermission.label
@@ -883,7 +883,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4324793302327489111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 414440339, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 414440339, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   key: initialization.usagePermission.title
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4777560077472972636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1975242301, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 1975242301, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6324182291550066945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1975242301, guid: c584d55827b224073b277c886ebb17ee, type: 3}
+  m_Script: {fileID: 1975242301, guid: a883121ab1c674224bfd87917c635aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
