@@ -1,0 +1,53 @@
+﻿{
+    "data": [
+        {
+            "id": "85",
+            "code": "en",
+            "name": "English",
+            "sha256": "d15367ad230ddc3fb33b99d466fd2b3b4c657337a903859b701132f3d8284e18"
+        },
+        {
+            "id": "265",
+            "code": "de",
+            "name": "German",
+            "sha256": "d52297964c45163cdbafc1afc913dbbdca74c89dfd92776857d6bffb2a1fa905"
+        },
+        {
+            "id": "458",
+            "code": "es",
+            "name": "Spanish",
+            "sha256": "be24293ccdec6d877906f4a47ee4c1722dddca2adf03247b04323ebc6d2c0294"
+        },
+        {
+            "id": "521",
+            "code": "fr",
+            "name": "French",
+            "sha256": "ccf2fb00df2982765f73a6886e7cba1e9cc6b2e1cef6a3dfffce91448b197e0b"
+        },
+        {
+            "id": "685",
+            "code": "id",
+            "name": "Indonesian",
+            "sha256": "e62f3ca77af709df063b372b65d5caeb0ddae6056fa68c93a8fad04bc3767042"
+        },
+        {
+            "id": "717",
+            "code": "ja",
+            "name": "Japanese",
+            "sha256": "df89b6800b254aec3245ba9c33ee935f2ff6d83921d26aa41896436f4c8d8abe"
+        },
+        {
+            "id": "777",
+            "code": "ko",
+            "name": "Korean",
+            "sha256": "b1b657259a5b753008e5f239a30f53eae786f6b6deaf76d05f3eff0c95b8e7ea"
+        },
+        {
+            "id": "1466",
+            "code": "zh-Hans-CN",
+            "name": "Chinese (China, Simplified)",
+            "sha256": "b753ec6fe6a37cb3fb769fa774f51159bd39de2715d34d6a36be077ddb175b56"
+        }
+    ],
+    "message": "OK"
+}

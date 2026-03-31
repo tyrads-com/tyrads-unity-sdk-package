@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+        <repositories>
+            <repository>https://maven.google.com</repository>
+        </repositories>
+        <androidPackage spec="com.google.android.play:integrity:1.4.0+" />
+    </androidPackages>
+</dependencies>

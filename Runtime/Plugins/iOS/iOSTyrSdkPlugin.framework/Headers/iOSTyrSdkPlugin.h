@@ -45,12 +45,14 @@ const char* tyrads_getAdvertisingId(void);
 const char* tyrads_getDeviceData(void);
 
 // MARK: - Web View Management
+/// Preload a native web view with the specified URL
+/// @param url The URL to load in the web view
+/// @param orientationPreference The screen orientation preference: "portrait", "landscape", or "auto" (follows Unity player settings)
+void tyrads_preloadNativeWebView(const char* url);
 /// Open a native web view with the specified URL
 /// @param url The URL to load in the web view
-void tyrads_openNativeWebView(const char* url);
-
-/// Close the currently open web view
-void tyrads_closeWebView(void);
+/// @param orientationPreference The screen orientation preference: "portrait", "landscape", or "auto" (follows Unity player settings)
+void tyrads_openNativeWebView(const char* url, const char* orientationPreference);
 
 // MARK: - Language Change Callback
 /// Register language change callback function pointer

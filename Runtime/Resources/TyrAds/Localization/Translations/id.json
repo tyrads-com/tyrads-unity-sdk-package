@@ -1,0 +1,1597 @@
+﻿{
+    "data": [
+        {
+            "id": "_a6875933646692502547",
+            "key": [
+                "initialization.intro.subtitle"
+            ],
+            "value": "Mainkan game favoritmu dan dapatkan hadiahmu",
+            "vid": -6875909907605875000
+        },
+        {
+            "id": "_a6875933646692502545",
+            "key": [
+                "initialization.intro.label.iHaveRead"
+            ],
+            "value": "Saya telah membaca dan menyetujui <tos>Ketentuan Layanan</tos> Dan <pp>Kebijakan Privasi</pp>",
+            "vid": -6843345498448241000
+        },
+        {
+            "id": "_a6875933646692502541",
+            "key": [
+                "initialization.intro.cta.accept"
+            ],
+            "value": "Terima",
+            "vid": -6875910984097850000
+        },
+        {
+            "id": "_a6875933646692502539",
+            "key": [
+                "initialization.intro.cta.reject"
+            ],
+            "value": "Tolak",
+            "vid": -6875910918935143000
+        },
+        {
+            "id": "_a6875933646692502537",
+            "key": [
+                "initialization.usagePermission.title"
+            ],
+            "value": "Izinkan aplikasi melacak data penggunaan untuk mengaktifkan potensi penghasilanmu",
+            "vid": -6875907737839464000
+        },
+        {
+            "id": "_a6875933646692502535",
+            "key": [
+                "initialization.usagePermission.label"
+            ],
+            "value": "Izinkan akses penggunaan",
+            "vid": -6875932439941215000
+        },
+        {
+            "id": "_a6875933646692502533",
+            "key": [
+                "initialization.usagePermission.description"
+            ],
+            "value": "akses penggunaan memungkinkan aplikasi dapat melacak aplikasi lain mana yang kamu gunakan dan seberapa sering, serta operator, pengaturan bahasa, dan detail lainnya",
+            "vid": -6875894621614629000
+        },
+        {
+            "id": "_a6875933646692502531",
+            "key": [
+                "initialization.userInfo.title"
+            ],
+            "value": "Silakan isi jenis kelamin dan usia mu untuk menikmati permainan!",
+            "vid": -6715752004409276000
+        },
+        {
+            "id": "_a6875933646692502529",
+            "key": [
+                "initialization.userInfo.chooseGender.label"
+            ],
+            "value": "Pilih jenis kelamin kamu",
+            "vid": -6875905969990660000
+        },
+        {
+            "id": "_a6875933646692502527",
+            "key": [
+                "initialization.userInfo.gender.male"
+            ],
+            "value": "Laki-laki",
+            "vid": -6875928831902870000
+        },
+        {
+            "id": "_a6875933646692502525",
+            "key": [
+                "initialization.userInfo.gender.female"
+            ],
+            "value": "Perempuan",
+            "vid": -6875932269150464000
+        },
+        {
+            "id": "_a6875933646692502523",
+            "key": [
+                "initialization.userInfo.chooseAge.label"
+            ],
+            "value": "Pilih usia kamu",
+            "vid": -6875906354057308000
+        },
+        {
+            "id": "_a6875933646692502521",
+            "key": [
+                "initialization.userInfo.cta.continue"
+            ],
+            "value": "Lanjutkan",
+            "vid": -6875929170869743000
+        },
+        {
+            "id": "_a6875933646692502519",
+            "key": [
+                "widget.page.title"
+            ],
+            "value": "Game Premium",
+            "vid": -6875932200362571000
+        },
+        {
+            "id": "_a6875933646692502517",
+            "key": [
+                "widget.button.moreOffers"
+            ],
+            "value": "Penawaran Lainnya",
+            "vid": -6875932159494580000
+        },
+        {
+            "id": "_a6875933646692502515",
+            "key": [
+                "widget.button.play"
+            ],
+            "value": "Main",
+            "vid": -6875859662929640000
+        },
+        {
+            "id": "_a6875933646692502513",
+            "key": [
+                "offers.page.title"
+            ],
+            "value": "Penawaran",
+            "vid": -6871343525218893000
+        },
+        {
+            "id": "_a6875933646692502511",
+            "key": [
+                "offers.subtitle.yourEarnings"
+            ],
+            "value": "PENGHASILAN KAMU\n{multiplier}x BONUS AKTIF",
+            "vid": -6852966676632696000
+        },
+        {
+            "id": "_a6875933646692502509",
+            "key": [
+                "offers.button.activeOffers"
+            ],
+            "value": "Penawaran Aktif",
+            "vid": -6875931967293486000
+        },
+        {
+            "id": "_a6875933646692502507",
+            "key": [
+                "offers.section.premiumGames"
+            ],
+            "value": "Game Premium",
+            "vid": -6875931938706418000
+        },
+        {
+            "id": "_a6875933646692502505",
+            "key": [
+                "offers.section.otherGames"
+            ],
+            "value": "Game Lainnya",
+            "vid": -6875931877637351000
+        },
+        {
+            "id": "_a6875933646692502503",
+            "key": [
+                "offers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6788836808258694000
+        },
+        {
+            "id": "_a6875933646692502501",
+            "key": [
+                "offers.modal.welcomeBack.title"
+            ],
+            "value": "Selamat Datang Kembali",
+            "vid": -6875878442942579000
+        },
+        {
+            "id": "_a6875933646692502499",
+            "key": [
+                "offers.modal.welcomeBack.subtitle"
+            ],
+            "value": "Saatnya kembali ke game, <b>{multiplier}x</b> hadiah bonusmu menanti!",
+            "vid": -6875860258118155000
+        },
+        {
+            "id": "_a6875933646692502497",
+            "key": [
+                "offers.modal.welcomeBack.button.goToActiveOffers"
+            ],
+            "value": "Buka Penawaran Aktif",
+            "vid": -6875931745632908000
+        },
+        {
+            "id": "_a6875933646692502495",
+            "key": [
+                "offers.modal.dontMiss.title"
+            ],
+            "value": "Jangan Lewatkan! Penawaran Terbatas - Klaim Sebelum Kehabisan",
+            "vid": -6875931710402062000
+        },
+        {
+            "id": "_a6875933646692502493",
+            "key": [
+                "offers.modal.limitedTimeOffer.title"
+            ],
+            "value": "Penawaran Terbatas - Klaim Sebelum Waktu Habis",
+            "vid": -6875879456754888000
+        },
+        {
+            "id": "_a6875933646692502491",
+            "key": [
+                "offerDetails.page.title"
+            ],
+            "value": "Detail Penawaran",
+            "vid": -6875931433175345000
+        },
+        {
+            "id": "_a6875933646692502489",
+            "key": [
+                "offerDetails.label.earn"
+            ],
+            "value": "Menghasilkan",
+            "vid": -6875931375595940000
+        },
+        {
+            "id": "_a6875933646692502487",
+            "key": [
+                "offerDetails.section.description"
+            ],
+            "value": "Deskripsi",
+            "vid": -6875845731130787000
+        },
+        {
+            "id": "_a6875933646625393621",
+            "key": [
+                "offerDetails.section.playTime"
+            ],
+            "value": "Waktu Bermain",
+            "vid": -6875931061929110000
+        },
+        {
+            "id": "_a6875933646625393619",
+            "key": [
+                "shared.section.quickRewards"
+            ],
+            "value": "Hadiah Cepat",
+            "vid": -6606899113152177000
+        },
+        {
+            "id": "_a6875933646625393617",
+            "key": [
+                "offerDetails.cta.seeProgress"
+            ],
+            "value": "Lihat Proses",
+            "vid": -6875833859035873000
+        },
+        {
+            "id": "_a6875933646625393615",
+            "key": [
+                "offerDetails.cta.seeStatus"
+            ],
+            "value": "Lihat status",
+            "vid": -6875930957507717000
+        },
+        {
+            "id": "_a6875933646625393613",
+            "key": [
+                "offerDetails.button.needHelp"
+            ],
+            "value": "Butuh Bantuan?",
+            "vid": -6875930920866277000
+        },
+        {
+            "id": "_a6875933646625393607",
+            "key": [
+                "offerDetails.status.completePreviousTask"
+            ],
+            "value": "Selesaikan tugas sebelumnya",
+            "vid": -6875930819330566000
+        },
+        {
+            "id": "_a6875933646625393605",
+            "key": [
+                "offerDetails.status.yourTicketHasBeenSubmitted"
+            ],
+            "value": "Tiketmu telah dikirim",
+            "vid": -6875879626674531000
+        },
+        {
+            "id": "_a6875933646625393603",
+            "key": [
+                "offerDetails.status.weAreProcessingYourProgress"
+            ],
+            "value": "Kami sedang memproses prosesmu",
+            "vid": -6875833407256389000
+        },
+        {
+            "id": "_a6875933646625393601",
+            "key": [
+                "offerDetails.status.progressRejected"
+            ],
+            "value": "Proses ditolak",
+            "vid": -6761122844856245000
+        },
+        {
+            "id": "_a6875933646625393599",
+            "key": [
+                "offerDetails.description.completeQuick&DailyRewards"
+            ],
+            "value": "Selesaikan Hadiah Cepat & Harian di bawah ini untuk Naik Level",
+            "vid": -6852910425714454000
+        },
+        {
+            "id": "_a6875933646625393597",
+            "key": [
+                "offerDetails.description.downloadInstruction.followStep"
+            ],
+            "value": "Ikuti beberapa langkah ini untuk menghindari kegagalan dan memastikan mu mendapatkan hadiah.",
+            "vid": -6801693821247614000
+        },
+        {
+            "id": "_a6875933646625393595",
+            "key": [
+                "offerDetails.description.downloadInstruction.stepByStep"
+            ],
+            "value": "<li>Pastikan kamu memilih <b>{appstore}</b> untuk mengaktivasi gamenya</li>\n<li>Aktivasi segera setelah kamu menekan tombol <b>\"Konfirmasi\"</b></li>\n<li>Setelah selesai aktivasi, <b>buka game dari {appstore}</b></li>",
+            "vid": -6801691897502327000
+        },
+        {
+            "id": "_a6875933646625393593",
+            "key": [
+                "offerDetails.description.downloadInstruction.note"
+            ],
+            "value": "Catatan: Jika gagal aktivasi, jangan lanjutkan bermain!",
+            "vid": -6801693248068215000
+        },
+        {
+            "id": "_a6875933646625393591",
+            "key": [
+                "offerDetails.modal.myPlayTime.title"
+            ],
+            "value": "Waktu Bermainku",
+            "vid": -6875930367151040000
+        },
+        {
+            "id": "_a6875933646625393589",
+            "key": [
+                "offerDetails.modal.myPlayTime.status.onProgress"
+            ],
+            "value": "Dalam Proses",
+            "vid": -6875883148817449000
+        },
+        {
+            "id": "_a6875933646625393587",
+            "key": [
+                "offerDetails.modal.myPlayTime.subtitle"
+            ],
+            "value": "Buka penawaran untuk melihat riwayat waktu bermainmu!",
+            "vid": -6875882974267294000
+        },
+        {
+            "id": "_a6875933646625393585",
+            "key": [
+                "offerDetails.modal.myPlayTime.label.play"
+            ],
+            "value": "Main {time}",
+            "vid": -6875883334910331000
+        },
+        {
+            "id": "_a6875933646625393565",
+            "key": [
+                "activeOffers.page.title"
+            ],
+            "value": "Penawaran Aktif",
+            "vid": -6875928228391545000
+        },
+        {
+            "id": "_a6875933646625393563",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6785365856074007000
+        },
+        {
+            "id": "_a6875933646625393561",
+            "key": [
+                "activeOffers.cta.startPlaying"
+            ],
+            "value": "Mulai Bermain",
+            "vid": -6875927834126969000
+        },
+        {
+            "id": "_a6875933646625393559",
+            "key": [
+                "activeOffers.cta.seeAllTasks"
+            ],
+            "value": "Lihat semua tugas",
+            "vid": -6875927787284982000
+        },
+        {
+            "id": "_a6875933646625393557",
+            "key": [
+                "activeOffers.section.hotDeals"
+            ],
+            "value": "Penawaran Menarik",
+            "vid": -6875927586495261000
+        },
+        {
+            "id": "_a6875933646625393555",
+            "key": [
+                "activeOffers.section.urgentTasks"
+            ],
+            "value": "Tugas Mendesak",
+            "vid": -6875913061788280000
+        },
+        {
+            "id": "_a6875933646625393553",
+            "key": [
+                "activeOffers.section.all"
+            ],
+            "value": "Semua",
+            "vid": -6875927395369216000
+        },
+        {
+            "id": "_a6875933646625393551",
+            "key": [
+                "activeOffers.section.limitedTimeOffer"
+            ],
+            "value": "Penawaran Terbatas - Segera berakhir",
+            "vid": -6875913757705893000
+        },
+        {
+            "id": "_a6875933646625393549",
+            "key": [
+                "activeOffers.subtitle.overallEarnings"
+            ],
+            "value": "Pendapatan Keseluruhan",
+            "vid": -6875927233838180000
+        },
+        {
+            "id": "_a6875933646625393547",
+            "key": [
+                "activeOffers.modal.moreInformation.title"
+            ],
+            "value": "Informasi Selengkapnya",
+            "vid": -6874802053271204000
+        },
+        {
+            "id": "_a6875933646625393545",
+            "key": [
+                "activeOffers.modal.moreInformation.retry.subtitle"
+            ],
+            "value": "Hadiah akan tersedia setelah game teraktivasi. Jika kamu adalah pengguna baru, pastikan <b>aktivasi selesai sepenuhnya</b>.\n\nJika terputus, klik <b>Coba lagi</b> untuk melanjutkan dan buka hadiahmu!",
+            "vid": -6801689484068841000
+        },
+        {
+            "id": "_a6875933646625393543",
+            "key": [
+                "activeOffers.modal.moreInformation.previouslyDownloaded.subtitle"
+            ],
+            "value": "Game ini sudah pernah <b>dimainkan sebelumnya</b>, jadi proses tidak akan dilacak dan {currencyName} tidak dapat didapatkan.\n\nSilakan pilih game lain untuk mendapat hadiah.",
+            "vid": -6801694922771219000
+        },
+        {
+            "id": "_a6875933646625393541",
+            "key": [
+                "activeOffers.modal.moreInformation.unavailable.subtitle"
+            ],
+            "value": "Maaf, game ini <b>tidak tersedia</b> saat ini.",
+            "vid": -6875918726781728000
+        },
+        {
+            "id": "_a6875933646625393539",
+            "key": [
+                "modals.shared.temporarilyUnavailable.title"
+            ],
+            "value": "Tidak Tersedia Sementara",
+            "vid": -6875914076204561000
+        },
+        {
+            "id": "_a6875933646625393537",
+            "key": [
+                "modals.shared.temporarilyUnavailable.subtitle"
+            ],
+            "value": "Game ini <b>sementara tidak tersedia</b>. Silakan periksa lagi nanti!",
+            "vid": -6875859900897672000
+        },
+        {
+            "id": "_a6875933646625393535",
+            "key": [
+                "activeOffers.button.moreInformation"
+            ],
+            "value": "Informasi Selengkapnya",
+            "vid": -6874802097563054000
+        },
+        {
+            "id": "_a6875933646625393533",
+            "key": [
+                "support.page.subtitle"
+            ],
+            "value": "Saya tidak menerima hadiah saya",
+            "vid": -6875925843745171000
+        },
+        {
+            "id": "_a6875933646625393531",
+            "key": [
+                "support.subtitle.happyToHelp"
+            ],
+            "value": "Kami dengan senang hati akan membantu!",
+            "vid": -6875925768918788000
+        },
+        {
+            "id": "_a6875933646625393529",
+            "key": [
+                "support.subtitle.selectTask"
+            ],
+            "value": "Pilih tugas yang menurut kamu telah selesai tetapi tidak mendapat {currencyName}",
+            "vid": -6875859169209728000
+        },
+        {
+            "id": "_a6875933646625393527",
+            "key": [
+                "support.section.tasks"
+            ],
+            "value": "Tugas",
+            "vid": -6875925508200851000
+        },
+        {
+            "id": "_a6875933646625393525",
+            "key": [
+                "support.label.gamePlayerID"
+            ],
+            "value": "ID Pemain Game",
+            "vid": -6875925450822773000
+        },
+        {
+            "id": "_a6875933646625393523",
+            "key": [
+                "support.label.orderID"
+            ],
+            "value": "ID Pesanan",
+            "vid": -6875925126821177000
+        },
+        {
+            "id": "_a6875933646625393521",
+            "key": [
+                "support.label.screenshot"
+            ],
+            "value": "Tangkapan Layar",
+            "vid": -6875923633246300000
+        },
+        {
+            "id": "_a6875933646625393519",
+            "key": [
+                "support.button.browseFile"
+            ],
+            "value": "Telusuri Berkas",
+            "vid": -6875866023641988000
+        },
+        {
+            "id": "_a6875933646625393517",
+            "key": [
+                "support.subtitle.ticketSubmittedSuccessfully"
+            ],
+            "value": "Tiket Berhasil Dikirim!",
+            "vid": -6875924210115406000
+        },
+        {
+            "id": "_a6875933646625393515",
+            "key": [
+                "support.subtitle.thankYouForReachingOut"
+            ],
+            "value": "Terima kasih telah menghubungi kami!\nTim dukungan kami sedang meninjau permintaanmu dan akan segera menghubungimu kembali.",
+            "vid": -6852967687627732000
+        },
+        {
+            "id": "_a6875933646625393513",
+            "key": [
+                "support.status.haventReachedThisLevel"
+            ],
+            "value": "Kamu belum mencapai level ini",
+            "vid": -6875858680858525000
+        },
+        {
+            "id": "_a6875933646625393511",
+            "key": [
+                "support.status.ticketBeingProcessed"
+            ],
+            "value": "Tiketmu akan diproses dalam waktu 24 jam",
+            "vid": -6867812262095564000
+        },
+        {
+            "id": "_a6875933646625393509",
+            "key": [
+                "support.status.ticketBeingRejected"
+            ],
+            "value": "Tiketmu telah ditolak",
+            "vid": -6875858805144141000
+        },
+        {
+            "id": "_a6875933646625393507",
+            "key": [
+                "support.status.ticketBeingApproved"
+            ],
+            "value": "Tiketmu telah disetujui",
+            "vid": -6875858757027085000
+        },
+        {
+            "id": "_a6875933646625393505",
+            "key": [
+                "support.status.haveCompletedThisLevel"
+            ],
+            "value": "Kamu sudah menyelesaikan level ini",
+            "vid": -6875921034992413000
+        },
+        {
+            "id": "_a6875933646625393503",
+            "key": [
+                "support.description.clickHereToSeeExample"
+            ],
+            "value": "Klik di sini untuk melihat contoh",
+            "vid": -6875920983855458000
+        },
+        {
+            "id": "_a6875933646625393501",
+            "key": [
+                "support.description.pleaseAttach"
+            ],
+            "value": "Harap lampirkan ID Pesanan dan Tangkapan Layar seperti yang ditunjukkan di atas.",
+            "vid": -6875920951844530000
+        },
+        {
+            "id": "_a6875933646625393499",
+            "key": [
+                "support.button.preview"
+            ],
+            "value": "Lihat",
+            "vid": -6875860917529853000
+        },
+        {
+            "id": "_a6875933646625393497",
+            "key": [
+                "support.button.iUnderstand"
+            ],
+            "value": "Saya mengerti",
+            "vid": -6875920811719914000
+        },
+        {
+            "id": "_a6875933646625393495",
+            "key": [
+                "support.modal.gamePlayerID.title"
+            ],
+            "value": "ID Pemain Game",
+            "vid": -6875920738169907000
+        },
+        {
+            "id": "_a6875933646625393493",
+            "key": [
+                "support.modal.gamePlayerID.subtitle"
+            ],
+            "value": "Ini adalah ID unik yang ditampilkan di profil game kamu.",
+            "vid": -6875920383433763000
+        },
+        {
+            "id": "_a6875933646625393491",
+            "key": [
+                "errorPage.title"
+            ],
+            "value": "Maaf!",
+            "vid": -6875919710600292000
+        },
+        {
+            "id": "_a6875933646625393489",
+            "key": [
+                "errorPage.description.failedToLoad"
+            ],
+            "value": "Gagal memuat, coba muat ulang halaman",
+            "vid": -6875919642820340000
+        },
+        {
+            "id": "_a6875933646625393487",
+            "key": [
+                "errorPage.button.reload"
+            ],
+            "value": "Muat ulang",
+            "vid": -6875919582288144000
+        },
+        {
+            "id": "_a6875933646625393485",
+            "key": [
+                "errorPage.button.refresh"
+            ],
+            "value": "Menyegarkan",
+            "vid": -6875918890126010000
+        },
+        {
+            "id": "_a6875933646625393483",
+            "key": [
+                "errorPage.description.weCouldntConnect"
+            ],
+            "value": "Kamu tidak dapat terhubung, coba segarkan halaman",
+            "vid": -6875911364806436000
+        },
+        {
+            "id": "_a6875933646625393481",
+            "key": [
+                "settings.page.title"
+            ],
+            "value": "Pengaturan",
+            "vid": -6875878240810680000
+        },
+        {
+            "id": "_a6875933646625393479",
+            "key": [
+                "language.page.title"
+            ],
+            "value": "Bahasa",
+            "vid": -6875917809269339000
+        },
+        {
+            "id": "_a6875933646625393477",
+            "key": [
+                "shared.error.emptyField"
+            ],
+            "value": "Isian ini tidak boleh kosong",
+            "vid": -6875916997654738000
+        },
+        {
+            "id": "_a6875933646625393475",
+            "key": [
+                "shared.status.rejected"
+            ],
+            "value": "Ditolak",
+            "vid": -6875916970008504000
+        },
+        {
+            "id": "_a6875933646625393473",
+            "key": [
+                "shared.status.expired"
+            ],
+            "value": "Kadaluarsa",
+            "vid": -6875916442865759000
+        },
+        {
+            "id": "_a6875933646625393471",
+            "key": [
+                "shared.status.completed"
+            ],
+            "value": "Selesai",
+            "vid": -6875916635605035000
+        },
+        {
+            "id": "_a6875933646625393469",
+            "key": [
+                "shared.status.expiredDueToMaxtime"
+            ],
+            "value": "Kadaluarsa karena batas waktu",
+            "vid": -6875875662221003000
+        },
+        {
+            "id": "_a6875933646625393467",
+            "key": [
+                "shared.subtitle.couldntValidate"
+            ],
+            "value": "Kami tidak dapat memvalidasi aktivasi kamu",
+            "vid": -6801689342334921000
+        },
+        {
+            "id": "_a6875933646625393465",
+            "key": [
+                "shared.subtitle.retry"
+            ],
+            "value": "Tindakan spesifik di dalam aplikasi tidak dapat dilacak <b></b> (misalnya, menyelesaikan level, menonton iklan). Harap diperhatikan bahwa hal ini dapat menyebabkan <b>masalah</b> pada kemajuan kamu <b>.</b>",
+            "vid": -6666224876929843000
+        },
+        {
+            "id": "_a6875933646625393463",
+            "key": [
+                "shared.subtitle.installing"
+            ],
+            "value": "",
+            "vid": -6788836600623869000
+        },
+        {
+            "id": "_a6875933646625393461",
+            "key": [
+                "shared.subtitle.finishInstall"
+            ],
+            "value": "Selesaikan aktivasi untuk membuka semua hadiah, dan dapatkan hingga",
+            "vid": -6801690686657094000
+        },
+        {
+            "id": "_a6875933646625393459",
+            "key": [
+                "shared.subtitle.previouslyDownloaded"
+            ],
+            "value": "Kamu sudah pernah <b>bermain game ini sebelumnya</b>, jadi proses tidak akan dilacak atau mendapat {currencyName}. Silakan pilih game baru lainnya.",
+            "vid": -6801691598063878000
+        },
+        {
+            "id": "_a6875933646625393457",
+            "key": [
+                "shared.subtitle.temporarilyUnavailable"
+            ],
+            "value": "Maaf, game ini <b>sementara tidak tersedia</b>, silakan kembali lagi nanti!",
+            "vid": -6875623031841964000
+        },
+        {
+            "id": "_a6875933646625393455",
+            "key": [
+                "shared.subtitle.unavailable"
+            ],
+            "value": "Maaf, game ini <b>sudah tidak tersedia!</b>",
+            "vid": -6830795469256127000
+        },
+        {
+            "id": "_a6875933646625393453",
+            "key": [
+                "shared.cta.playNow"
+            ],
+            "value": "Mainkan Sekarang",
+            "vid": -6875913744552554000
+        },
+        {
+            "id": "_a6875933646625393451",
+            "key": [
+                "shared.cta.retry"
+            ],
+            "value": "Coba lagi",
+            "vid": -6875913669591953000
+        },
+        {
+            "id": "_a6875933646625393449",
+            "key": [
+                "shared.cta.submitTicket"
+            ],
+            "value": "Kirim Tiket",
+            "vid": -6875913533229361000
+        },
+        {
+            "id": "_a6875933646625393447",
+            "key": [
+                "shared.button.privacyPolicy"
+            ],
+            "value": "Kebijakan Privasi",
+            "vid": -6875913144867746000
+        },
+        {
+            "id": "_a6875933646625393445",
+            "key": [
+                "shared.button.termsOfService"
+            ],
+            "value": "Ketentuan Layanan",
+            "vid": -6875913038567305000
+        },
+        {
+            "id": "_a6875933646625393443",
+            "key": [
+                "shared.button.language"
+            ],
+            "value": "Bahasa",
+            "vid": -6875912768923890000
+        },
+        {
+            "id": "_a6875933646625393441",
+            "key": [
+                "shared.button.ok"
+            ],
+            "value": "Oke",
+            "vid": -6875912967031876000
+        },
+        {
+            "id": "_a6875933646625393439",
+            "key": [
+                "shared.label.offerExpires"
+            ],
+            "value": "Penawaran berakhir dalam {time}",
+            "vid": -6875820511148618000
+        },
+        {
+            "id": "_a6875933646625393437",
+            "key": [
+                "shared.label.bonusExpires"
+            ],
+            "value": "Bonus berakhir dalam",
+            "vid": -6875573931035046000
+        },
+        {
+            "id": "_a6875933646625393435",
+            "key": [
+                "shared.label.bonusTag"
+            ],
+            "value": "{multiplier}x Bonus",
+            "vid": -6875843419833088000
+        },
+        {
+            "id": "_a6875933646625393433",
+            "key": [
+                "shared.label.completeWithin"
+            ],
+            "value": "Selesaikan dalam {time}",
+            "vid": -6875820405920622000
+        },
+        {
+            "id": "_a6875933646625393431",
+            "key": [
+                "shared.label.totalLimit"
+            ],
+            "value": "Total Batas",
+            "vid": -6875812423255437000
+        },
+        {
+            "id": "_a6875933646625393429",
+            "key": [
+                "shared.section.bonusRewards"
+            ],
+            "value": "Hadiah Bonus",
+            "vid": -6875911869329568000
+        },
+        {
+            "id": "_a6875933646625393427",
+            "key": [
+                "shared.section.activeTask"
+            ],
+            "value": "Tugas Aktif",
+            "vid": -6875912076631468000
+        },
+        {
+            "id": "_a6875933646625393425",
+            "key": [
+                "shared.section.dailyRewards"
+            ],
+            "value": "Hadiah Harian",
+            "vid": -6875911463119614000
+        },
+        {
+            "id": "_a6875933646625393423",
+            "key": [
+                "modals.shared.guidelines.dos.title"
+            ],
+            "value": "Lakukan",
+            "vid": -6875893014288921000
+        },
+        {
+            "id": "_a6875933646625393421",
+            "key": [
+                "modals.shared.guidelines.donts.title"
+            ],
+            "value": "Jangan Lakukan",
+            "vid": -6875892809942430000
+        },
+        {
+            "id": "_a6875933646625393419",
+            "key": [
+                "modals.shared.guidelines.dos.list"
+            ],
+            "value": "<li><b>Tonton iklan</b> untuk meningkatkan penghasilanmu</li>\n<li><b>Mainkan lebih banyak</b> untuk naik level dan mempertahankan peringkatmu.</li>\n<li><b>Lakukan pembelian dalam game</b> untuk memaksimalkan hadiah.</li>\n<li><b>Terus bermain</b> untuk mempertahankan level kamu saat ini</li>",
+            "vid": -6853608619087746000
+        },
+        {
+            "id": "_a6875933646625393417",
+            "key": [
+                "modals.shared.guidelines.description"
+            ],
+            "value": "Hadiah Bonus adalah penghasilan tambahan yang ditambahkan ke Tugas Aktif kamu. Tingkatkan level kamu dengan menyelesaikan <b>Hadiah Cepat</b> dan <b>Hadiah Harian</b>.",
+            "vid": -6853597759934011000
+        },
+        {
+            "id": "_a6875933646625393415",
+            "key": [
+                "modals.shared.guidelines.label.tips"
+            ],
+            "value": "Tingkatkan hadiahmu dengan tips berikut ini:",
+            "vid": -6853598936757666000
+        },
+        {
+            "id": "_a6875933646625393413",
+            "key": [
+                "modals.shared.guidelines.label.startBoosting"
+            ],
+            "value": "Mulai tingkatkan sekarang dan nikmati hadiah yang lebih besar!",
+            "vid": -6853602742568453000
+        },
+        {
+            "id": "_a6875933646625393411",
+            "key": [
+                "modals.shared.guidelines.subtitle"
+            ],
+            "value": "Apa itu Bonus Rewards?",
+            "vid": -6853607892231640000
+        },
+        {
+            "id": "_a6875933646625393409",
+            "key": [
+                "modals.shared.guidelines.donts.list"
+            ],
+            "value": "<li><b>Hindari ketidakaktifan</b>, atau kamu mungkin turun ke level yang lebih rendah.</li>\n<li><b>Hindari kecurangan</b>, karena akan menurunkan level kamu dan mengurangi hadiahmu.</li>",
+            "vid": -6853609880334338000
+        },
+        {
+            "id": "_a6875933646625393405",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.title"
+            ],
+            "value": "Kadaluarsa karena batas waktu",
+            "vid": -6874958086951343000
+        },
+        {
+            "id": "_a6875933646625393403",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.subtitle"
+            ],
+            "value": "Tugas ini berakhir karena batas waktu maksimum telah tercapai.\n\nSilakan lanjut ke tugas berikutnya untuk mendapatkan hadiah.",
+            "vid": -6852966828701382000
+        },
+        {
+            "id": "_a6875933190152514135",
+            "key": [
+                "initialization.intro.title"
+            ],
+            "value": "Kamu sudah sangat dekat untuk mendapat hadiah pertamamu",
+            "vid": -6875895095066358000
+        },
+        {
+            "id": "_a6875844351104107004",
+            "key": [
+                "offerDetails.label.earnUpTo"
+            ],
+            "value": "Dapatkan hingga",
+            "vid": -6874931876373961000
+        },
+        {
+            "id": "_a6875823419177021804",
+            "key": [
+                "offerDetails.label.playAndEarn"
+            ],
+            "value": "Bermain selama <b>{time}</b> dan dapatkan <b>{amount}!</b>",
+            "vid": -6874922399060146000
+        },
+        {
+            "id": "_a6875819040861830404",
+            "key": [
+                "shared.time.label.second"
+            ],
+            "value": "",
+            "vid": -6875818370914041000
+        },
+        {
+            "id": "_a6875818921273834731",
+            "key": [
+                "shared.time.label.minute"
+            ],
+            "value": "",
+            "vid": -6875818324944469000
+        },
+        {
+            "id": "_a6875818731288640730",
+            "key": [
+                "shared.time.label.hour"
+            ],
+            "value": "",
+            "vid": -6875818257164516000
+        },
+        {
+            "id": "_a6875818603110710482",
+            "key": [
+                "shared.time.label.day"
+            ],
+            "value": "",
+            "vid": -6875818221194165000
+        },
+        {
+            "id": "_a6875805345684905332",
+            "key": [
+                "shared.time.label.second.abbr"
+            ],
+            "value": "dtk",
+            "vid": -6875804924174130000
+        },
+        {
+            "id": "_a6875805284011859310",
+            "key": [
+                "shared.time.label.minute.abbr"
+            ],
+            "value": "mnt",
+            "vid": -6875804885318098000
+        },
+        {
+            "id": "_a6875805219386023273",
+            "key": [
+                "shared.time.label.hour.abbr"
+            ],
+            "value": "jm",
+            "vid": -6875657945564007000
+        },
+        {
+            "id": "_a6875805128050859364",
+            "key": [
+                "shared.time.label.day.abbr"
+            ],
+            "value": "hr",
+            "vid": -6875804767407824000
+        },
+        {
+            "id": "_a6875576715180486868",
+            "key": [
+                "support.label.uploadYourFile"
+            ],
+            "value": "Unggah berkasmu di sini",
+            "vid": -6875576522443829000
+        },
+        {
+            "id": "_a6875571577796911041",
+            "key": [
+                "shared.label.bonusTagCaps"
+            ],
+            "value": "{multiplier}x BONUS",
+            "vid": -6875571318352753000
+        },
+        {
+            "id": "_a6875494838945141794",
+            "key": [
+                "errorPage.description.notFound"
+            ],
+            "value": "Maaf, kami tidak dapat menemukan halaman tersebut",
+            "vid": -6666224497630544000
+        },
+        {
+            "id": "_a6875494737542359333",
+            "key": [
+                "errorPage.button.returnHome"
+            ],
+            "value": "Halaman Utama",
+            "vid": -6875494175641130000
+        },
+        {
+            "id": "_a6875494628089091083",
+            "key": [
+                "errorPage.description.sessionExpired"
+            ],
+            "value": "Sesi kedaluarsa atau tidak ditemukan",
+            "vid": -6875494032093981000
+        },
+        {
+            "id": "_a6874958700594795052",
+            "key": [
+                "shared.label.offerExpired"
+            ],
+            "value": "Penawaran Telah Berakhir",
+            "vid": -6874958393705960000
+        },
+        {
+            "id": "_a6874904366168905076",
+            "key": [
+                "offers.section.bonusRewards"
+            ],
+            "value": "Hadiah\nBonus",
+            "vid": -6852968390193051000
+        },
+        {
+            "id": "_a6874897131430712637",
+            "key": [
+                "shared.time.label.left"
+            ],
+            "value": "tersisa",
+            "vid": -6874896984864953000
+        },
+        {
+            "id": "_a6874677181190694875",
+            "key": [
+                "support.page.title"
+            ],
+            "value": "Bantuan",
+            "vid": -6874676917654186000
+        },
+        {
+            "id": "_a6874663697409303883",
+            "key": [
+                "shared.label.total"
+            ],
+            "value": "Total",
+            "vid": -6874663074169284000
+        },
+        {
+            "id": "_a6869019194079275457",
+            "key": [
+                "widget.empty.noOffers"
+            ],
+            "value": "Terus Bermain! \nHadiah Menarik Menanti!",
+            "vid": -6852968225038136000
+        },
+        {
+            "id": "_a6869018420850944428",
+            "key": [
+                "widget.button.continuePlaying"
+            ],
+            "value": "Terus Bermain",
+            "vid": -6869017867269925000
+        },
+        {
+            "id": "_a6854992720551446494",
+            "key": [
+                "shared.status.limitedOfferExpired"
+            ],
+            "value": "Penawaran Terbatas telah Kadaluwarsa",
+            "vid": -6853602391119332000
+        },
+        {
+            "id": "_a6853797233314736170",
+            "key": [
+                "modals.shared.guidelines.button.seeGuidelines"
+            ],
+            "value": "Lihat Pedoman",
+            "vid": -6853602341391664000
+        },
+        {
+            "id": "_a6852978545506382673",
+            "key": [
+                "shared.label.bonus"
+            ],
+            "value": "Bonus",
+            "vid": -6852957135899718000
+        },
+        {
+            "id": "_a6852978255394763582",
+            "key": [
+                "shared.label.bonusRewards"
+            ],
+            "value": "Hadiah Bonus",
+            "vid": -6852957310653822000
+        },
+        {
+            "id": "_a6852961481067066642",
+            "key": [
+                "offerDetails.button.levelUpNow"
+            ],
+            "value": "Naik Level Sekarang",
+            "vid": -6852956957457248000
+        },
+        {
+            "id": "_a6852961025464988931",
+            "key": [
+                "offerDetails.status.nextLevel"
+            ],
+            "value": "Level Berikutnya",
+            "vid": -6852956854716200000
+        },
+        {
+            "id": "_a6852708389244883616",
+            "key": [
+                "modals.shared.guidelines.title"
+            ],
+            "value": "Bonus Hadiah",
+            "vid": -6852687556508637000
+        },
+        {
+            "id": "_a6851430774317232747",
+            "key": [
+                "offerDetails.status.maximumLevel"
+            ],
+            "value": "Level Maksimum!",
+            "vid": -6851430272610060000
+        },
+        {
+            "id": "_a6844607323132590854",
+            "key": [
+                "initialization.legal.explanation"
+            ],
+            "value": "Kami dengan ini memberitahukan kepada Anda bahwa Tyrads Pte. Ltd.   memproses data pribadi berikut dalam rangka penggunaan TyrSDK: \nAplikasi yang terinstal (termasuk durasi penggunaan dan riwayat penggunaan) \nData tersebut dikaitkan dengan perangkat Anda melalui ID perangkat (GAID atau IDFA) yang dikirimkan ke server kami dalam bentuk terenkripsi. Agar penyedia aplikasi dapat membiayai saran aplikasi kami, kami harus mengirimkan ID perangkat kepada mereka untuk tujuan penagihan.\n\nPengolahan data di atas diperlukan untuk dapat merekomendasikan aplikasi melalui pesan sistem, menginstal aplikasi yang tersedia di TyrSDK yang sesuai dengan minat Anda, dan menghitung hadiah yang diperoleh sebagai hasil penggunaan aplikasi yang sesuai.\n\nPersetujuan\n\nDengan mengklik ''Setuju'', saya memberikan persetujuan kepada Tyrads Pte. Ltd untuk memproses data pribadi yang disebutkan di atas dan mengirimkannya ke aplikasi lain agar saya dapat menggunakan TyrSDK sebagaimana dijelaskan.\n\nSaya menyadari bahwa data di atas akan menghasilkan profil minat, yang tergantung pada jenis aplikasi yang saya gunakan, dapat mengandung data pribadi yang sangat sensitif (seperti data kesehatan atau data tentang orientasi seksual saya serta data lain dari kategori khusus yang didefinisikan dalam Pasal 9 ayat 1 Peraturan Perlindungan Data Umum Eropa (GDPR).\n\nData ini akan diproses oleh Tyrads Pte. Ltd, TyrSDK. Untuk informasi lebih lanjut, kunjungi https://tyrads.com/tyrsdk-privacy-policy/ ",
+            "vid": -6844603306398645000
+        },
+        {
+            "id": "_a6813429817972053463",
+            "key": [
+                "shared.button.next"
+            ],
+            "value": "Berikutnya",
+            "vid": -6813418125798623000
+        },
+        {
+            "id": "_a6813428426135565070",
+            "key": [
+                "shared.button.back"
+            ],
+            "value": "Kembali",
+            "vid": -6813418067278426000
+        },
+        {
+            "id": "_a6813427918324058708",
+            "key": [
+                "shared.button.understand"
+            ],
+            "value": "Mengerti",
+            "vid": -6813417965608497000
+        },
+        {
+            "id": "_a6813426980275090133",
+            "key": [
+                "modals.shared.guidelines.step1"
+            ],
+            "value": "<b>Naikkan level kamu</b> dengan menyelesaikan Hadiah <b>Cepat</b> & <b> Harian</b> untuk memperoleh hadiah 2-3x lebih tinggi!",
+            "vid": -6813412618039937000
+        },
+        {
+            "id": "_a6813426762708153028",
+            "key": [
+                "modals.shared.guidelines.step2"
+            ],
+            "value": "<b>Lakukan pembelian</b> untuk <b>menaikkan level</b> secara instan.",
+            "vid": -6813414257573975000
+        },
+        {
+            "id": "_a6813426406695629489",
+            "key": [
+                "modals.shared.guidelines.step3"
+            ],
+            "value": "<b>Jangan curang!</b> karena akan merusak level kamu!",
+            "vid": -6813413868680727000
+        },
+        {
+            "id": "_a6788860193281881641",
+            "key": [
+                "shared.button.skip"
+            ],
+            "value": "Lewati",
+            "vid": -6788836671423720000
+        },
+        {
+            "id": "_a6770664651105498288",
+            "key": [
+                "shared.label.description"
+            ],
+            "value": "Deskripsi",
+            "vid": -6770662198142301000
+        },
+        {
+            "id": "_a6770664481521398955",
+            "key": [
+                "shared.button.moreRewards"
+            ],
+            "value": "Lebih Banyak Hadiah",
+            "vid": -6770662100096251000
+        },
+        {
+            "id": "_a6770664354886972582",
+            "key": [
+                "shared.label.new"
+            ],
+            "value": "Baru",
+            "vid": -6770662058622973000
+        },
+        {
+            "id": "_a6770664181007905951",
+            "key": [
+                "shared.label.rewards"
+            ],
+            "value": "Hadiah",
+            "vid": -6770662018827417000
+        },
+        {
+            "id": "_a6765736803799827981",
+            "key": [
+                "shared.label.contactOurSupport"
+            ],
+            "value": "Silakan hubungi tim dukungan kami.",
+            "vid": -6761121200150893000
+        },
+        {
+            "id": "_a6765716724827718706",
+            "key": [
+                "shared.label.max"
+            ],
+            "value": "Maksimal",
+            "vid": -6762145934184789000
+        },
+        {
+            "id": "_a6765716567792976941",
+            "key": [
+                "shared.label.limitedTimeOffer"
+            ],
+            "value": "Penawaran Terbatas",
+            "vid": -6762145826139518000
+        },
+        {
+            "id": "_a6761173981606675948",
+            "key": [
+                "shared.subtitle.verifying"
+            ],
+            "value": "Kami sedang memverifikasi permainanmu, ini mungkin memakan waktu beberapa detik.",
+            "vid": -6761120633350740000
+        },
+        {
+            "id": "_a6753049745824810749",
+            "key": [
+                "errorPage.subtitle.notFound"
+            ],
+            "value": "Halaman Tidak Ditemukan (404)",
+            "vid": -6666224345964511000
+        },
+        {
+            "id": "_a6746292325601729961",
+            "key": [
+                "shared.label.moreInformation"
+            ],
+            "value": "Informasi selengkapnya",
+            "vid": -6744852247360743000
+        },
+        {
+            "id": "_a6746291075496462474",
+            "key": [
+                "modals.shared.offerCountdownInfo.subtitle"
+            ],
+            "value": "<b>{time}</b> Untuk mendapatkan hadiah. Setelah itu, Anda masih bisa bermain, tetapi tidak akan ada hadiah yang diberikan.",
+            "vid": -6744861277730810000
+        },
+        {
+            "id": "_a6725117237169726516",
+            "key": [
+                "initialization.userInfo.toast.selectAgeGender"
+            ],
+            "value": "Silakan pilih jenis kelamin dan usia untuk melanjutkan.",
+            "vid": -6724044905505607000
+        },
+        {
+            "id": "_a6691745292020603574",
+            "key": [
+                "activeOffers.section.hotDealsShort"
+            ],
+            "value": "Menarik",
+            "vid": -6691386948069287000
+        },
+        {
+            "id": "_a6691744821724218483",
+            "key": [
+                "activeOffers.section.urgentTasksShort"
+            ],
+            "value": "Mendesak",
+            "vid": -6691387171004933000
+        },
+        {
+            "id": "_a6672838810284316772",
+            "key": [
+                "shared.cta.earnNow"
+            ],
+            "value": "Dapatkan Sekarang",
+            "vid": -6672809787645471000
+        },
+        {
+            "id": "_a6666225707804688635",
+            "key": [
+                "offerDetails.description.loginEveryday"
+            ],
+            "value": "Masuk setiap hari dan selesaikan tugas harian.\nPertahankan rekor harianmu dan dapatkan hadiah!",
+            "vid": -6666223964450619000
+        },
+        {
+            "id": "_a6666219460911676428",
+            "key": [
+                "offerDetails.label.login"
+            ],
+            "value": "Masuk",
+            "vid": -6666218982625420000
+        },
+        {
+            "id": "_a6666219268443454471",
+            "key": [
+                "offerDetails.label.dayBonus"
+            ],
+            "value": "Bonus Hari ke- {day} :",
+            "vid": -6666209187014360000
+        },
+        {
+            "id": "_a6662744229395971395",
+            "key": [
+                "shared.button.gotIt"
+            ],
+            "value": "Mengerti",
+            "vid": -6662743000697232000
+        },
+        {
+            "id": "_a6662744036254112806",
+            "key": [
+                "shared.button.reset"
+            ],
+            "value": "Setel ulang",
+            "vid": -6662742751052258000
+        },
+        {
+            "id": "_a6662743893717433662",
+            "key": [
+                "shared.label.chooseYourRewards"
+            ],
+            "value": "Pilih Hadiah kamu",
+            "vid": -6662672992528981000
+        },
+        {
+            "id": "_a6662743758557633569",
+            "key": [
+                "shared.label.filter"
+            ],
+            "value": "Menyaring",
+            "vid": -6662742615760788000
+        },
+        {
+            "id": "_a6662743628033441081",
+            "key": [
+                "shared.button.showOffers"
+            ],
+            "value": "Tampilkan Penawaran",
+            "vid": -6662742462819687000
+        },
+        {
+            "id": "_a6662743516831505436",
+            "key": [
+                "shared.button.showAllOffers"
+            ],
+            "value": "Tampilkan Semua Penawaran",
+            "vid": -6662742364105096000
+        },
+        {
+            "id": "_a6662743343626075444",
+            "key": [
+                "shared.subtitle.youCanSwitch"
+            ],
+            "value": "Kamu dapat mengganti hadiahmu kapan saja dengan mengetuk tombol ini.",
+            "vid": -6662672696981544000
+        },
+        {
+            "id": "_a6658078635075180517",
+            "key": [
+                "errorPage.label.errorCode"
+            ],
+            "value": "Kesalahan: {errorCode}",
+            "vid": -6641618638046159000
+        },
+        {
+            "id": "_a6641619789097394481",
+            "key": [
+                "activeOffers.section.fastCompletion"
+            ],
+            "value": "Bonus Penyelesaian Cepat",
+            "vid": -6641561857974524000
+        },
+        {
+            "id": "_a6641619521802789159",
+            "key": [
+                "activeOffers.subtitle.completeTheTask"
+            ],
+            "value": "Selesaikan tugas untuk mendapatkan bonus.",
+            "vid": -6641618448866271000
+        },
+        {
+            "id": "_a6641619191760123366",
+            "key": [
+                "offerDetails.status.completeToUnlock"
+            ],
+            "value": "Selesaikan \"{eventName}\" untuk membuka kunci",
+            "vid": -6632340388101692000
+        },
+        {
+            "id": "_a6617181722005721926",
+            "key": [
+                "shared.section.openBonus"
+            ],
+            "value": "Bonus Terbuka",
+            "vid": -6617179705384359000
+        },
+        {
+            "id": "_a6608118763136722329",
+            "key": [
+                "theme.page.title"
+            ],
+            "value": "Tema",
+            "vid": -6608118020240299000
+        },
+        {
+            "id": "_a6608118620394869518",
+            "key": [
+                "shared.button.theme"
+            ],
+            "value": "Tema",
+            "vid": -6608117963937261000
+        }
+    ],
+    "message": "OK"
+}

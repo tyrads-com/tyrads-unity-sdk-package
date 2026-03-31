@@ -1,0 +1,1573 @@
+﻿{
+    "data": [
+        {
+            "id": "_a6875933646692502547",
+            "key": [
+                "initialization.intro.subtitle"
+            ],
+            "value": "畅玩您喜爱的游戏并赚取奖励",
+            "vid": -6853804869902116000
+        },
+        {
+            "id": "_a6875933646692502545",
+            "key": [
+                "initialization.intro.label.iHaveRead"
+            ],
+            "value": "我已阅读并同意<tos>服务条款</tos>和<pp>隐私政策</pp>",
+            "vid": -6846831851177763000
+        },
+        {
+            "id": "_a6875933646692502541",
+            "key": [
+                "initialization.intro.cta.accept"
+            ],
+            "value": "接受",
+            "vid": -6871183307572143000
+        },
+        {
+            "id": "_a6875933646692502539",
+            "key": [
+                "initialization.intro.cta.reject"
+            ],
+            "value": "拒绝",
+            "vid": -6871182992157882000
+        },
+        {
+            "id": "_a6875933646692502537",
+            "key": [
+                "initialization.usagePermission.title"
+            ],
+            "value": "允许应用跟踪使用数据以提升您的收益潜力",
+            "vid": -6853803221708416000
+        },
+        {
+            "id": "_a6875933646692502535",
+            "key": [
+                "initialization.usagePermission.label"
+            ],
+            "value": "允许使用权限",
+            "vid": -6853803441758381000
+        },
+        {
+            "id": "_a6875933646692502533",
+            "key": [
+                "initialization.usagePermission.description"
+            ],
+            "value": "使用权限允许应用程序跟踪您使用的其他应用及其使用频率，同时还可获取您的运营商、语言设置及其他相关信息。",
+            "vid": -6853803670666716000
+        },
+        {
+            "id": "_a6875933646692502531",
+            "key": [
+                "initialization.userInfo.title"
+            ],
+            "value": "请填写您的性别和年龄以享受游戏！",
+            "vid": -6715753476240882000
+        },
+        {
+            "id": "_a6875933646692502529",
+            "key": [
+                "initialization.userInfo.chooseGender.label"
+            ],
+            "value": "请选择您的性别",
+            "vid": -6853802338151803000
+        },
+        {
+            "id": "_a6875933646692502527",
+            "key": [
+                "initialization.userInfo.gender.male"
+            ],
+            "value": "男性",
+            "vid": -6871182755733354000
+        },
+        {
+            "id": "_a6875933646692502525",
+            "key": [
+                "initialization.userInfo.gender.female"
+            ],
+            "value": "女性",
+            "vid": -6871182989878781000
+        },
+        {
+            "id": "_a6875933646692502523",
+            "key": [
+                "initialization.userInfo.chooseAge.label"
+            ],
+            "value": "请选择您的年龄",
+            "vid": -6853803001792669000
+        },
+        {
+            "id": "_a6875933646692502521",
+            "key": [
+                "initialization.userInfo.cta.continue"
+            ],
+            "value": "继续",
+            "vid": -6871182643795769000
+        },
+        {
+            "id": "_a6875933646692502519",
+            "key": [
+                "widget.page.title"
+            ],
+            "value": "高级游戏",
+            "vid": -6871180043464107000
+        },
+        {
+            "id": "_a6875933646692502517",
+            "key": [
+                "widget.button.moreOffers"
+            ],
+            "value": "更多优惠",
+            "vid": -6871180016352126000
+        },
+        {
+            "id": "_a6875933646692502515",
+            "key": [
+                "widget.button.play"
+            ],
+            "value": "开始游戏",
+            "vid": -6853723313172098000
+        },
+        {
+            "id": "_a6875933646692502513",
+            "key": [
+                "offers.page.title"
+            ],
+            "value": "优惠",
+            "vid": -6871179916628354000
+        },
+        {
+            "id": "_a6875933646692502511",
+            "key": [
+                "offers.subtitle.yourEarnings"
+            ],
+            "value": "您的收益\n{multiplier}倍额外奖励已激活",
+            "vid": -6852686715970116000
+        },
+        {
+            "id": "_a6875933646692502509",
+            "key": [
+                "offers.button.activeOffers"
+            ],
+            "value": "有效优惠",
+            "vid": -6871179721811322000
+        },
+        {
+            "id": "_a6875933646692502507",
+            "key": [
+                "offers.section.premiumGames"
+            ],
+            "value": "高级游戏",
+            "vid": -6871179672284980000
+        },
+        {
+            "id": "_a6875933646692502505",
+            "key": [
+                "offers.section.otherGames"
+            ],
+            "value": "其他游戏",
+            "vid": -6871179618866324000
+        },
+        {
+            "id": "_a6875933646692502503",
+            "key": [
+                "offers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6788837406734218000
+        },
+        {
+            "id": "_a6875933646692502501",
+            "key": [
+                "offers.modal.welcomeBack.title"
+            ],
+            "value": "欢迎回来",
+            "vid": -6853766798169842000
+        },
+        {
+            "id": "_a6875933646692502499",
+            "key": [
+                "offers.modal.welcomeBack.subtitle"
+            ],
+            "value": "是时候回到游戏中了，您的 <b>{multiplier}x</b> 奖励正在等待着您！",
+            "vid": -6853767243439781000
+        },
+        {
+            "id": "_a6875933646692502497",
+            "key": [
+                "offers.modal.welcomeBack.button.goToActiveOffers"
+            ],
+            "value": "前往有效优惠",
+            "vid": -6871179319091029000
+        },
+        {
+            "id": "_a6875933646692502495",
+            "key": [
+                "offers.modal.dontMiss.title"
+            ],
+            "value": "别错过！限时优惠 - 请在优惠结束前领取",
+            "vid": -6853767544823063000
+        },
+        {
+            "id": "_a6875933646692502493",
+            "key": [
+                "offers.modal.limitedTimeOffer.title"
+            ],
+            "value": "限时优惠 - 请在优惠结束前领取",
+            "vid": -6853767375507399000
+        },
+        {
+            "id": "_a6875933646692502491",
+            "key": [
+                "offerDetails.page.title"
+            ],
+            "value": "优惠详情",
+            "vid": -6871179216750011000
+        },
+        {
+            "id": "_a6875933646692502489",
+            "key": [
+                "offerDetails.label.earn"
+            ],
+            "value": "赚取",
+            "vid": -6853780572669458000
+        },
+        {
+            "id": "_a6875933646692502487",
+            "key": [
+                "offerDetails.section.description"
+            ],
+            "value": "描述",
+            "vid": -6871179132796823000
+        },
+        {
+            "id": "_a6875933646625393621",
+            "key": [
+                "offerDetails.section.playTime"
+            ],
+            "value": "游戏时间",
+            "vid": -6871179020590801000
+        },
+        {
+            "id": "_a6875933646625393619",
+            "key": [
+                "shared.section.quickRewards"
+            ],
+            "value": "快速奖励",
+            "vid": -6871178980661027000
+        },
+        {
+            "id": "_a6875933646625393617",
+            "key": [
+                "offerDetails.cta.seeProgress"
+            ],
+            "value": "查看进度",
+            "vid": -6871178953347719000
+        },
+        {
+            "id": "_a6875933646625393615",
+            "key": [
+                "offerDetails.cta.seeStatus"
+            ],
+            "value": "查看状态",
+            "vid": -6871178923954037000
+        },
+        {
+            "id": "_a6875933646625393613",
+            "key": [
+                "offerDetails.button.needHelp"
+            ],
+            "value": "需要帮助？",
+            "vid": -6853789938448310000
+        },
+        {
+            "id": "_a6875933646625393607",
+            "key": [
+                "offerDetails.status.completePreviousTask"
+            ],
+            "value": "完成之前的任务",
+            "vid": -6853771152327157000
+        },
+        {
+            "id": "_a6875933646625393605",
+            "key": [
+                "offerDetails.status.yourTicketHasBeenSubmitted"
+            ],
+            "value": "您的工单已提交",
+            "vid": -6853768824389082000
+        },
+        {
+            "id": "_a6875933646625393603",
+            "key": [
+                "offerDetails.status.weAreProcessingYourProgress"
+            ],
+            "value": "我们正在处理您的进度",
+            "vid": -6871178658337153000
+        },
+        {
+            "id": "_a6875933646625393601",
+            "key": [
+                "offerDetails.status.progressRejected"
+            ],
+            "value": "进度被拒绝。请联系客户支持。",
+            "vid": -6762150536776500000
+        },
+        {
+            "id": "_a6875933646625393599",
+            "key": [
+                "offerDetails.description.completeQuick&DailyRewards"
+            ],
+            "value": "完成以下快速和每日奖励以提升等级",
+            "vid": -6852686653625981000
+        },
+        {
+            "id": "_a6875933646625393597",
+            "key": [
+                "offerDetails.description.downloadInstruction.followStep"
+            ],
+            "value": "请按照以下几个步骤操作，以避免下载失败并确保您能获得奖励。",
+            "vid": -6853788709820545000
+        },
+        {
+            "id": "_a6875933646625393595",
+            "key": [
+                "offerDetails.description.downloadInstruction.stepByStep"
+            ],
+            "value": "<li>确保您选择 <b>{appstore}</b> 下载游戏</li> \n<li>点击 <b>“确认”</b> 按钮后立即开始下载</li> \n<li>下载完成后，从 <b>{appstore}</b> 打开游戏</li>",
+            "vid": -6846832090085319000
+        },
+        {
+            "id": "_a6875933646625393593",
+            "key": [
+                "offerDetails.description.downloadInstruction.note"
+            ],
+            "value": "注意：如果下载失败，请勿继续游戏！",
+            "vid": -6853781042163071000
+        },
+        {
+            "id": "_a6875933646625393591",
+            "key": [
+                "offerDetails.modal.myPlayTime.title"
+            ],
+            "value": "我的游戏时间",
+            "vid": -6871178222733517000
+        },
+        {
+            "id": "_a6875933646625393589",
+            "key": [
+                "offerDetails.modal.myPlayTime.status.onProgress"
+            ],
+            "value": "进行中",
+            "vid": -6853772546111153000
+        },
+        {
+            "id": "_a6875933646625393587",
+            "key": [
+                "offerDetails.modal.myPlayTime.subtitle"
+            ],
+            "value": "解锁优惠以查看您的游戏时间记录！",
+            "vid": -6853772386526275000
+        },
+        {
+            "id": "_a6875933646625393585",
+            "key": [
+                "offerDetails.modal.myPlayTime.label.play"
+            ],
+            "value": "游戏时间 {time}",
+            "vid": -6853773093115504000
+        },
+        {
+            "id": "_a6875933646625393565",
+            "key": [
+                "activeOffers.page.title"
+            ],
+            "value": "有效优惠",
+            "vid": -6871177652375282000
+        },
+        {
+            "id": "_a6875933646625393563",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "",
+            "vid": -6785365990425952000
+        },
+        {
+            "id": "_a6875933646625393561",
+            "key": [
+                "activeOffers.cta.startPlaying"
+            ],
+            "value": "开始游戏",
+            "vid": -6871177541712765000
+        },
+        {
+            "id": "_a6875933646625393559",
+            "key": [
+                "activeOffers.cta.seeAllTasks"
+            ],
+            "value": "开始游戏",
+            "vid": -6853813239785434000
+        },
+        {
+            "id": "_a6875933646625393557",
+            "key": [
+                "activeOffers.section.hotDeals"
+            ],
+            "value": "热门优惠",
+            "vid": -6871177477690909000
+        },
+        {
+            "id": "_a6875933646625393555",
+            "key": [
+                "activeOffers.section.urgentTasks"
+            ],
+            "value": "紧急任务",
+            "vid": -6871177441385013000
+        },
+        {
+            "id": "_a6875933646625393553",
+            "key": [
+                "activeOffers.section.all"
+            ],
+            "value": "全部",
+            "vid": -6871177345352229000
+        },
+        {
+            "id": "_a6875933646625393551",
+            "key": [
+                "activeOffers.section.limitedTimeOffer"
+            ],
+            "value": "限时优惠 - 即将结束",
+            "vid": -6871177309247660000
+        },
+        {
+            "id": "_a6875933646625393549",
+            "key": [
+                "activeOffers.subtitle.overallEarnings"
+            ],
+            "value": "总收入",
+            "vid": -6853809523634716000
+        },
+        {
+            "id": "_a6875933646625393547",
+            "key": [
+                "activeOffers.modal.moreInformation.title"
+            ],
+            "value": "更多信息",
+            "vid": -6871177230998725000
+        },
+        {
+            "id": "_a6875933646625393545",
+            "key": [
+                "activeOffers.modal.moreInformation.retry.subtitle"
+            ],
+            "value": "游戏完全安装后，奖励将可用。如果您是新用户，请确保<b>下载已完全完成</b>。\n\n如果下载中断，只需点击<b>重试</b>继续下载并解锁您的奖励！",
+            "vid": -6852686462634154000
+        },
+        {
+            "id": "_a6875933646625393543",
+            "key": [
+                "activeOffers.modal.moreInformation.previouslyDownloaded.subtitle"
+            ],
+            "value": "此游戏已被<b>之前下载过</b>，因此进度不会被追踪，且无法赚取{currencyName}。\n\n请选取其他游戏继续赚取奖励。",
+            "vid": -6852686307075807000
+        },
+        {
+            "id": "_a6875933646625393541",
+            "key": [
+                "activeOffers.modal.moreInformation.unavailable.subtitle"
+            ],
+            "value": "抱歉，此游戏目前<b>不可用</b>。",
+            "vid": -6853811679104320000
+        },
+        {
+            "id": "_a6875933646625393539",
+            "key": [
+                "modals.shared.temporarilyUnavailable.title"
+            ],
+            "value": "暂时不可用",
+            "vid": -6871176902500835000
+        },
+        {
+            "id": "_a6875933646625393537",
+            "key": [
+                "modals.shared.temporarilyUnavailable.subtitle"
+            ],
+            "value": "此游戏<b>暂时不可用</b>，请稍后再试！",
+            "vid": -6853792296185346000
+        },
+        {
+            "id": "_a6875933646625393535",
+            "key": [
+                "activeOffers.button.moreInformation"
+            ],
+            "value": "更多信息",
+            "vid": -6871176634803577000
+        },
+        {
+            "id": "_a6875933646625393533",
+            "key": [
+                "support.page.subtitle"
+            ],
+            "value": "我未收到奖励",
+            "vid": -6853725665804941000
+        },
+        {
+            "id": "_a6875933646625393531",
+            "key": [
+                "support.subtitle.happyToHelp"
+            ],
+            "value": "我们非常乐意为您提供帮助！",
+            "vid": -6853724115794111000
+        },
+        {
+            "id": "_a6875933646625393529",
+            "key": [
+                "support.subtitle.selectTask"
+            ],
+            "value": "请选择您认为已完成但未获得{currencyName}奖励的任务",
+            "vid": -6853723926144462000
+        },
+        {
+            "id": "_a6875933646625393527",
+            "key": [
+                "support.section.tasks"
+            ],
+            "value": "任务",
+            "vid": -6871173660203180000
+        },
+        {
+            "id": "_a6875933646625393525",
+            "key": [
+                "support.label.gamePlayerID"
+            ],
+            "value": "游戏玩家 ID",
+            "vid": -6853726697939270000
+        },
+        {
+            "id": "_a6875933646625393523",
+            "key": [
+                "support.label.orderID"
+            ],
+            "value": "订单编号",
+            "vid": -6871173579739652000
+        },
+        {
+            "id": "_a6875933646625393521",
+            "key": [
+                "support.label.screenshot"
+            ],
+            "value": "截图",
+            "vid": -6853726403130030000
+        },
+        {
+            "id": "_a6875933646625393519",
+            "key": [
+                "support.button.browseFile"
+            ],
+            "value": "浏览文件",
+            "vid": -6871173500416975000
+        },
+        {
+            "id": "_a6875933646625393517",
+            "key": [
+                "support.subtitle.ticketSubmittedSuccessfully"
+            ],
+            "value": "工单提交成功！",
+            "vid": -6853723336523381000
+        },
+        {
+            "id": "_a6875933646625393515",
+            "key": [
+                "support.subtitle.thankYouForReachingOut"
+            ],
+            "value": "感谢您的联系！\n我们的客服团队正在审核您的请求，稍后会尽快回复您。",
+            "vid": -6852686156751952000
+        },
+        {
+            "id": "_a6875933646625393513",
+            "key": [
+                "support.status.haventReachedThisLevel"
+            ],
+            "value": "您尚未达到此等级",
+            "vid": -6853725062966016000
+        },
+        {
+            "id": "_a6875933646625393511",
+            "key": [
+                "support.status.ticketBeingProcessed"
+            ],
+            "value": "您的票将在 24 小时内处理",
+            "vid": -6852686038439025000
+        },
+        {
+            "id": "_a6875933646625393509",
+            "key": [
+                "support.status.ticketBeingRejected"
+            ],
+            "value": "您的工单已被拒绝",
+            "vid": -6853724147466893000
+        },
+        {
+            "id": "_a6875933646625393507",
+            "key": [
+                "support.status.ticketBeingApproved"
+            ],
+            "value": "您的工单已被批准",
+            "vid": -6853725203830124000
+        },
+        {
+            "id": "_a6875933646625393505",
+            "key": [
+                "support.status.haveCompletedThisLevel"
+            ],
+            "value": "您已完成此等级",
+            "vid": -6853725490317864000
+        },
+        {
+            "id": "_a6875933646625393503",
+            "key": [
+                "support.description.clickHereToSeeExample"
+            ],
+            "value": "点击此处查看示例",
+            "vid": -6853728259162484000
+        },
+        {
+            "id": "_a6875933646625393501",
+            "key": [
+                "support.description.pleaseAttach"
+            ],
+            "value": "请附上订单编号和如上所示的截图。",
+            "vid": -6853726837391490000
+        },
+        {
+            "id": "_a6875933646625393499",
+            "key": [
+                "support.button.preview"
+            ],
+            "value": "预览",
+            "vid": -6871173181045891000
+        },
+        {
+            "id": "_a6875933646625393497",
+            "key": [
+                "support.button.iUnderstand"
+            ],
+            "value": "我明白了",
+            "vid": -6853728310296837000
+        },
+        {
+            "id": "_a6875933646625393495",
+            "key": [
+                "support.modal.gamePlayerID.title"
+            ],
+            "value": "游戏玩家 ID",
+            "vid": -6853725843509213000
+        },
+        {
+            "id": "_a6875933646625393493",
+            "key": [
+                "support.modal.gamePlayerID.subtitle"
+            ],
+            "value": "这是在您的游戏资料中显示的唯一 ID。",
+            "vid": -6853726369041329000
+        },
+        {
+            "id": "_a6875933646625393491",
+            "key": [
+                "errorPage.title"
+            ],
+            "value": "哎呀！",
+            "vid": -6871172995355664000
+        },
+        {
+            "id": "_a6875933646625393489",
+            "key": [
+                "errorPage.description.failedToLoad"
+            ],
+            "value": "加载失败，请尝试重新加载页面",
+            "vid": -6871172859527324000
+        },
+        {
+            "id": "_a6875933646625393487",
+            "key": [
+                "errorPage.button.reload"
+            ],
+            "value": "重新加载",
+            "vid": -6871172819597550000
+        },
+        {
+            "id": "_a6875933646625393485",
+            "key": [
+                "errorPage.button.refresh"
+            ],
+            "value": "刷新",
+            "vid": -6871172767722398000
+        },
+        {
+            "id": "_a6875933646625393483",
+            "key": [
+                "errorPage.description.weCouldntConnect"
+            ],
+            "value": "连接失败，请尝试刷新页面",
+            "vid": -6853806129468384000
+        },
+        {
+            "id": "_a6875933646625393481",
+            "key": [
+                "settings.page.title"
+            ],
+            "value": "设置",
+            "vid": -6871172666991993000
+        },
+        {
+            "id": "_a6875933646625393479",
+            "key": [
+                "language.page.title"
+            ],
+            "value": "语言",
+            "vid": -6871172568677507000
+        },
+        {
+            "id": "_a6875933646625393477",
+            "key": [
+                "shared.error.emptyField"
+            ],
+            "value": "此字段不能为空",
+            "vid": -6871172498615853000
+        },
+        {
+            "id": "_a6875933646625393475",
+            "key": [
+                "shared.status.rejected"
+            ],
+            "value": "已被拒绝",
+            "vid": -6853737684197178000
+        },
+        {
+            "id": "_a6875933646625393473",
+            "key": [
+                "shared.status.expired"
+            ],
+            "value": "已过期",
+            "vid": -6871172410569023000
+        },
+        {
+            "id": "_a6875933646625393471",
+            "key": [
+                "shared.status.completed"
+            ],
+            "value": "已完成",
+            "vid": -6871172368625983000
+        },
+        {
+            "id": "_a6875933646625393469",
+            "key": [
+                "shared.status.expiredDueToMaxtime"
+            ],
+            "value": "因超时而过期",
+            "vid": -6853737883309178000
+        },
+        {
+            "id": "_a6875933646625393467",
+            "key": [
+                "shared.subtitle.couldntValidate"
+            ],
+            "value": "我们无法验证您的下载",
+            "vid": -6871172264540135000
+        },
+        {
+            "id": "_a6875933646625393465",
+            "key": [
+                "shared.subtitle.retry"
+            ],
+            "value": "点击 <b>“重试”</b> 以再次尝试，奖励需要通过已追踪的下载才能获得。",
+            "vid": -6762150454235215000
+        },
+        {
+            "id": "_a6875933646625393463",
+            "key": [
+                "shared.subtitle.installing"
+            ],
+            "value": "",
+            "vid": -6788837519007348000
+        },
+        {
+            "id": "_a6875933646625393461",
+            "key": [
+                "shared.subtitle.finishInstall"
+            ],
+            "value": "请完成安装以解锁所有奖励，并赚取最高奖励",
+            "vid": -6853737330936118000
+        },
+        {
+            "id": "_a6875933646625393459",
+            "key": [
+                "shared.subtitle.previouslyDownloaded"
+            ],
+            "value": "您之前已<b>下载过</b>此游戏，因此将不会记录进度，也无法赚取 {currencyName}。请选择其他新游戏以继续赚取奖励。",
+            "vid": -6853735674689355000
+        },
+        {
+            "id": "_a6875933646625393457",
+            "key": [
+                "shared.subtitle.temporarilyUnavailable"
+            ],
+            "value": "抱歉，此游戏<b>暂时无法使用</b>，请稍后再试！",
+            "vid": -6853734857977082000
+        },
+        {
+            "id": "_a6875933646625393455",
+            "key": [
+                "shared.subtitle.unavailable"
+            ],
+            "value": "抱歉，此游戏目前<b>无法使用</b>。",
+            "vid": -6853734404855430000
+        },
+        {
+            "id": "_a6875933646625393453",
+            "key": [
+                "shared.cta.playNow"
+            ],
+            "value": "立即游戏",
+            "vid": -6853764829128663000
+        },
+        {
+            "id": "_a6875933646625393451",
+            "key": [
+                "shared.cta.retry"
+            ],
+            "value": "重试",
+            "vid": -6871171740889670000
+        },
+        {
+            "id": "_a6875933646625393449",
+            "key": [
+                "shared.cta.submitTicket"
+            ],
+            "value": "提交工单",
+            "vid": -6871171688947408000
+        },
+        {
+            "id": "_a6875933646625393447",
+            "key": [
+                "shared.button.privacyPolicy"
+            ],
+            "value": "隐私政策",
+            "vid": -6871171647675457000
+        },
+        {
+            "id": "_a6875933646625393445",
+            "key": [
+                "shared.button.termsOfService"
+            ],
+            "value": "服务条款",
+            "vid": -6871171604591566000
+        },
+        {
+            "id": "_a6875933646625393443",
+            "key": [
+                "shared.button.language"
+            ],
+            "value": "语言",
+            "vid": -6871171564728901000
+        },
+        {
+            "id": "_a6875933646625393441",
+            "key": [
+                "shared.button.ok"
+            ],
+            "value": "确定",
+            "vid": -6871171348504139000
+        },
+        {
+            "id": "_a6875933646625393439",
+            "key": [
+                "shared.label.offerExpires"
+            ],
+            "value": "优惠将在 {time} 后过期",
+            "vid": -6853747951319101000
+        },
+        {
+            "id": "_a6875933646625393437",
+            "key": [
+                "shared.label.bonusExpires"
+            ],
+            "value": "奖励将在...后过期",
+            "vid": -6853763019336819000
+        },
+        {
+            "id": "_a6875933646625393435",
+            "key": [
+                "shared.label.bonusTag"
+            ],
+            "value": "{multiplier}倍奖励",
+            "vid": -6853763019473663000
+        },
+        {
+            "id": "_a6875933646625393433",
+            "key": [
+                "shared.label.completeWithin"
+            ],
+            "value": "在 {time} 内完成",
+            "vid": -6853761244979763000
+        },
+        {
+            "id": "_a6875933646625393431",
+            "key": [
+                "shared.label.totalLimit"
+            ],
+            "value": "总限制",
+            "vid": -6853747378409439000
+        },
+        {
+            "id": "_a6875933646625393429",
+            "key": [
+                "shared.section.bonusRewards"
+            ],
+            "value": "额外奖励",
+            "vid": -6853747108564697000
+        },
+        {
+            "id": "_a6875933646625393427",
+            "key": [
+                "shared.section.activeTask"
+            ],
+            "value": "进行中的任务",
+            "vid": -6853747251171033000
+        },
+        {
+            "id": "_a6875933646625393425",
+            "key": [
+                "shared.section.dailyRewards"
+            ],
+            "value": "每日奖励",
+            "vid": -6871170849079973000
+        },
+        {
+            "id": "_a6875933646625393423",
+            "key": [
+                "modals.shared.guidelines.dos.title"
+            ],
+            "value": "注意事项",
+            "vid": -6853792838357858000
+        },
+        {
+            "id": "_a6875933646625393421",
+            "key": [
+                "modals.shared.guidelines.donts.title"
+            ],
+            "value": "禁忌",
+            "vid": -6853794335757941000
+        },
+        {
+            "id": "_a6875933646625393419",
+            "key": [
+                "modals.shared.guidelines.dos.list"
+            ],
+            "value": "<li><b>观看广告</b>以提升您的收益</li>\n<li><b>玩更多</b>升级并保持你的排名。</li>\n<li><b>进行游戏内购买</b>以最大化奖励。</li>\n<li><b>继续玩</b>保持当前水平</li>",
+            "vid": -6852682186054686000
+        },
+        {
+            "id": "_a6875933646625393417",
+            "key": [
+                "modals.shared.guidelines.description"
+            ],
+            "value": "额外奖励是添加到你的活跃任务中的额外收入。完成以下任务即可升级<b>快的</b>和<b>每日奖励</b>。",
+            "vid": -6852680013738132000
+        },
+        {
+            "id": "_a6875933646625393415",
+            "key": [
+                "modals.shared.guidelines.label.tips"
+            ],
+            "value": "通过以下技巧增加您的奖励:",
+            "vid": -6852673261246862000
+        },
+        {
+            "id": "_a6875933646625393413",
+            "key": [
+                "modals.shared.guidelines.label.startBoosting"
+            ],
+            "value": "立即开始提升享受更多奖励!",
+            "vid": -6852672644851946000
+        },
+        {
+            "id": "_a6875933646625393411",
+            "key": [
+                "modals.shared.guidelines.subtitle"
+            ],
+            "value": "什么是奖金奖励？",
+            "vid": -6852678024097158000
+        },
+        {
+            "id": "_a6875933646625393409",
+            "key": [
+                "modals.shared.guidelines.donts.list"
+            ],
+            "value": "<li><b>避免不活动</b>，否则你可能会跌至较低的水平。</li>\n<li><b>避免作弊</b>，因为它会降低你的等级并减少你的奖励。</li>",
+            "vid": -6852677560439391000
+        },
+        {
+            "id": "_a6875933646625393405",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.title"
+            ],
+            "value": "因达到最大时间而过期",
+            "vid": -6853799563404230000
+        },
+        {
+            "id": "_a6875933646625393403",
+            "key": [
+                "modals.shared.expiredDueToMaxtime.subtitle"
+            ],
+            "value": "此任务已过期，因已达到最大时间限制。\n\n请继续进行下一个任务以赚取奖励。",
+            "vid": -6852677705598490000
+        },
+        {
+            "id": "_a6875933190152514135",
+            "key": [
+                "initialization.intro.title"
+            ],
+            "value": "您已接近获得您的第一个奖励",
+            "vid": -6853803919640602000
+        },
+        {
+            "id": "_a6875844351104107004",
+            "key": [
+                "offerDetails.label.earnUpTo"
+            ],
+            "value": "最高可赚取",
+            "vid": -6853780164309394000
+        },
+        {
+            "id": "_a6875823419177021804",
+            "key": [
+                "offerDetails.label.playAndEarn"
+            ],
+            "value": "玩游戏 <b>{time}</b>，赚取 <b>{amount}!</b>",
+            "vid": -6853779993316009000
+        },
+        {
+            "id": "_a6875819040861830404",
+            "key": [
+                "shared.time.label.second"
+            ],
+            "value": "",
+            "vid": -6871170041894554000
+        },
+        {
+            "id": "_a6875818921273834731",
+            "key": [
+                "shared.time.label.minute"
+            ],
+            "value": "",
+            "vid": -6871168096744131000
+        },
+        {
+            "id": "_a6875818731288640730",
+            "key": [
+                "shared.time.label.hour"
+            ],
+            "value": "",
+            "vid": -6871168028829960000
+        },
+        {
+            "id": "_a6875818603110710482",
+            "key": [
+                "shared.time.label.day"
+            ],
+            "value": "",
+            "vid": -6871167973129603000
+        },
+        {
+            "id": "_a6875805345684905332",
+            "key": [
+                "shared.time.label.second.abbr"
+            ],
+            "value": "秒（缩写）",
+            "vid": -6853728961859399000
+        },
+        {
+            "id": "_a6875805284011859310",
+            "key": [
+                "shared.time.label.minute.abbr"
+            ],
+            "value": "分钟（缩写）",
+            "vid": -6853729854941560000
+        },
+        {
+            "id": "_a6875805219386023273",
+            "key": [
+                "shared.time.label.hour.abbr"
+            ],
+            "value": "小时（缩写）",
+            "vid": -6853731007267864000
+        },
+        {
+            "id": "_a6875805128050859364",
+            "key": [
+                "shared.time.label.day.abbr"
+            ],
+            "value": "天（缩写）",
+            "vid": -6853731945718218000
+        },
+        {
+            "id": "_a6875576715180486868",
+            "key": [
+                "support.label.uploadYourFile"
+            ],
+            "value": "在此处上传您的文件",
+            "vid": -6853726252873284000
+        },
+        {
+            "id": "_a6875571577796911041",
+            "key": [
+                "shared.label.bonusTagCaps"
+            ],
+            "value": "{multiplier}倍奖励",
+            "vid": -6853762872572360000
+        },
+        {
+            "id": "_a6875494838945141794",
+            "key": [
+                "errorPage.description.notFound"
+            ],
+            "value": "未找到请求的资源",
+            "vid": -6853806812099749000
+        },
+        {
+            "id": "_a6875494737542359333",
+            "key": [
+                "errorPage.button.returnHome"
+            ],
+            "value": "返回首页",
+            "vid": -6853807408093570000
+        },
+        {
+            "id": "_a6875494628089091083",
+            "key": [
+                "errorPage.description.sessionExpired"
+            ],
+            "value": "会话已过期或未找到",
+            "vid": -6871169422949501000
+        },
+        {
+            "id": "_a6874958700594795052",
+            "key": [
+                "shared.label.offerExpired"
+            ],
+            "value": "优惠已过期",
+            "vid": -6871169377986562000
+        },
+        {
+            "id": "_a6874904366168905076",
+            "key": [
+                "offers.section.bonusRewards"
+            ],
+            "value": "额外\n奖励",
+            "vid": -6852677580507567000
+        },
+        {
+            "id": "_a6874897131430712637",
+            "key": [
+                "shared.time.label.left"
+            ],
+            "value": "剩余",
+            "vid": -6853731156050817000
+        },
+        {
+            "id": "_a6874677181190694875",
+            "key": [
+                "support.page.title"
+            ],
+            "value": "客服支持",
+            "vid": -6853725791166901000
+        },
+        {
+            "id": "_a6874663697409303883",
+            "key": [
+                "shared.label.total"
+            ],
+            "value": "总计",
+            "vid": -6871169187196062000
+        },
+        {
+            "id": "_a6869019194079275457",
+            "key": [
+                "widget.empty.noOffers"
+            ],
+            "value": "继续玩！\n精彩奖励等你来拿！",
+            "vid": -6852675946471211000
+        },
+        {
+            "id": "_a6869018420850944428",
+            "key": [
+                "widget.button.continuePlaying"
+            ],
+            "value": "继续玩",
+            "vid": -6852675753066092000
+        },
+        {
+            "id": "_a6854992720551446494",
+            "key": [
+                "shared.status.limitedOfferExpired"
+            ],
+            "value": "限时优惠已过期",
+            "vid": -6852675240620179000
+        },
+        {
+            "id": "_a6853797233314736170",
+            "key": [
+                "modals.shared.guidelines.button.seeGuidelines"
+            ],
+            "value": "查看指南",
+            "vid": -6853796997695515000
+        },
+        {
+            "id": "_a6852978545506382673",
+            "key": [
+                "shared.label.bonus"
+            ],
+            "value": "奖金",
+            "vid": -6852675073790170000
+        },
+        {
+            "id": "_a6852978255394763582",
+            "key": [
+                "shared.label.bonusRewards"
+            ],
+            "value": "额外奖励",
+            "vid": -6852674940176422000
+        },
+        {
+            "id": "_a6852961481067066642",
+            "key": [
+                "offerDetails.button.levelUpNow"
+            ],
+            "value": "立即升级",
+            "vid": -6852674234993852000
+        },
+        {
+            "id": "_a6852961025464988931",
+            "key": [
+                "offerDetails.status.nextLevel"
+            ],
+            "value": "下一级",
+            "vid": -6852673909515862000
+        },
+        {
+            "id": "_a6852708389244883616",
+            "key": [
+                "modals.shared.guidelines.title"
+            ],
+            "value": "额外奖励",
+            "vid": -6852673851533804000
+        },
+        {
+            "id": "_a6851430774317232747",
+            "key": [
+                "offerDetails.status.maximumLevel"
+            ],
+            "value": "最高等级！",
+            "vid": -6851430053366707000
+        },
+        {
+            "id": "_a6844607323132590854",
+            "key": [
+                "initialization.legal.explanation"
+            ],
+            "value": "我们在此通知您，Tyrads Pte. Ltd.   在您使用TyrSDK的过程中，会处理以下个人数据： \n已安装的应用程序（包括使用时长和使用历史） \n该数据通过设备标识符（GAID 或 IDFA）与您的设备关联，并以加密形式传输至我们的服务器。为了使应用程序提供商能够为我们的应用程序推荐提供资金，我们必须向他们发送设备 ID 以用于计费目的。\n\n处理上述数据是必要的，以便通过系统消息推荐应用程序、安装与您兴趣匹配的 TyrSDK 中可用应用程序，并计算您使用相应应用程序所获得的奖励。\n\n同意\n\n点击“接受”即表示您同意Tyrads Pte. Ltd处理上述个人数据并将其传输至其他应用程序，以便您可按说明使用TyrSDK。\n\n我知晓上述数据将形成兴趣档案，根据我使用的应用类型，该档案可能包含特别敏感的个人数据（如健康数据或有关我的性取向的数据，以及《欧洲通用数据保护条例》（GDPR）第9条第1款定义的其他特殊类别数据）。\n\n该数据将由 Tyrads Pte. Ltd、TyrSDK 进行处理。如需更多信息，请访问 https://tyrads.com/tyrsdk-privacy-policy/ ",
+            "vid": -6844603716769349000
+        },
+        {
+            "id": "_a6813429817972053463",
+            "key": [
+                "shared.button.next"
+            ],
+            "value": "下一步",
+            "vid": -6813419882373138000
+        },
+        {
+            "id": "_a6813428426135565070",
+            "key": [
+                "shared.button.back"
+            ],
+            "value": "后退",
+            "vid": -6813419986861640000
+        },
+        {
+            "id": "_a6813427918324058708",
+            "key": [
+                "shared.button.understand"
+            ],
+            "value": "我明白",
+            "vid": -6813419790232668000
+        },
+        {
+            "id": "_a6813426980275090133",
+            "key": [
+                "modals.shared.guidelines.step1"
+            ],
+            "value": "<b>升级</b>通过完成<b>快的</b> & <b>日常的</b>奖励可获得 2-3 倍的更高奖励！",
+            "vid": -6813287903664005000
+        },
+        {
+            "id": "_a6813426762708153028",
+            "key": [
+                "modals.shared.guidelines.step2"
+            ],
+            "value": "<b>购买</b>和<b>升级</b>立即地。",
+            "vid": -6813420194963609000
+        },
+        {
+            "id": "_a6813426406695629489",
+            "key": [
+                "modals.shared.guidelines.step3"
+            ],
+            "value": "<b>不要作弊！</b>因为这会损害你的水平！",
+            "vid": -6813420095910925000
+        },
+        {
+            "id": "_a6788860193281881641",
+            "key": [
+                "shared.button.skip"
+            ],
+            "value": "跳过",
+            "vid": -6788837058843192000
+        },
+        {
+            "id": "_a6770664651105498288",
+            "key": [
+                "shared.label.description"
+            ],
+            "value": "描述",
+            "vid": -6762150054467712000
+        },
+        {
+            "id": "_a6770664481521398955",
+            "key": [
+                "shared.button.moreRewards"
+            ],
+            "value": "更多奖励",
+            "vid": -6762149988365481000
+        },
+        {
+            "id": "_a6770664354886972582",
+            "key": [
+                "shared.label.new"
+            ],
+            "value": "新建",
+            "vid": -6762149858912482000
+        },
+        {
+            "id": "_a6770664181007905951",
+            "key": [
+                "shared.label.rewards"
+            ],
+            "value": "奖励",
+            "vid": -6762149164671284000
+        },
+        {
+            "id": "_a6765736803799827981",
+            "key": [
+                "shared.label.contactOurSupport"
+            ],
+            "value": "请联系我们的客服支持。",
+            "vid": -6762149103736436000
+        },
+        {
+            "id": "_a6765716724827718706",
+            "key": [
+                "shared.label.max"
+            ],
+            "value": "最大",
+            "vid": -6762149033741891000
+        },
+        {
+            "id": "_a6765716567792976941",
+            "key": [
+                "shared.label.limitedTimeOffer"
+            ],
+            "value": "限时优惠",
+            "vid": -6762148970724050000
+        },
+        {
+            "id": "_a6753049745824810749",
+            "key": [
+                "errorPage.subtitle.notFound"
+            ],
+            "value": "页面未找到 (404)",
+            "vid": -6616387838103226000
+        },
+        {
+            "id": "_a6746292325601729961",
+            "key": [
+                "shared.label.moreInformation"
+            ],
+            "value": "更多信息",
+            "vid": -6744852885834476000
+        },
+        {
+            "id": "_a6746291075496462474",
+            "key": [
+                "modals.shared.offerCountdownInfo.subtitle"
+            ],
+            "value": "<b>{time}</b> 赚取奖励。之后你仍可继续游戏，但将不再获得奖励。",
+            "vid": -6744861052916115000
+        },
+        {
+            "id": "_a6725117237169726516",
+            "key": [
+                "initialization.userInfo.toast.selectAgeGender"
+            ],
+            "value": "请选择性别和年龄以继续",
+            "vid": -6724045479890374000
+        },
+        {
+            "id": "_a6691745292020603574",
+            "key": [
+                "activeOffers.section.hotDealsShort"
+            ],
+            "value": "热",
+            "vid": -6684740469064661000
+        },
+        {
+            "id": "_a6691744821724218483",
+            "key": [
+                "activeOffers.section.urgentTasksShort"
+            ],
+            "value": "紧急",
+            "vid": -6684740390144636000
+        },
+        {
+            "id": "_a6672838810284316772",
+            "key": [
+                "shared.cta.earnNow"
+            ],
+            "value": "立即赚取 ",
+            "vid": -6650868293907740000
+        },
+        {
+            "id": "_a6666225707804688635",
+            "key": [
+                "offerDetails.description.loginEveryday"
+            ],
+            "value": "每日登录并完成一项任务。\n保持连续登录记录，赢取丰厚奖励！",
+            "vid": -6615251567328067000
+        },
+        {
+            "id": "_a6666219460911676428",
+            "key": [
+                "offerDetails.label.login"
+            ],
+            "value": "登录",
+            "vid": -6616387701670906000
+        },
+        {
+            "id": "_a6666219268443454471",
+            "key": [
+                "offerDetails.label.dayBonus"
+            ],
+            "value": "第{day} 天奖励：",
+            "vid": -6616387630267075000
+        },
+        {
+            "id": "_a6662744229395971395",
+            "key": [
+                "shared.button.gotIt"
+            ],
+            "value": "明白了",
+            "vid": -6659011068048660000
+        },
+        {
+            "id": "_a6662744036254112806",
+            "key": [
+                "shared.button.reset"
+            ],
+            "value": "重置",
+            "vid": -6659011012482521000
+        },
+        {
+            "id": "_a6662743893717433662",
+            "key": [
+                "shared.label.chooseYourRewards"
+            ],
+            "value": "选择您的奖励",
+            "vid": -6659010943628827000
+        },
+        {
+            "id": "_a6662743758557633569",
+            "key": [
+                "shared.label.filter"
+            ],
+            "value": "筛选",
+            "vid": -6659010890143062000
+        },
+        {
+            "id": "_a6662743628033441081",
+            "key": [
+                "shared.button.showOffers"
+            ],
+            "value": "展示优惠",
+            "vid": -6659010768743127000
+        },
+        {
+            "id": "_a6662743516831505436",
+            "key": [
+                "shared.button.showAllOffers"
+            ],
+            "value": "显示所有价格",
+            "vid": -6659010704117291000
+        },
+        {
+            "id": "_a6662743343626075444",
+            "key": [
+                "shared.subtitle.youCanSwitch"
+            ],
+            "value": "您可以随时点击此按钮切换奖励。",
+            "vid": -6659010642041592000
+        },
+        {
+            "id": "_a6658078635075180517",
+            "key": [
+                "errorPage.label.errorCode"
+            ],
+            "value": "错误：{errorCode}",
+            "vid": -6616387538193713000
+        },
+        {
+            "id": "_a6641619789097394481",
+            "key": [
+                "activeOffers.section.fastCompletion"
+            ],
+            "value": "快速完成奖励",
+            "vid": -6616387466320120000
+        },
+        {
+            "id": "_a6641619521802789159",
+            "key": [
+                "activeOffers.subtitle.completeTheTask"
+            ],
+            "value": "完成任务即可获得奖励。",
+            "vid": -6616387410552654000
+        },
+        {
+            "id": "_a6641619191760123366",
+            "key": [
+                "offerDetails.status.completeToUnlock"
+            ],
+            "value": "完成 \"{eventName}\" 即可解锁",
+            "vid": -6616387119568620000
+        },
+        {
+            "id": "_a6617181722005721926",
+            "key": [
+                "shared.section.openBonus"
+            ],
+            "value": "开放奖励",
+            "vid": -6615251516325330000
+        }
+    ],
+    "message": "OK"
+}

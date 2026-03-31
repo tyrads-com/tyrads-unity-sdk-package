@@ -1,13 +1,11 @@
 {
     "name": "com.tyrads.unity-sdk",
-    "version": "3.1.1",
+    "version": "4.0.0",
     "displayName": "TyrAds Unity SDK",
     "description": "The package provides the TyrAds SDK for Unity.",
     "unity": "2021.3",
     "hideInEditor": false,
     "documentationUrl": "https://sdk-doc.tyrads.com",
-    "dependencies": {
-    },
     "keywords": [
         "ads",
         "advertising",
@@ -26,5 +24,8 @@
             "description": "Basic usage",
             "path": "Samples~/Demo"
         }
-    ]
+    ],
+    "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186"
+    }
 }
