@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.1] - 2026-05-01
+
+### Changed
+- Disable background preloading of the WebView 
+
 ## [4.0.0] - 2026-03-13
 
 ### Added
@@ -120,6 +125,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v4.0.0
 [4.0.0-pre.5]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.4...v4.0.0-pre.5
 [4.0.0-pre.4]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.3...v4.0.0-pre.4

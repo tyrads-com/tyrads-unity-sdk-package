@@ -1495,6 +1495,214 @@
             ],
             "value": "Bonus öffnen",
             "vid": -6615253708166638000
+        },
+        {
+            "id": "_a6608118763136722329",
+            "key": [
+                "theme.page.title"
+            ],
+            "value": "Thema",
+            "vid": -6598782142439212000
+        },
+        {
+            "id": "_a6608118620394869518",
+            "key": [
+                "shared.button.theme"
+            ],
+            "value": "Thema",
+            "vid": -6598785109187872000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "Empfohlene Spiele",
+            "vid": -6544311956966778000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "Beliebte Spiele",
+            "vid": -6544324523167348000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "Support kontaktieren",
+            "vid": -6522076025841103000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "Gesamteinnahmen",
+            "vid": -6521308044282364000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "Angebote finden",
+            "vid": -6522129307996108000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "Noch keine Angebote verfügbar.",
+            "vid": -6522132989388379000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "Tageslimit",
+            "vid": -6521305797276271000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "Spiele jetzt und verdiene Belohnungen!",
+            "vid": -6522128254655378000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "Schließe dieses Angebot vor Ablauf des Countdowns ab, um eine höhere Belohnung als die Grundbelohnung zu erhalten.",
+            "vid": -6522126392787056000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "Cashback",
+            "vid": -6521302971523334000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "Erhalte sofortiges Cashback, wenn du die Aufgabe abschließt. Außerdem bekommst du durch diese Aufgabe einen Booster für die Speed Run Challenge.",
+            "vid": -6522124410860974000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "Einfache Aufgabe",
+            "vid": -6521300891819639000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "Diese Aufgaben werden automatisch abgeschlossen, während du jeden Tag spielst.",
+            "vid": -6522121904076468000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "Zeitlich begrenztes Angebot",
+            "vid": -6521299258591216000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "Schließe dieses Angebot vor Ablauf des Countdowns ab, um eine höhere Belohnung als die Grundbelohnung zu erhalten.",
+            "vid": -6522120223067853000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "Unvollständig",
+            "vid": -6521288904633025000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "Ausstehend",
+            "vid": -6521287464542581000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "Dies ist der maximal mögliche Verdienst, den du erhalten kannst. Der Wert ändert sich dynamisch während spezieller Events wie zeitlich begrenzten Angeboten, Speed Run Challenges usw.",
+            "vid": -6522102254468185000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "Speed Run Challenge",
+            "vid": -6521290192182358000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "Schlage den Countdown! Wenn du diese Challenge vor Ablauf des Countdowns abschließt, erhältst du Bonusbelohnungen!",
+            "vid": -6522099559913078000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "Schneller abschließen mit Cashback-Belohnung",
+            "vid": -6522094921214180000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "Verstärkt durch Cashback-Belohnung!",
+            "vid": -6522093021496457000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "Fortschritt abgelehnt. Bitte reiche ein Ticket ein, um das Problem zu beheben.",
+            "vid": -6522091102250056000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "Angebot ausgesetzt",
+            "vid": -6522089738128177000
         }
     ],
     "message": "OK"

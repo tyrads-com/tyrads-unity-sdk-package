@@ -1487,6 +1487,214 @@
             ],
             "value": "Bonus ouvert",
             "vid": -6616333649911469000
+        },
+        {
+            "id": "_a6608118763136722329",
+            "key": [
+                "theme.page.title"
+            ],
+            "value": "Thème",
+            "vid": -6598782296051402000
+        },
+        {
+            "id": "_a6608118620394869518",
+            "key": [
+                "shared.button.theme"
+            ],
+            "value": "Thème",
+            "vid": -6598785276356052000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "Jeux recommandés",
+            "vid": -6544312215335904000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "Jeux tendance",
+            "vid": -6544324804085052000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "Contacter le support",
+            "vid": -6522076128450556000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "Gains totaux",
+            "vid": -6521308184942543000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "Trouver des offres",
+            "vid": -6522129439596590000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "Aucune offre disponible pour le moment.",
+            "vid": -6522133126357571000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "Limite quotidienne",
+            "vid": -6521305891295789000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "Commencez à jouer pour gagner des récompenses !",
+            "vid": -6522128385383446000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "Terminez cette offre avant la fin du compte à rebours pour obtenir une récompense supérieure à la récompense de base.",
+            "vid": -6522126495060964000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "Cashback",
+            "vid": -6521303104197558000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "Obtenez un cashback instantané en terminant la tâche. Vous recevrez également un booster pour le Speed Run Challenge grâce à cette tâche.",
+            "vid": -6522124545011593000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "Tâche facile",
+            "vid": -6521301007985082000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "Ces tâches se terminent automatiquement au fur et à mesure que vous jouez chaque jour.",
+            "vid": -6522121993666802000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "Offre à durée limitée",
+            "vid": -6521299348584202000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "Terminez cette offre avant la fin du compte à rebours pour obtenir une récompense supérieure à la récompense de base.",
+            "vid": -6522120480497455000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "Incomplet",
+            "vid": -6521289000127607000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "En attente",
+            "vid": -6521287552388084000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "Il s'agit du gain potentiel maximum que vous pouvez recevoir. La valeur change dynamiquement lors d'événements spéciaux comme les Offres à Durée Limitée, les Speed Run Challenges, etc.",
+            "vid": -6522102359694884000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "Défi Speed Run",
+            "vid": -6521290706170479000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "Battez le compte à rebours ! Si vous terminez ce défi avant la fin du compte à rebours, vous obtiendrez des récompenses bonus !",
+            "vid": -6522099796203388000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "Terminez plus vite avec une récompense cashback",
+            "vid": -6522095017716727000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "Boosté par une récompense cashback !",
+            "vid": -6522093128535095000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "Progression rejetée. Veuillez soumettre un ticket pour résoudre le problème.",
+            "vid": -6522091220227439000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "Offre suspendue",
+            "vid": -6522089816242895000
         }
     ],
     "message": "OK"

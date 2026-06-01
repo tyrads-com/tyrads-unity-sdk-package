@@ -1567,6 +1567,254 @@
             ],
             "value": "오픈 보너스",
             "vid": -6617179499091711000
+        },
+        {
+            "id": "_a6608118763136722329",
+            "key": [
+                "theme.page.title"
+            ],
+            "value": "테마",
+            "vid": -6598781697910097000
+        },
+        {
+            "id": "_a6608118620394869518",
+            "key": [
+                "shared.button.theme"
+            ],
+            "value": "테마",
+            "vid": -6598784434005591000
+        },
+        {
+            "id": "_a6575422639816905906",
+            "key": [
+                "shared.number.suffix.thousand"
+            ],
+            "value": "천",
+            "vid": -6575404688865571000
+        },
+        {
+            "id": "_a6575407083512468049",
+            "key": [
+                "shared.number.suffix.million"
+            ],
+            "value": "백만",
+            "vid": -6575404854624465000
+        },
+        {
+            "id": "_a6575406941979873863",
+            "key": [
+                "shared.number.suffix.billion"
+            ],
+            "value": "십억",
+            "vid": -6575404981258891000
+        },
+        {
+            "id": "_a6575406730452734528",
+            "key": [
+                "shared.number.suffix.trillion"
+            ],
+            "value": "조",
+            "vid": -6575404570485535000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "추천 게임",
+            "vid": -6544311213265024000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "인기 게임",
+            "vid": -6544323259710088000
+        },
+        {
+            "id": "_a6538392010738958075",
+            "key": [
+                "shared.subtitle.initialization"
+            ],
+            "value": "여러분을 위해 준비 운동입니다...",
+            "vid": -6537502839361810000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "고객 지원 문의",
+            "vid": -6522074839826149000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "전체 수익",
+            "vid": -6521307639213261000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "오퍼 찾기",
+            "vid": -6522136387712824000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "아직 이용 가능한 오퍼가 없습니다.",
+            "vid": -6522132499760788000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "일일 한도",
+            "vid": -6521305236313276000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "플레이를 시작하고 리워드를 받으세요!",
+            "vid": -6522127764693562000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "카운트다운이 종료되기 전에 이 오퍼를 완료하면 기본 리워드보다 더 높은 리워드를 받을 수 있습니다.",
+            "vid": -6522125684922757000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "캐시백",
+            "vid": -6521302571755831000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "작업을 완료하면 즉시 캐시백을 받을 수 있습니다. 또한 이 작업을 통해 스피드런 챌린지용 부스터도 받을 수 있습니다.",
+            "vid": -6522123778561257000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "쉬운 작업",
+            "vid": -6521300220328346000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "매일 플레이하면 이 작업이 자동으로 완료됩니다.",
+            "vid": -6522121354858844000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "한정 시간 오퍼",
+            "vid": -6521298934254076000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "카운트다운이 종료되기 전에 이 오퍼를 완료하면 기본 리워드보다 더 높은 리워드를 받을 수 있습니다.",
+            "vid": -6522104464832839000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "미완료",
+            "vid": -6521288542713590000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "대기 중",
+            "vid": -6521287105847034000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "받을 수 있는 최대 잠재 수익입니다. 한정 시간 오퍼, 스피드런 챌린지 등 특별 이벤트 기간 동안 값이 동적으로 변경됩니다.",
+            "vid": -6522100768879263000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "스피드런 챌린지",
+            "vid": -6521289780469477000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "카운트다운을 이겨보세요! 카운트다운이 종료되기 전에 이 챌린지를 완료하면 보너스 리워드를 받을 수 있습니다!",
+            "vid": -6522098305648410000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "캐시백 리워드로 더 빠르게 완료하세요",
+            "vid": -6522094490375273000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "캐시백 리워드로 부스트됨!",
+            "vid": -6522092652799037000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "진행 상황이 거부되었습니다. 문제 해결을 위해 티켓을 제출해 주세요.",
+            "vid": -6522090744559811000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "오퍼 일시 중지됨",
+            "vid": -6522089402516748000
         }
     ],
     "message": "OK"

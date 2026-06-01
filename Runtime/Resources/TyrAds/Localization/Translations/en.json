@@ -1591,6 +1591,326 @@
             ],
             "value": "Theme",
             "vid": -6608118620394870000
+        },
+        {
+            "id": "_a6575422639816905906",
+            "key": [
+                "shared.number.suffix.thousand"
+            ],
+            "value": "K",
+            "vid": -6575422639816906000
+        },
+        {
+            "id": "_a6575407083512468049",
+            "key": [
+                "shared.number.suffix.million"
+            ],
+            "value": "M",
+            "vid": -6575407083512468000
+        },
+        {
+            "id": "_a6575406941979873863",
+            "key": [
+                "shared.number.suffix.billion"
+            ],
+            "value": "B",
+            "vid": -6575406941979874000
+        },
+        {
+            "id": "_a6575406730452734528",
+            "key": [
+                "shared.number.suffix.trillion"
+            ],
+            "value": "T",
+            "vid": -6575406730452735000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "Recommended Games",
+            "vid": -6544331550808909000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "Trending Games",
+            "vid": -6544330980315133000
+        },
+        {
+            "id": "_a6538394415046944104",
+            "key": [
+                "shared.error.text"
+            ],
+            "value": "Error",
+            "vid": -6538394415046944000
+        },
+        {
+            "id": "_a6538394156276449291",
+            "key": [
+                "shared.error.connection.title"
+            ],
+            "value": "Connection Error",
+            "vid": -6538394156276449000
+        },
+        {
+            "id": "_a6538393914481927465",
+            "key": [
+                "shared.error.connection.subtitle"
+            ],
+            "value": "Please check your internet connection and try again.",
+            "vid": -6538393914481927000
+        },
+        {
+            "id": "_a6538393463712972744",
+            "key": [
+                "shared.error.invalidToken"
+            ],
+            "value": "Your session has expired or the token provided is invalid",
+            "vid": -6538393463712973000
+        },
+        {
+            "id": "_a6538393217422157001",
+            "key": [
+                "shared.error.missingToken"
+            ],
+            "value": "No token was provided. Please check your request.",
+            "vid": -6538393217422157000
+        },
+        {
+            "id": "_a6538392942478425975",
+            "key": [
+                "shared.error.sessionExpired.subtitle"
+            ],
+            "value": "Your session has expired. Please refresh the page and try again.",
+            "vid": -6538392942478426000
+        },
+        {
+            "id": "_a6538392810072637282",
+            "key": [
+                "shared.error.sessionExpired.title"
+            ],
+            "value": "Session Expired",
+            "vid": -6538392810072637000
+        },
+        {
+            "id": "_a6538392574989001825",
+            "key": [
+                "shared.error.tryAgain"
+            ],
+            "value": "Please try again later.",
+            "vid": -6538392574989002000
+        },
+        {
+            "id": "_a6538392404735098656",
+            "key": [
+                "shared.error.updateInfo"
+            ],
+            "value": "An error occurred while updating your information. Please try again later.",
+            "vid": -6538392404735099000
+        },
+        {
+            "id": "_a6538392010738958075",
+            "key": [
+                "shared.subtitle.initialization"
+            ],
+            "value": "Warming things up for you...",
+            "vid": -6538392010738958000
+        },
+        {
+            "id": "_a6538391804042372110",
+            "key": [
+                "shared.subtitle.loading"
+            ],
+            "value": "Almost there, just loading things up...",
+            "vid": -6538391804042372000
+        },
+        {
+            "id": "_a6538381245537647224",
+            "key": [
+                "modals.shared.errorActivatingCampaign.subtitle"
+            ],
+            "value": "An error occurred while activating the campaign. Please try again later or contact support.",
+            "vid": -6538380787988128000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "Contact Support",
+            "vid": -6522143180943119000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "Overall Earnings",
+            "vid": -6522142942706652000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "Find Offers",
+            "vid": -6522142918010590000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "No offers available yet.",
+            "vid": -6522142758694147000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "Daily Limit",
+            "vid": -6522142725408151000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "Start playing to earn rewards!",
+            "vid": -6522142655009634000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "Try to finish this offer before the countdown ends to get higher reward than its base reward.",
+            "vid": -6522142539381062000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "Cashback",
+            "vid": -6522142536094045000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "Get an instant cashback if you finished the task. You will also get a booster for the Speed Run Challenge from this task.",
+            "vid": -6522142413284824000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "Easy Task",
+            "vid": -6522142385099101000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "This tasks completed automatically as you play every day.",
+            "vid": -6522142249136543000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "Limited Time Offer",
+            "vid": -6522142190349178000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "Try to finish this offer before the countdown ends to get higher reward than its base reward.",
+            "vid": -6522142102032595000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "Incomplete",
+            "vid": -6522141725553186000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "Pending",
+            "vid": -6522141595294881000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "This is the maximum potential earning you can receive. The value changes dynamically during special events like Limited Time Offers and Speed Run Challenges, etc.",
+            "vid": -6522141352560802000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "Speed Run Challenge",
+            "vid": -6522141285654582000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "Beat the countdown! If you finished this challenge before the countdown ends, you will get a bonus rewards!",
+            "vid": -6522140803812939000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "Complete Faster with Cashback Reward",
+            "vid": -6522140680331311000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "Boosted by Cashback Reward!",
+            "vid": -6522140552690252000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "Progress rejected. Please submit a ticket to fix it.",
+            "vid": -6522140442833041000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "Offer Suspended",
+            "vid": -6522140029242430000
         }
     ],
     "message": "OK"

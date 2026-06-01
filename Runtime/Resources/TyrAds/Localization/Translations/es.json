@@ -1093,8 +1093,8 @@
             "key": [
                 "shared.time.label.minute.abbr"
             ],
-            "value": "metro",
-            "vid": -6871342709713303000
+            "value": "min",
+            "vid": -6543173301409804000
         },
         {
             "id": "_a6875805219386023273",
@@ -1575,6 +1575,214 @@
             ],
             "value": "Bonificación abierta",
             "vid": -6615252559665539000
+        },
+        {
+            "id": "_a6608118763136722329",
+            "key": [
+                "theme.page.title"
+            ],
+            "value": "Tema",
+            "vid": -6598781399208543000
+        },
+        {
+            "id": "_a6608118620394869518",
+            "key": [
+                "shared.button.theme"
+            ],
+            "value": "Tema",
+            "vid": -6598784185635685000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "Juegos recomendados",
+            "vid": -6544311067974333000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "Juegos en tendencia",
+            "vid": -6544320237932160000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "Contactar soporte",
+            "vid": -6522074674000146000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "Ganancias totales",
+            "vid": -6521307498888626000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "Buscar ofertas",
+            "vid": -6522135781317129000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "Aún no hay ofertas disponibles.",
+            "vid": -6522132301789640000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "Límite diario",
+            "vid": -6521305056931283000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "Empieza a jugar para ganar recompensas!",
+            "vid": -6522127523302979000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "Intenta completar esta oferta antes de que termine la cuenta regresiva para obtener una recompensa mayor que la recompensa base.",
+            "vid": -6522125447692923000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "Reembolso",
+            "vid": -6521302425122963000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "Obtén un reembolso instantáneo al completar la tarea. También recibirás un potenciador para el Desafío Speed Run con esta tarea.",
+            "vid": -6522123597971304000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "Tarea fácil",
+            "vid": -6521300058864419000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "Estas tareas se completan automáticamente a medida que juegas cada día.",
+            "vid": -6522121194602877000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "Oferta por tiempo limitado",
+            "vid": -6521298809163153000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "Intenta completar esta oferta antes de que termine la cuenta regresiva para obtener una recompensa mayor que la recompensa base.",
+            "vid": -6522104204584664000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "Incompleto",
+            "vid": -6521288416548925000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "Pendiente",
+            "vid": -6521286793656599000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "Esta es la ganancia potencial máxima que puedes recibir. El valor cambia dinámicamente durante eventos especiales como Ofertas por Tiempo Limitado, Desafíos Speed Run, etc.",
+            "vid": -6522100643587014000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "Desafío Speed Run",
+            "vid": -6521289650949370000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "¡Vence la cuenta regresiva! Si terminas este desafío antes de que finalice la cuenta regresiva, ¡obtendrás recompensas adicionales!",
+            "vid": -6522097674489544000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "Completa más rápido con recompensa de reembolso",
+            "vid": -6522094323341311000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "¡Impulsado por recompensa de reembolso!",
+            "vid": -6522092527506788000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "Progreso rechazado. Por favor, envía un ticket para solucionarlo.",
+            "vid": -6522090631884028000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "Oferta suspendida",
+            "vid": -6522089300444166000
         }
     ],
     "message": "OK"

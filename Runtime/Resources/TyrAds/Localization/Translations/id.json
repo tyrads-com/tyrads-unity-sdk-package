@@ -254,7 +254,7 @@
                 "shared.section.quickRewards"
             ],
             "value": "Hadiah Cepat",
-            "vid": -6606899113152177000
+            "vid": -6598784798943593000
         },
         {
             "id": "_a6875933646625393617",
@@ -1591,6 +1591,294 @@
             ],
             "value": "Tema",
             "vid": -6608117963937261000
+        },
+        {
+            "id": "_a6544331550808909041",
+            "key": [
+                "offers.section.recommendedGames"
+            ],
+            "value": "Rekomendasi Game",
+            "vid": -6544311595853981000
+        },
+        {
+            "id": "_a6544330980315133348",
+            "key": [
+                "offers.section.trendingGames"
+            ],
+            "value": "Game yang Sedang Tren",
+            "vid": -6544324190307382000
+        },
+        {
+            "id": "_a6538394415046944104",
+            "key": [
+                "shared.error.text"
+            ],
+            "value": "Terjadi Kesalahan",
+            "vid": -6538385538424569000
+        },
+        {
+            "id": "_a6538394156276449291",
+            "key": [
+                "shared.error.connection.title"
+            ],
+            "value": "Koneksi Bermasalah",
+            "vid": -6538389872917702000
+        },
+        {
+            "id": "_a6538393914481927465",
+            "key": [
+                "shared.error.connection.subtitle"
+            ],
+            "value": "Coba cek koneksi internet kamu, lalu coba lagi",
+            "vid": -6538383572402004000
+        },
+        {
+            "id": "_a6538393463712972744",
+            "key": [
+                "shared.error.invalidToken"
+            ],
+            "value": "Sesi kamu telah berakhir atau token yang diberikan tidak valid.",
+            "vid": -6538387581285498000
+        },
+        {
+            "id": "_a6538393217422157001",
+            "key": [
+                "shared.error.missingToken"
+            ],
+            "value": "Token nggak ditemukan. Coba cek lagi permintaan kamu ya.",
+            "vid": -6538386988781338000
+        },
+        {
+            "id": "_a6538392942478425975",
+            "key": [
+                "shared.error.sessionExpired.subtitle"
+            ],
+            "value": "Sesi kamu sudah berakhir. Silakan muat ulang halaman lalu coba lagi.",
+            "vid": -6538386528750075000
+        },
+        {
+            "id": "_a6538392810072637282",
+            "key": [
+                "shared.error.sessionExpired.title"
+            ],
+            "value": "Sesi kamu sudah berakhir",
+            "vid": -6538385948996599000
+        },
+        {
+            "id": "_a6538392574989001825",
+            "key": [
+                "shared.error.tryAgain"
+            ],
+            "value": "Silakan coba lagi nanti.",
+            "vid": -6538385204221141000
+        },
+        {
+            "id": "_a6538392404735098656",
+            "key": [
+                "shared.error.updateInfo"
+            ],
+            "value": "Terjadi kesalahan ketika memperbarui informasi kamu. Silakan coba lagi nanti.",
+            "vid": -6538384768820116000
+        },
+        {
+            "id": "_a6538392010738958075",
+            "key": [
+                "shared.subtitle.initialization"
+            ],
+            "value": "Lagi nyiapin semuanya buat kamu...",
+            "vid": -6538381781670362000
+        },
+        {
+            "id": "_a6538391804042372110",
+            "key": [
+                "shared.subtitle.loading"
+            ],
+            "value": "Hampir selesai, lagi loading sebentar ya...",
+            "vid": -6538382130435128000
+        },
+        {
+            "id": "_a6538381245537647224",
+            "key": [
+                "modals.shared.errorActivatingCampaign.subtitle"
+            ],
+            "value": "Gagal mengaktifkan iklan. Silakan coba lagi nanti atau hubungi tim support",
+            "vid": -6538376372895965000
+        },
+        {
+            "id": "_a6522143180943119561",
+            "key": [
+                "shared.cta.contactSupport"
+            ],
+            "value": "Hubungi Layanan Dukungan",
+            "vid": -6522075062828904000
+        },
+        {
+            "id": "_a6522142942706652346",
+            "key": [
+                "shared.label.overallEarnings"
+            ],
+            "value": "Total Penghasilan",
+            "vid": -6521307906977628000
+        },
+        {
+            "id": "_a6522142918010590389",
+            "key": [
+                "activeOffers.cta.findOffers"
+            ],
+            "value": "Cari Penawaran",
+            "vid": -6522135570326861000
+        },
+        {
+            "id": "_a6522142758694147233",
+            "key": [
+                "activeOffers.empty.noOffersTitle"
+            ],
+            "value": "Belum ada penawaran yang tersedia.",
+            "vid": -6522132810274821000
+        },
+        {
+            "id": "_a6522142725408150684",
+            "key": [
+                "shared.label.dailyLimit"
+            ],
+            "value": "Batas Harian",
+            "vid": -6521305657085854000
+        },
+        {
+            "id": "_a6522142655009634579",
+            "key": [
+                "activeOffers.empty.noOffersSubtitle"
+            ],
+            "value": "Mulai bermain untuk mendapatkan hadiah!",
+            "vid": -6522128077690622000
+        },
+        {
+            "id": "_a6522142539381061898",
+            "key": [
+                "offerDetails.description.activeTask"
+            ],
+            "value": "Selesaikan penawaran ini sebelum hitung mundur berakhir untuk mendapatkan hadiah yang lebih tinggi dari hadiah dasar.",
+            "vid": -6522126067713036000
+        },
+        {
+            "id": "_a6522142536094045329",
+            "key": [
+                "shared.section.cashback"
+            ],
+            "value": "Cashback",
+            "vid": -6521302814689919000
+        },
+        {
+            "id": "_a6522142413284824202",
+            "key": [
+                "offerDetails.description.cashback"
+            ],
+            "value": "Dapatkan cashback instan jika Anda menyelesaikan tugas ini. Anda juga akan mendapatkan booster untuk Speed Run Challenge dari tugas ini.",
+            "vid": -6522124083235500000
+        },
+        {
+            "id": "_a6522142385099101317",
+            "key": [
+                "shared.section.easyTask"
+            ],
+            "value": "Tugas Mudah",
+            "vid": -6521300683983487000
+        },
+        {
+            "id": "_a6522142249136542848",
+            "key": [
+                "offerDetails.description.easyTask"
+            ],
+            "value": "Tugas ini akan selesai secara otomatis saat Anda bermain setiap hari.",
+            "vid": -6522121671208710000
+        },
+        {
+            "id": "_a6522142190349177979",
+            "key": [
+                "shared.section.lto"
+            ],
+            "value": "Penawaran Waktu Terbatas",
+            "vid": -6521299143231078000
+        },
+        {
+            "id": "_a6522142102032595163",
+            "key": [
+                "offerDetails.description.lto"
+            ],
+            "value": "Selesaikan penawaran ini sebelum hitung mundur berakhir untuk mendapatkan hadiah yang lebih tinggi dari hadiah dasar.",
+            "vid": -6522120043216097000
+        },
+        {
+            "id": "_a6522141725553185889",
+            "key": [
+                "shared.status.incomplete"
+            ],
+            "value": "Belum Selesai",
+            "vid": -6521288779206558000
+        },
+        {
+            "id": "_a6522141595294880858",
+            "key": [
+                "shared.status.pending"
+            ],
+            "value": "Tertunda",
+            "vid": -6521287337037070000
+        },
+        {
+            "id": "_a6522141352560801902",
+            "key": [
+                "offerDetails.description.overallEarning"
+            ],
+            "value": "Ini adalah potensi penghasilan maksimum yang bisa kamu terima. Nilainya berubah secara dinamis selama event spesial seperti Limited Time Offers, Speed Run Challenges, dan lainnya.",
+            "vid": -6522102011601206000
+        },
+        {
+            "id": "_a6522141285654582329",
+            "key": [
+                "shared.section.speedRun"
+            ],
+            "value": "Tantangan Speed Run",
+            "vid": -6521290055482933000
+        },
+        {
+            "id": "_a6522140803812938784",
+            "key": [
+                "offerDetails.description.speedRun"
+            ],
+            "value": "Kalahkan hitung mundur! Jika kamu menyelesaikan tantangan ini sebelum hitung mundur berakhir, Kamu akan mendapatkan hadiah bonus!",
+            "vid": -6522098555696037000
+        },
+        {
+            "id": "_a6522140680331311035",
+            "key": [
+                "offerDetails.description.speedRunPendingRewardTip"
+            ],
+            "value": "Selesaikan Lebih Cepat dengan Hadiah Cashback",
+            "vid": -6522094758810729000
+        },
+        {
+            "id": "_a6522140552690251681",
+            "key": [
+                "offerDetails.description.speedRunApprovedRewardTip"
+            ],
+            "value": "Ditingkatkan dengan Hadiah Cashback!",
+            "vid": -6522092911570817000
+        },
+        {
+            "id": "_a6522140442833041294",
+            "key": [
+                "offerDetails.status.progressRejectedTicket"
+            ],
+            "value": "Progres ditolak. Silakan kirim tiket untuk memperbaikinya.",
+            "vid": -6522090981923863000
+        },
+        {
+            "id": "_a6522140029242430424",
+            "key": [
+                "offers.label.offerSuspended"
+            ],
+            "value": "Penawaran Ditangguhkan",
+            "vid": -6522089613909670000
         }
     ],
     "message": "OK"
