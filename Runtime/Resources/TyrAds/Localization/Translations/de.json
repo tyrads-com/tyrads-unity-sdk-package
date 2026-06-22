@@ -1581,8 +1581,8 @@
             "key": [
                 "offerDetails.description.activeTask"
             ],
-            "value": "Schließe dieses Angebot vor Ablauf des Countdowns ab, um eine höhere Belohnung als die Grundbelohnung zu erhalten.",
-            "vid": -6522126392787056000
+            "value": "Dies ist die Grundprämie dieses Angebots. Versuche, alles vor dem Ablaufdatum abzuschließen, um die gesamten Einnahmen zu erhalten.",
+            "vid": -6502527104907314000
         },
         {
             "id": "_a6522142536094045329",
@@ -1613,8 +1613,8 @@
             "key": [
                 "offerDetails.description.easyTask"
             ],
-            "value": "Diese Aufgaben werden automatisch abgeschlossen, während du jeden Tag spielst.",
-            "vid": -6522121904076468000
+            "value": "Diese Aufgabe erfordert kaum Aufwand. Spiel einfach das Spiel und du wirst es abschließen, bevor du es überhaupt merkst.",
+            "vid": -6502525368665464000
         },
         {
             "id": "_a6522142190349177979",

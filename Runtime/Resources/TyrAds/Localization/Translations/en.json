@@ -1789,8 +1789,8 @@
             "key": [
                 "offerDetails.description.activeTask"
             ],
-            "value": "Try to finish this offer before the countdown ends to get higher reward than its base reward.",
-            "vid": -6522142539381062000
+            "value": "This is the base reward of this offer. Try to finish it all before it expired to fully collect the overall earnings.",
+            "vid": -6502528948790461000
         },
         {
             "id": "_a6522142536094045329",
@@ -1821,8 +1821,8 @@
             "key": [
                 "offerDetails.description.easyTask"
             ],
-            "value": "This tasks completed automatically as you play every day.",
-            "vid": -6522142249136543000
+            "value": "This task doesn’t even require much effort. Just play the game and complete it before you even realize it.",
+            "vid": -6502526207863129000
         },
         {
             "id": "_a6522142190349177979",

@@ -1661,8 +1661,8 @@
             "key": [
                 "offerDetails.description.activeTask"
             ],
-            "value": "Intenta completar esta oferta antes de que termine la cuenta regresiva para obtener una recompensa mayor que la recompensa base.",
-            "vid": -6522125447692923000
+            "value": "Esta es la recompensa base de esta oferta. Intenta completarla antes de que expire para cobrar la totalidad de las ganancias.",
+            "vid": -6502526633534653000
         },
         {
             "id": "_a6522142536094045329",
@@ -1693,8 +1693,8 @@
             "key": [
                 "offerDetails.description.easyTask"
             ],
-            "value": "Estas tareas se completan automáticamente a medida que juegas cada día.",
-            "vid": -6522121194602877000
+            "value": "Esta tarea no requiere mucho esfuerzo. Solo juega y la completarás sin darte cuenta.",
+            "vid": -6502524919707164000
         },
         {
             "id": "_a6522142190349177979",

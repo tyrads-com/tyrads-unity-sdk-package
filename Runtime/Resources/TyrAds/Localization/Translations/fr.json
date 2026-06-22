@@ -1573,8 +1573,8 @@
             "key": [
                 "offerDetails.description.activeTask"
             ],
-            "value": "Terminez cette offre avant la fin du compte à rebours pour obtenir une récompense supérieure à la récompense de base.",
-            "vid": -6522126495060964000
+            "value": "Ceci est la récompense de base de cette offre. Essayez de tout terminer avant son expiration pour percevoir l'intégralité des gains.",
+            "vid": -6502527239794810000
         },
         {
             "id": "_a6522142536094045329",
@@ -1605,8 +1605,8 @@
             "key": [
                 "offerDetails.description.easyTask"
             ],
-            "value": "Ces tâches se terminent automatiquement au fur et à mesure que vous jouez chaque jour.",
-            "vid": -6522121993666802000
+            "value": "Cette tâche ne demande pas beaucoup d'efforts. Jouez simplement au jeu et vous la terminerez sans même vous en rendre compte.",
+            "vid": -6502525485233561000
         },
         {
             "id": "_a6522142190349177979",

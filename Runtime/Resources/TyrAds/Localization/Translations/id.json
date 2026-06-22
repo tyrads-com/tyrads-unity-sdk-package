@@ -1757,8 +1757,8 @@
             "key": [
                 "offerDetails.description.activeTask"
             ],
-            "value": "Selesaikan penawaran ini sebelum hitung mundur berakhir untuk mendapatkan hadiah yang lebih tinggi dari hadiah dasar.",
-            "vid": -6522126067713036000
+            "value": "Ini adalah hadiah dasar dari penawaran ini. Coba selesaikan semuanya sebelum kedaluwarsa untuk mengumpulkan seluruh penghasilan.",
+            "vid": -6502526977400473000
         },
         {
             "id": "_a6522142536094045329",
@@ -1789,8 +1789,8 @@
             "key": [
                 "offerDetails.description.easyTask"
             ],
-            "value": "Tugas ini akan selesai secara otomatis saat Anda bermain setiap hari.",
-            "vid": -6522121671208710000
+            "value": "Tugas ini tidak memerlukan banyak usaha. Cukup mainkan gamenya dan kamu akan menyelesaikannya tanpa sadar.",
+            "vid": -6502525234581954000
         },
         {
             "id": "_a6522142190349177979",

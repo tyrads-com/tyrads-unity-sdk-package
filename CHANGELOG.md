@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.2] - 2026-06-16
+
+### Added
+- Added `LoginErrorCode` to expose structured failure reasons for SDK login and initialization flows.
+
+### Fixed
+- Initialization of the SDK when tracking is limited on Android.
+
+### Changed
+- Extended `LoginResult` with `ErrorCode` and `ErrorMessage` to simplify diagnosing login and initialization failures.
+- Updated the demo scene to display login errors returned by the SDK.
+
 ## [4.0.1] - 2026-05-01
 
 ### Changed
@@ -125,6 +137,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v4.0.0
 [4.0.0-pre.5]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0-pre.4...v4.0.0-pre.5

@@ -4,49 +4,49 @@
             "id": "85",
             "code": "en",
             "name": "English",
-            "sha256": "cb504e51ce94e4bef325e02ffcc067ab0a7f640921c004d1684001f10f7e2a5e"
+            "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
         },
         {
             "id": "265",
             "code": "de",
             "name": "German",
-            "sha256": "e4c0451bc098a17f05bb81e904741b0a8d55d10d4f28b003e28ef369a09ef37d"
+            "sha256": "654fddd220c0fc64da308e54817fc1eca6426901642b48cc413c66a2a676e43e"
         },
         {
             "id": "458",
             "code": "es",
             "name": "Spanish",
-            "sha256": "0b8a940c7e603cbba8423c13d9c775324edcfaa7ebab681e40decede136af6ad"
+            "sha256": "cf34d9185d5482577cadd3272e3e8df99d428cc54cd06de99614127a4bd35166"
         },
         {
             "id": "521",
             "code": "fr",
             "name": "French",
-            "sha256": "4f60095636c40787db03a439c4121f7c299961073ab40e589ad753173bef4037"
+            "sha256": "8464f972c3ff969b49eab65d621742d3ca16b4945351c0cee95fa9672abbd04a"
         },
         {
             "id": "685",
             "code": "id",
             "name": "Indonesian",
-            "sha256": "dfa95a76b98684c02896c105a8e8fec5468c89c59674b7b16fccf32e57c7e23c"
+            "sha256": "b55ab4d1ad2f27bfe6961861968da61b80718a3a6c9744402f0884af4f794559"
         },
         {
             "id": "717",
             "code": "ja",
             "name": "Japanese",
-            "sha256": "b75116fbfc467beea1c7bb5d5d9ab0fef3d356e0fbc08a2052cb9e8db5657453"
+            "sha256": "f9bfeb3482908b04b7ecb0712dcd71c1617bcc462e1b0bfebc42954e23626d09"
         },
         {
             "id": "777",
             "code": "ko",
             "name": "Korean",
-            "sha256": "adf5157ca9f784a724fa6f979889d29aaa626edd33a38ddaf16909ac1567104d"
+            "sha256": "1a359dba3a27694118e2f34e4ff0e8ac69e5e14861688075f29ecd2a6ec3047c"
         },
         {
             "id": "1466",
             "code": "zh-Hans-CN",
             "name": "Chinese (China, Simplified)",
-            "sha256": "cb504e51ce94e4bef325e02ffcc067ab0a7f640921c004d1684001f10f7e2a5e"
+            "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
         }
     ],
     "message": "OK"

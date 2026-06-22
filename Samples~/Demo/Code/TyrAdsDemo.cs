@@ -31,6 +31,7 @@ namespace TyrAds.Demo
         [SerializeField] private MediaSourcePanel mediaSourceInfoPanel;
         [SerializeField] private EngagementPanel engagementPanel;
         [SerializeField] private ScreenOrientationPreferenceHandler screenOrientationPreferenceHandler;
+        [SerializeField] private ErrorPanel errorPanel;
 
         private void Start()
         {
@@ -82,6 +83,10 @@ namespace TyrAds.Demo
             {
                 string userId = TyrSDKPlugin.Instance.GetUserId();
                 userIdInput.text = userId;
+            }
+            else
+            {
+                errorPanel.SetError(result.ErrorMessage);
             }
             
             sessionPanel.SwitchButtonInteractability(result.IsSuccessful);
