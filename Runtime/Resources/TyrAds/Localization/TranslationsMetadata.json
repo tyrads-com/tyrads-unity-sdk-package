@@ -43,9 +43,27 @@
             "sha256": "1a359dba3a27694118e2f34e4ff0e8ac69e5e14861688075f29ecd2a6ec3047c"
         },
         {
+            "id": "1441",
+            "code": "zh-Hant-CN",
+            "name": "Chinese (China, Traditional)",
+            "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
+        },
+        {
             "id": "1466",
             "code": "zh-Hans-CN",
             "name": "Chinese (China, Simplified)",
+            "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
+        },
+        {
+            "id": "1467",
+            "code": "zh-Hant-HK",
+            "name": "Chinese (Hong Kong SAR China, Traditional)",
+            "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
+        },
+        {
+            "id": "1470",
+            "code": "zh-Hant-TW",
+            "name": "Chinese (Taiwan, Traditional)",
             "sha256": "b9c68e21ddeeca221e13e3087aa2d4f80926993955d78122c186f784f5216176"
         }
     ],

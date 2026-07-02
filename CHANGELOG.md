@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.3] - 2026-07-01
+
+### Fixed
+- Resolved a culture-sensitive string conversion issue that could produce invalid identifier type values on devices using certain locales (e.g. tr-TR).
+- Added error handling for session data persistence to prevent SDK failures when reading corrupted session files or when saving session data fails.
+
 ## [4.0.2] - 2026-06-16
 
 ### Added
@@ -137,6 +143,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.3]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v3.1.1...v4.0.0
