@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TyrAds.Components;
 using TyrAds.Data;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,11 @@ namespace TyrAds.Demo
     public class TyrAdsDemo : MonoBehaviour
     {
         private const string DebugTag = "[" + nameof(TyrAdsDemo) + "]";
+        private const string ErrorHeader = "Error";
+        private const string InfoHeader = "Info";
+        
+        private static readonly Color _errorColorScheme = new (0.9f, 0.2f, 0.2f); 
+        private static readonly Color _infoColorScheme = new (0.2f, 0.6f, 0.9f); 
 
         private readonly Dictionary<string, string> _availableLanguages = new()
         {
@@ -31,13 +37,16 @@ namespace TyrAds.Demo
         [SerializeField] private MediaSourcePanel mediaSourceInfoPanel;
         [SerializeField] private EngagementPanel engagementPanel;
         [SerializeField] private ScreenOrientationPreferenceHandler screenOrientationPreferenceHandler;
-        [SerializeField] private ErrorPanel errorPanel;
+        [SerializeField] private MessagePanel messagePanel;
 
         private void Start()
         {
             initializeButton.onClick.AddListener(OnInitialize);
             routingPanel.RouteClicked += OnShowOffersWithDeepLink;
             sessionPanel.OffersClicked += OnShowOffers;
+            TyrSDKPlugin.Instance.OfferwallOpened += OnOfferwallOpened;
+            TyrSDKPlugin.Instance.OfferwallClosed += OnOfferwallClosed;
+            TyrSDKPlugin.Instance.OfferwallShowFailed += OnOfferwallShowFailed;
             
             DisableButtons();
             SetupDropdowns();
@@ -50,6 +59,16 @@ namespace TyrAds.Demo
             initializeButton.onClick.RemoveListener(OnInitialize);
             routingPanel.RouteClicked -= OnShowOffersWithDeepLink;
             sessionPanel.OffersClicked -= OnShowOffers;
+            ITyrSDKPlugin iTyrSDKPlugin = TyrSDKPlugin.Instance;
+
+            if (iTyrSDKPlugin == null)
+            {
+                return;
+            }
+
+            iTyrSDKPlugin.OfferwallOpened -= OnOfferwallOpened;
+            iTyrSDKPlugin.OfferwallClosed -= OnOfferwallClosed;
+            iTyrSDKPlugin.OfferwallShowFailed -= OnOfferwallShowFailed;
         }
 
         private void SetupDropdowns()
@@ -86,7 +105,7 @@ namespace TyrAds.Demo
             }
             else
             {
-                errorPanel.SetError(result.ErrorMessage);
+                ShowErrorMessage(result.ErrorMessage);
             }
             
             sessionPanel.SwitchButtonInteractability(result.IsSuccessful);
@@ -103,6 +122,16 @@ namespace TyrAds.Demo
             TyradsEngagementInfo engagementInfo = engagementPanel?.GetTyradsEngagementInfo();
 
             return new LoginData(userId, userInfo, mediaInfo, engagementInfo);
+        }
+        
+        private void ShowErrorMessage(string message)
+        {
+            messagePanel.SetMessage(message, ErrorHeader, _errorColorScheme);
+        }
+        
+        private void ShowInfoMessage(string message)
+        {
+            messagePanel.SetMessage(message, InfoHeader, _infoColorScheme);
         }
 
         private void OnInitialize()
@@ -148,6 +177,21 @@ namespace TyrAds.Demo
             {
                 TyrSDKPlugin.Instance.SetLanguage(languageCode);
             }
+        }
+        
+        private void OnOfferwallOpened()
+        {
+            ShowInfoMessage("Offerwall was opened.");
+        }
+
+        private void OnOfferwallClosed()
+        {
+            ShowInfoMessage("Offerwall was closed.");
+        }
+
+        private void OnOfferwallShowFailed(OfferwallFailReason reason)
+        {
+            ShowErrorMessage($"Offerwall failed to showing: {reason.ToString()}");
         }
     }
 }

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name iOSTyrSdkPlugin
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iOSTyrSdkPlugin
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -105,6 +106,21 @@ public typealias LanguageChangeCallback = @convention(c) (Swift.UnsafePointer<Sw
 public func registerLanguageChangeCallback(_ callback: iOSTyrSdkPlugin.LanguageChangeCallback?)
 @_cdecl("tyrads_notifyLanguageChange")
 public func notifyLanguageChange(_ languageCode: Swift.UnsafePointer<Swift.CChar>)
+public typealias OfferwallOpenedCallback = @convention(c) () -> Swift.Void
+public typealias OfferwallClosedCallback = @convention(c) () -> Swift.Void
+public typealias OfferwallFailedCallback = @convention(c) (Swift.UnsafePointer<Swift.CChar>) -> Swift.Void
+@_cdecl("tyrads_registerOfferwallOpenedCallback")
+public func registerOfferwallOpenedCallback(_ callback: iOSTyrSdkPlugin.OfferwallOpenedCallback?)
+@_cdecl("tyrads_registerOfferwallClosedCallback")
+public func registerOfferwallClosedCallback(_ callback: iOSTyrSdkPlugin.OfferwallClosedCallback?)
+@_cdecl("tyrads_registerOfferwallFailedCallback")
+public func registerOfferwallFailedCallback(_ callback: iOSTyrSdkPlugin.OfferwallFailedCallback?)
+@_cdecl("tyrads_notifyOfferwallOpened")
+public func notifyOfferwallOpened()
+@_cdecl("tyrads_notifyOfferwallClosed")
+public func notifyOfferwallClosed()
+@_cdecl("tyrads_notifyOfferwallFailed")
+public func notifyOfferwallFailed(_ reasonCode: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("tyrads_initialize")
 public func initialize() -> Swift.Bool
 @_cdecl("tyrads_getTrackingPermissionStatusSelected")

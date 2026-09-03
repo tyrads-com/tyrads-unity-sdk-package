@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5593505126417877457}
   - component: {fileID: 3721920703762496343}
-  - component: {fileID: 2717570141678786873}
+  - component: {fileID: 8797439484866763672}
   - component: {fileID: 4168812707861587523}
   m_Layer: 5
   m_Name: Agree_text
@@ -47,7 +47,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3916019025404083}
   m_CullTransparentMesh: 1
---- !u!114 &2717570141678786873
+--- !u!114 &8797439484866763672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3916019025404083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 1770336727, guid: c584d55827b224073b277c886ebb17ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -72,8 +72,8 @@ MonoBehaviour:
     m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 62
+    m_MinSize: 4
+    m_MaxSize: 42
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 0
@@ -95,6 +95,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: initialization.intro.label.iHaveRead
   linkColor: {r: 0, g: 0.13725491, b: 0.4509804, a: 1}
+  tapPadding: 12
+  glyphVertexText: {fileID: 8797439484866763672}
 --- !u!1 &70400378700817012
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1305.78, y: -54}
+  m_AnchoredPosition: {x: 448.2, y: -186}
   m_SizeDelta: {x: 486, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &651493239179531169
@@ -388,11 +390,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
+    useAnchor: 1
     anchorMin: {x: 0.2, y: 0.061}
     anchorMax: {x: 0.8, y: 0.16}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
   landscape:
+    useAnchor: 1
     anchorMin: {x: 0, y: 0.061}
     anchorMax: {x: 1, y: 0.16}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
 --- !u!1 &1705510105398340223
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +492,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1493761535950245381}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22129074
+  m_Size: 0.2245338
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -772,7 +780,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 795.78, y: -54}
+  m_AnchoredPosition: {x: 448.2, y: -54}
   m_SizeDelta: {x: 486, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4451424236038211474
@@ -1279,8 +1287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1034.28, y: -596.5}
-  m_SizeDelta: {x: 2068.56, y: 1193}
+  m_AnchoredPosition: {x: 431.7, y: -1109.5}
+  m_SizeDelta: {x: 863.4, y: 2219}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4451424236951015539
 CanvasRenderer:
@@ -1461,11 +1469,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
+    useAnchor: 1
     anchorMin: {x: 0.14, y: 0.66}
     anchorMax: {x: 0.86, y: 1}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
   landscape:
+    useAnchor: 1
     anchorMin: {x: 0.14, y: 0.8}
     anchorMax: {x: 0.86, y: 1}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
 --- !u!1 &4451424237767285376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1493,7 @@ GameObject:
   - component: {fileID: 4451424237767285389}
   - component: {fileID: 4451424237767285390}
   m_Layer: 5
-  m_Name: PrivaceLink_button
+  m_Name: PrivacyLink_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1503,8 +1517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 444, y: -1222.5}
-  m_SizeDelta: {x: 888, y: 59}
+  m_AnchoredPosition: {x: 431.7, y: -2248.5}
+  m_SizeDelta: {x: 863.4, y: 59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4451424237767285388
 CanvasRenderer:
@@ -1724,7 +1738,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 974.944}
+  m_SizeDelta: {x: 0, y: 1766.512}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &4451424237920183429
 MonoBehaviour:
@@ -1820,11 +1834,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
+    useAnchor: 1
     anchorMin: {x: 0.04, y: 0}
     anchorMax: {x: 0.96, y: 1}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
   landscape:
+    useAnchor: 1
     anchorMin: {x: 0.085, y: 0}
     anchorMax: {x: 0.915, y: 1}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
 --- !u!1 &6362167831440792898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,11 +1935,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portrait:
+    useAnchor: 1
     anchorMin: {x: 0, y: 0.18}
     anchorMax: {x: 1, y: 0.66}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
   landscape:
+    useAnchor: 1
     anchorMin: {x: 0, y: 0.18}
     anchorMax: {x: 1, y: 0.76}
+    useScale: 0
+    scale: {x: 1, y: 1, z: 1}
 --- !u!1 &6854071224173714899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,7 +2092,7 @@ RectTransform:
   m_Father: {fileID: 6653930305374336783}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7787093}
+  m_AnchorMin: {x: 0, y: 0.7754662}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}

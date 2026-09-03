@@ -1,4 +1,5 @@
 ﻿{
+    "code": 200,
     "data": [
         {
             "id": "_a6875933646692502547",
@@ -173,8 +174,8 @@
             "key": [
                 "offers.empty.noOffers"
             ],
-            "value": "",
-            "vid": -6788861496470235000
+            "value": "No offers available yet!",
+            "vid": -6484959422389464000
         },
         {
             "id": "_a6875933646692502501",
@@ -383,14 +384,6 @@
             ],
             "value": "Active Offers",
             "vid": -6875933646625394000
-        },
-        {
-            "id": "_a6875933646625393563",
-            "key": [
-                "activeOffers.empty.noOffers"
-            ],
-            "value": "",
-            "vid": -6785366302213734000
         },
         {
             "id": "_a6875933646625393561",
@@ -1911,6 +1904,230 @@
             ],
             "value": "Offer Suspended",
             "vid": -6522140029242430000
+        },
+        {
+            "id": "_a6485038252285086212",
+            "key": [
+                "shared.button.okay"
+            ],
+            "value": "Okay",
+            "vid": -6485038252285087000
+        },
+        {
+            "id": "_a6485037888420825594",
+            "key": [
+                "shared.label.goal"
+            ],
+            "value": "Goal",
+            "vid": -6485037888420825000
+        },
+        {
+            "id": "_a6485037667701016009",
+            "key": [
+                "shared.toast.fileDeleted"
+            ],
+            "value": "File deleted.",
+            "vid": -6485037667701016000
+        },
+        {
+            "id": "_a6485037486238647740",
+            "key": [
+                "support.button.changeFile"
+            ],
+            "value": "Change File",
+            "vid": -6485037486238647000
+        },
+        {
+            "id": "_a6485037395707546095",
+            "key": [
+                "support.button.example"
+            ],
+            "value": "Example",
+            "vid": -6485037085664594000
+        },
+        {
+            "id": "_a6485036881250994642",
+            "key": [
+                "support.description.screenshots"
+            ],
+            "value": "Make sure your screenshot is correct",
+            "vid": -6485003939992684000
+        },
+        {
+            "id": "_a6485036802733623754",
+            "key": [
+                "support.input.gamePlayerID"
+            ],
+            "value": "Input Game Player ID",
+            "vid": -6485005735692910000
+        },
+        {
+            "id": "_a6485036732807431560",
+            "key": [
+                "support.input.orderID"
+            ],
+            "value": "Input Order ID",
+            "vid": -6485007451665319000
+        },
+        {
+            "id": "_a6485036625633331644",
+            "key": [
+                "support.modal.deleteFile.cancelButton"
+            ],
+            "value": "No",
+            "vid": -6485008902627312000
+        },
+        {
+            "id": "_a6485036539130005943",
+            "key": [
+                "support.modal.deleteFile.okButton"
+            ],
+            "value": "Yes, Delete File",
+            "vid": -6485010495456199000
+        },
+        {
+            "id": "_a6485036447794842029",
+            "key": [
+                "support.modal.deleteFile.subtitle"
+            ],
+            "value": "Are you sure you want to delete this file?",
+            "vid": -6485012177942528000
+        },
+        {
+            "id": "_a6485036355655615859",
+            "key": [
+                "support.modal.deleteFile.title"
+            ],
+            "value": "Delete File?",
+            "vid": -6485014359383261000
+        },
+        {
+            "id": "_a6485036232643824032",
+            "key": [
+                "support.modal.gamePlayerID.subtitleV2"
+            ],
+            "value": "Your Game Player ID can usually be found in your game profile, account page, or settings menu. Please make sure the ID is entered correctly",
+            "vid": -6485022905294439000
+        },
+        {
+            "id": "_a6485036032525191574",
+            "key": [
+                "support.modal.orderID.subtitle"
+            ],
+            "value": "Your Order ID is usually available in your purchase receipt, transaction history, or your e-mail inbox after completing a payment.",
+            "vid": -6485025721920570000
+        },
+        {
+            "id": "_a6485035946894281105",
+            "key": [
+                "support.modal.screenshotExample.title"
+            ],
+            "value": "Screenshot Example",
+            "vid": -6485027319379969000
+        },
+        {
+            "id": "_a6485035815562234250",
+            "key": [
+                "support.page.titleV2"
+            ],
+            "value": "Support Ticket",
+            "vid": -6485029290300196000
+        },
+        {
+            "id": "_a6485035720871627140",
+            "key": [
+                "support.status.haveCompletedThisLevelV2"
+            ],
+            "value": "Level completed",
+            "vid": -6485031315377276000
+        },
+        {
+            "id": "_a6485035644837284223",
+            "key": [
+                "support.subtitle.selectTaskV2"
+            ],
+            "value": "Choose one task you think you’ve completed but didn’t receive the reward.",
+            "vid": -6485035381434993000
+        },
+        {
+            "id": "_a6484961366196467664",
+            "key": [
+                "activeOffers.empty.noOffers"
+            ],
+            "value": "No offers available yet, start playing to earn rewards!",
+            "vid": -6484960656521473000
+        },
+        {
+            "id": "_a6469994779426467667",
+            "key": [
+                "offers.section.premiumOffers"
+            ],
+            "value": "Premium Offers",
+            "vid": -6469994779426468000
+        },
+        {
+            "id": "_a6469994566825586473",
+            "key": [
+                "offers.section.seeAll"
+            ],
+            "value": "See All",
+            "vid": -6469994566825587000
+        },
+        {
+            "id": "_a6469994234032729858",
+            "key": [
+                "shared.cta.playAndEarn"
+            ],
+            "value": "Play and Earn {amount}",
+            "vid": -6469994234032730000
+        },
+        {
+            "id": "_a6469994021096304332",
+            "key": [
+                "shared.cta.startAndEarn"
+            ],
+            "value": "Start and Earn {amount}",
+            "vid": -6469994021096305000
+        },
+        {
+            "id": "_a6469993917681544881",
+            "key": [
+                "shared.cta.startNow"
+            ],
+            "value": "Start Now",
+            "vid": -6469993917681545000
+        },
+        {
+            "id": "_a6469993589787635317",
+            "key": [
+                "shared.label.mustTry"
+            ],
+            "value": "MUST TRY",
+            "vid": -6469993589787636000
+        },
+        {
+            "id": "_a6469993499593322088",
+            "key": [
+                "shared.label.viral"
+            ],
+            "value": "VIRAL",
+            "vid": -6469993499593322000
+        },
+        {
+            "id": "_a6469993162304171583",
+            "key": [
+                "shared.label.earningsMultiplied"
+            ],
+            "value": "All Earnings Multiplied {multiplier}×",
+            "vid": -6469993162304172000
+        },
+        {
+            "id": "_a6469993018892529193",
+            "key": [
+                "shared.label.all"
+            ],
+            "value": "All",
+            "vid": -6469993018892530000
         }
     ],
     "message": "OK"

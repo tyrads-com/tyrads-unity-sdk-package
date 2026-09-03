@@ -72,10 +72,6 @@ MonoBehaviour:
   - {fileID: 7273369446663098688}
   - {fileID: 5033794687679799193}
   - {fileID: 9202707419913783744}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   defaultColor: {r: 0, g: 0.13725491, b: 0.4509804, a: 1}
 --- !u!1001 &4749376253609928454
 PrefabInstance:

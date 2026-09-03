@@ -18,7 +18,8 @@ versioning: SemVer 2.0
     - [User Age and Gender Requirement](#user-age-and-gender-requirement)
     - [Initialization and Authentication State](#initialization-and-authentication-state)
   - [Open Offerswall](#open-offerswall)
-    - [Deeplinking Routes](#deeplinking-routes) 
+    - [Deeplinking Routes](#deeplinking-routes)
+    - [Offerwall Lifecycle Events](#offerwall-lifecycle-events)
   - [Configure SDK Initialization Wizard](#configure-sdk-initialization-wizard)
   - [Change Language](#change-language)
   - [Setup Required Android Permissions](#setup-required-android-permissions)
@@ -64,7 +65,7 @@ click **_Update_** in the **_Package Manager_** window.
 
 If you want to install a certain version of the **TyrAds Unity SDK** you can specified a version in the Git URL:
 ```
-https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v4.0.0-pre.5
+https://github.com/tyrads-com/tyrads-unity-sdk-package.git#v4.0.4
 ```
 To explore how to use the TyrAds Unity SDK, import the Demo example from the package’s Samples section in the Unity Package Manager.
 To run a Demo scene, please add a valid credentials from our CRM.
@@ -161,8 +162,9 @@ There are two supported approaches for setting up credentials: a Unity Editor–
    * **Manage Credentials**
 
       * API Key: A 32-character hexadecimal string (Mandatory. Grabbed from TyrAds Dashboard).
-      * API Secret: A 92-character hexadecimal string (Mandatory. Grabbed from TyrAds Dashboard).
+      * API Secret Key: A 92-character hexadecimal string (Mandatory. Grabbed from TyrAds Dashboard).
       * Encryption Key: A 32-character hexadecimal string (Optional. Grabbed from TyrAds Dashboard).
+
 ![Screenshot of the Configuration window](https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=-628758196/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FqhsVeeAwxdFStqbek1mZ%252Fuploads%252Fodw36dOThd903hDiofUD%252FScreenshot%25202026-01-15%2520at%252017.36.19.png%3Falt%3Dmedia%26token%3Df27a4fd6-af74-44b1-86b4-7e12a934adf4)
 
 2. **Code-based approach**
@@ -178,11 +180,17 @@ There are two supported approaches for setting up credentials: a Unity Editor–
    ```
 
    `Init` method had to be called before calling `LoginUserAsunc` to ensure that your credentials are properly set before the login process begins.
-   
+
+   `InitConfig` also accepts an optional `ScreenOrientationPreference` to lock the offerwall's screen orientation independently of your app's own orientation settings:
+   ```
+   InitConfig initConfig = new (sessionConfig, ScreenOrientationPreference.Portrait);
+   TyrSDKPlugin.Instance.Init(initConfig);
+   ```
+   Available values: `None` (default, follows Unity Player Settings), `AutoRotation`, `Portrait`, `Landscape`, `LandscapeLeft`, `LandscapeRight`.
+
    **Notes**
    
    If credentials are configured both in the Editor and via code, the programmatic initialization will override the Editor settings at runtime.
-
 
    **Using Different Credentials for Android and iOS**
 
@@ -335,6 +343,20 @@ if (TyrSDKPlugin.Instance.IsInitialized)
   * Initialization/authentication is still in progress, or
   * The process has failed
 
+**Handling Login Errors**
+
+When `LoginUserAsync` fails, the returned `LoginResult.ErrorCode` (`LoginErrorCode`) tells you why:
+```
+LoginResult result = await TyrSDKPlugin.Instance.LoginUserAsync(loginData);
+
+if (!result.IsSuccessful)
+{
+    Debug.LogWarning($"{result.ErrorCode}: {result.ErrorMessage}");
+}
+```
+`LoginErrorCode` values: `None`, `SdkNotInitialized`, `MissingLoginData`, `MissingCredentials`, `AlreadyInitialized`, `RequestFailed`, `SessionRegistrationFailed`, `NativePluginNotInitialized`, `NetworkError`, `Timeout`, `AccessDenied`, `ResponseParsingError`, `ServerError`.
+
+On transient failures (`NetworkError`, `Timeout`, `ResponseParsingError`, `ServerError`) the SDK automatically retries the initialization request once after a short delay before returning a failed `LoginResult`. Credential/attestation rejections (`AccessDenied`) are never retried.
 
 ## Open Offerswall
 
@@ -363,9 +385,33 @@ OffersRoutingData offersRoutingData = new OffersRoutingData(placementId: 345, Ty
 TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
 
 //Specify a route and campaignID
-OffersRoutingData offersRoutingData = new OffersRoutingData(placementId: 231, TyradsDeepRoutes.Offer, campaignId: 111); 
+OffersRoutingData offersRoutingData = new OffersRoutingData(placementId: 231, TyradsDeepRoutes.Offer, campaignId: "111"); 
 TyrSDKPlugin.Instance.ShowOffers(offersRoutingData);
 ```
+
+### Offerwall Lifecycle Events
+`TyrSDKPlugin` exposes events so you can react to the offerwall's open/close lifecycle, for example to pause gameplay while it's shown or to resume it once the user is done.
+```
+TyrSDKPlugin.Instance.OfferwallOpened += OnOfferwallOpened;
+TyrSDKPlugin.Instance.OfferwallClosed += OnOfferwallClosed;
+TyrSDKPlugin.Instance.OfferwallShowFailed += OnOfferwallShowFailed;
+
+private void OnOfferwallOpened()
+{
+    // e.g. pause gameplay
+}
+
+private void OnOfferwallClosed()
+{
+    // e.g. resume gameplay
+}
+
+private void OnOfferwallShowFailed(OfferwallFailReason reason)
+{
+    // e.g. show a fallback UI; reason indicates why the offerwall could not be shown
+}
+```
+`OfferwallFailReason` values: `Unknown`, `NotReady`, `InvalidConfiguration`, `NativePluginUnavailable`, `LoadError`.
 
 ## Configure SDK Initialization Wizard
 By default TyrAds SDK before open any offers page show initialization wizard, where user could read and accept TyrAds Privacy Policy, 
@@ -376,6 +422,11 @@ To do that follow next steps:
 1. Navigate to _**TyrSDK > TyrSDK Settings**_ to open the _**TyrSDK Settings**_ panel.
 2. Select the **Settings** tab.
 3. Switch toggles for 'Show Privacy Policy Page' and 'Show Usage Stats Permit Page'.
+
+The same **Settings** tab also has a **Log Level** field (flags-based: `Verbose`, `Debug`, `Info`, `Warning`, `Error`) 
+controlling which SDK log messages are written to the console, and an **Iframe Settings** section exposing the same `Screen Orientation Preference` described above as an editor-configurable default. 
+Note that calling `Init(initConfig)` from code always supersedes this default at runtime — if you don't pass a `ScreenOrientationPreference` to `InitConfig`,
+it resets to "auto" rather than falling back to the Editor value, the same way code-based credentials override Editor-configured ones.
 
 ![Screenshot of the Settings tab](https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=1814847610/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FqhsVeeAwxdFStqbek1mZ%252Fuploads%252FtNMtm7NrFqFF7atcDY7t%252FScreenshot%25202026-01-16%2520at%252010.32.15.png%3Falt%3Dmedia%26token%3D902755e9-5f59-49ac-a8e1-8944f071bc16)
 
@@ -389,12 +440,15 @@ TyrSDKPlugin.Instance.SetLanguage(LanguageCode.English);
 * `languageCode` (string): A string representing the desired language code (e.g., "`en`" for English, "`es`" for Spanish). 
   This should be a valid ISO 639-1 language code.
 
-  Supported languages: English (`en`), Spanish (`es`), Indonesian (`id`), Japanese (ja), Korean (`ko`), Chinese Simplified (`zh-Hans-CN`).
+  Supported languages: English (`en`), German (`de`), Spanish (`es`), French (`fr`), Indonesian (`id`), Japanese (`ja`), Korean (`ko`), Chinese Simplified (`zh-Hans-CN`), Chinese Traditional (`zh-Hant-CN`, `zh-Hant-HK`, `zh-Hant-TW`).
+
+  `LanguageCode` exposes named constants for most of these (e.g. `LanguageCode.English`, `LanguageCode.German`); the Chinese Traditional variants aren't exposed as constants yet and should be passed as raw strings (e.g. `SetLanguage("zh-Hant-TW")`).
 
 **Notes:**
 * By default, the **TyrAds Unity SDK** uses the device’s system language.
 * This method saves the selected language in shared preferences so it persists across sessions.
-* Ensure your app and the **TyrAds Unity SDK** support the provided language code; otherwise, **English** will be used.
+* The SDK does not validate the language code you pass in — an unsupported code is simply stored and used as-is. 
+  Any individual text that has no translation for the active language falls back to **English** for that string, rather than the whole SDK reverting to English.
 
 ## Setup Required Android Permissions
 To ensure proper SDK functionality, configure your main `AndroidManifest.xml` at:
@@ -402,7 +456,7 @@ To ensure proper SDK functionality, configure your main `AndroidManifest.xml` at
 Assets/Plugins/Android/AndroidManifest.xml
 ```
 You can either:
-* Copy the reference manifest as your main file from `Assets/Plugins/TyrAdsSDK/AndroidManifestReference/AndroidManifest.xml`, or
+* Copy the reference manifest as your main file from `Packages/com.tyrads.unity-sdk/Runtime/AndroidManifestReference/AndroidManifest.xml`, or
 * Add the following permissions manually to your existing manifest:
 ```
 <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions"/>

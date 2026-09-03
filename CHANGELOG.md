@@ -5,6 +5,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [4.0.4] - 2026-08-20
+
+### Added
+- Added granular `LoginErrorCode` values (`NetworkError`, `Timeout`, `AccessDenied`, `ResponseParsingError`, `ServerError`) 
+  returned by `LoginUserAsync` on initialization failure, instead of a single generic `RequestFailed` for every non-success case.
+- `LoginUserAsync` now automatically retries the initialization request once after a short delay on transient failures 
+  (network errors, timeouts, response parsing errors, server errors) before giving up. 
+  Credential/attestation rejections are never retried.
+- `OfferwallOpened`, `OfferwallClosed`, and `OfferwallShowFailed` events to `TyrSDKPlugin` for tracking the offerwall's lifecycle.
+
+### Changed
+- Reworked SDK logging with configurable `LogLevel` flags, structured log tags, and caller context metadata.
+- Replaced the old debug-mode toggle in `TyrSDKSettings` with persisted logger level configuration.
+
+### Fixed
+- Fixed `LoginUserAsync` on Android timeout to complete when Google Advertising ID is unavailable.
+- Fixed `LoginUserAsync` on Android hanging indefinitely when the Google Play Integrity API is unresponsive.
+- Fixed cancelled async calls leaving in-flight HTTP requests open until the network timeout.
+- Fixed `TyrSDKPlugin` failing to persist across scene loads when its prefab instance was nested under a parent GameObject; it is now detached to the scene root before `DontDestroyOnLoad` is called.
 
 ## [4.0.3] - 2026-07-01
 
@@ -15,13 +34,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [4.0.2] - 2026-06-16
 
 ### Added
-- Added `LoginErrorCode` to expose structured failure reasons for SDK login and initialization flows.
+- Extended `LoginResult` with `ErrorCode` and `ErrorMessage` to simplify diagnosing login and initialization failures.
 
 ### Fixed
 - Initialization of the SDK when tracking is limited on Android.
 
 ### Changed
-- Extended `LoginResult` with `ErrorCode` and `ErrorMessage` to simplify diagnosing login and initialization failures.
 - Updated the demo scene to display login errors returned by the SDK.
 
 ## [4.0.1] - 2026-05-01
@@ -143,6 +161,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support of deeplinking routes in `TyrSDKPlugin.ShowOffers`.
 - Possibility to send `UserInfo` and `MediaSourceData` in the `TyrSDKPlugin.LoginUser`.
 
+[4.0.4]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.3...v4.0.4
 [4.0.3]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/tyrads-com/tyrads-unity-sdk-package/compare/v4.0.0...v4.0.1
