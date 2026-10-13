@@ -3245,875 +3245,847 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 11,
       "value": "\"iPhone 6S\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 16,
       "value": "\"iPhone 6S Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 591,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 636,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 28,
       "value": "\"iPhone SE (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 16,
       "value": "\"iPhone 12 Mini\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1088,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1138,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1192,
       "length": 16,
       "value": "\"iPhone 13 Mini\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 11,
       "value": "\"iPhone 13\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1289,
       "length": 15,
       "value": "\"iPhone 13 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 19,
       "value": "\"iPhone 13 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1393,
       "length": 28,
       "value": "\"iPhone SE (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1456,
       "length": 11,
       "value": "\"iPhone 14\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1502,
       "length": 16,
       "value": "\"iPhone 14 Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1553,
       "length": 15,
       "value": "\"iPhone 14 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1603,
       "length": 19,
       "value": "\"iPhone 14 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 11,
       "value": "\"iPhone 15\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1703,
       "length": 16,
       "value": "\"iPhone 15 Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 15,
       "value": "\"iPhone 15 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1804,
       "length": 19,
       "value": "\"iPhone 15 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 15,
       "value": "\"iPhone 16 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1908,
       "length": 19,
       "value": "\"iPhone 16 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 1962,
       "length": 11,
       "value": "\"iPhone 16\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2008,
       "length": 16,
       "value": "\"iPhone 16 Plus\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 12,
       "value": "\"iPhone 16e\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2106,
       "length": 15,
       "value": "\"iPhone 17 Pro\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2156,
       "length": 19,
       "value": "\"iPhone 17 Pro Max\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2210,
       "length": 11,
       "value": "\"iPhone 17\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2256,
       "length": 12,
       "value": "\"iPhone Air\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2401,
       "length": 6,
       "value": "\"iPad\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2442,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2485,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2543,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2601,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2659,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2717,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2775,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2833,
       "length": 24,
       "value": "\"iPad (9th generationn)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 2892,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3055,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3100,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3147,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3209,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3271,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3438,
       "length": 11,
       "value": "\"iPad Mini\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3484,
       "length": 13,
       "value": "\"iPad Mini 2\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3532,
       "length": 13,
       "value": "\"iPad Mini 3\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3580,
       "length": 13,
       "value": "\"iPad Mini 4\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3628,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3691,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3858,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3914,
       "length": 20,
       "value": "\"iPad Pro (12-inch)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 3969,
       "length": 37,
       "value": "\"iPad Pro (12-inch) (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4041,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4098,
       "length": 20,
       "value": "\"iPad Pro (11-inch)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4153,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4227,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4299,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4373,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4445,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4519,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4591,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4665,
       "length": 23,
       "value": "\"iPad Pro 11-inch (M2)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4723,
       "length": 23,
       "value": "\"iPad Pro 11-inch (M4)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/DeviceNameUtilities\/DeviceModel.swift",
       "kind": "StringLiteral",
       "offset": 4781,
       "length": 23,
       "value": "\"iPad Pro 13-inch (M4)\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
       "kind": "BooleanLiteral",
       "offset": 170,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/AdvertisingIdUtility.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 22,
       "value": "\"AdvertisingIdUtility\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "Array",
       "offset": 348,
       "length": 23,
       "value": "[\"lang\", \"token\", \"to\"]"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 6,
       "value": "\"lang\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 4,
       "value": "\"to\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "Dictionary",
       "offset": 669,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/SdkUrlDescriptor.swift",
       "kind": "BooleanLiteral",
       "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "BooleanLiteral",
-      "offset": 9213,
+      "offset": 9355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 10073,
+      "offset": 10215,
       "length": 6,
       "value": "-10000"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 10120,
+      "offset": 10262,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "FloatLiteral",
-      "offset": 10168,
+      "offset": 10310,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "FloatLiteral",
-      "offset": 10219,
+      "offset": 10361,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "Array",
-      "offset": 10259,
+      "offset": 10401,
       "length": 120,
       "value": "[\"sdk.tyrads.com\", \"sdk.tyrads.ngrok.app\", \"staging.tyr-sdk-webapp-monorepo-v4.pages.dev\"]"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "Array",
-      "offset": 10413,
+      "offset": 10555,
       "length": 38,
       "value": "[\"apps.apple.com\", \"itunes.apple.com\"]"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 10480,
-      "length": 9,
-      "value": "\"http:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 10519,
-      "length": 10,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
-      "kind": "FloatLiteral",
-      "offset": 10579,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "Array",
-      "offset": 10611,
+      "offset": 10622,
       "length": 63,
       "value": "[\"\/back\", \"\/close\", \"\/close-app\", \"back\", \"close\", \"close-app\"]"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
-      "kind": "Array",
-      "offset": 10707,
-      "length": 46,
-      "value": "[\"tel:\", \"mailto:\", \"sms:\", \"geo:\", \"market:\"]"
-    },
-    {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 10905,
+      "offset": 10837,
       "length": 20,
       "value": "\"NATIVE_UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 10963,
+      "offset": 10895,
       "length": 12,
       "value": "\"LOAD_ERROR\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "BooleanLiteral",
-      "offset": 11417,
+      "offset": 11349,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 11530,
+      "offset": 11462,
       "length": 6,
       "value": "\"auto\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15119,
+      "offset": 15193,
       "length": 10,
       "value": "\"portrait\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15173,
+      "offset": 15247,
       "length": 11,
       "value": "\"landscape\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15252,
+      "offset": 15326,
       "length": 16,
       "value": "\"landscape_left\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15317,
+      "offset": 15391,
       "length": 17,
       "value": "\"landscape_right\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15548,
+      "offset": 15622,
       "length": 10,
       "value": "\"portrait\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15570,
+      "offset": 15644,
       "length": 16,
       "value": "\"landscape_left\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 15598,
+      "offset": 15672,
       "length": 17,
       "value": "\"landscape_right\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "BooleanLiteral",
-      "offset": 15637,
+      "offset": 15711,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "BooleanLiteral",
-      "offset": 15668,
+      "offset": 15742,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 17331,
+      "offset": 17405,
       "length": 10,
       "value": "\"portrait\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 17385,
+      "offset": 17459,
       "length": 11,
       "value": "\"landscape\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 17445,
+      "offset": 17519,
       "length": 16,
       "value": "\"landscape_left\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKUtilities\/WebViewUtility.swift",
       "kind": "StringLiteral",
-      "offset": 17510,
+      "offset": 17584,
       "length": 17,
       "value": "\"landscape_right\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 8,
       "value": "\"TyrSDK\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
       "kind": "StringLiteral",
       "offset": 371,
       "length": 10,
       "value": "\"selected\""
     },
     {
-      "filePath": "\/Users\/dmedvediev\/Documents\/Projects\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
+      "filePath": "\/Volumes\/My Shared Files\/TyrAds\/tyrads-unity-sdk-iframe-release\/src\/ios-native-plugin\/iOSTyrSdkPlugin\/TyrSDKPlugin.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 37,
